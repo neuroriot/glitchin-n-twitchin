@@ -6,7 +6,7 @@
 ;--------------------------------
 
 ; The name of the installer
-Name "Mix It Up"
+Name "Neuroriot Bot"
 
 ; The file to write
 OutFile "MixItUp-Installer.exe"
@@ -39,7 +39,7 @@ InstallDirRegKey HKLM "Software\MixItUp" "Install_Dir"
 ;--------------------------------
 
 ; The stuff to install
-Section "Mix It Up (required)"
+Section "Neuroriot Bot (required)"
 
   SectionIn RO
   
@@ -53,7 +53,7 @@ Section "Mix It Up (required)"
   WriteRegStr HKLM SOFTWARE\MixItUp "Install_Dir" "$INSTDIR"
   
   ; Write the uninstall keys for Windows
-  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\MixItUp" "DisplayName" "Mix It Up"
+  WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\MixItUp" "DisplayName" "Neuroriot Bot"
   WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\MixItUp" "DisplayIcon" '"$INSTDIR\MixItUp.exe,0"'
   WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\MixItUp" "UninstallString" '"$INSTDIR\uninstall.exe"'
   WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\MixItUp" "NoModify" 1
@@ -67,7 +67,7 @@ Section "Start Menu Shortcuts"
 
   CreateDirectory "$SMPROGRAMS\MixItUp"
   CreateShortcut "$SMPROGRAMS\MixItUp\Uninstall.lnk" "$INSTDIR\uninstall.exe"
-  CreateShortcut "$SMPROGRAMS\MixItUp\Mix It Up.lnk" "$INSTDIR\MixItUp.exe"
+  CreateShortcut "$SMPROGRAMS\MixItUp\Neuroriot Bot.lnk" "$INSTDIR\MixItUp.exe"
 
 SectionEnd
 

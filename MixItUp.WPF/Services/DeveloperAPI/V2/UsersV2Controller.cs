@@ -9,16 +9,19 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using System.Web.Http;
+using Microsoft.AspNetCore.Mvc;
 
 namespace MixItUp.WPF.Services.DeveloperAPI.V2
 {
-    [RoutePrefix("api/v2/users")]
-    public class UsersV2Controller : ApiController
+    /// <summary>
+    /// Prefix
+    /// </summary>
+    [Route("api/v2/users")]
+    public class UsersV2Controller : ControllerBase
     {
         [Route("{userId:guid}")]
         [HttpGet]
-        public async Task<IHttpActionResult> GetUserById(Guid userId)
+        public async Task<IActionResult> GetUserById(Guid userId)
         {
             await ServiceManager.Get<UserService>().LoadAllUserData();
 
@@ -32,7 +35,7 @@ namespace MixItUp.WPF.Services.DeveloperAPI.V2
 
         [Route("{platform}/{usernameOrID}")]
         [HttpGet]
-        public async Task<IHttpActionResult> GetUserByPlatformUsername(string platform, string usernameOrID)
+        public async Task<IActionResult> GetUserByPlatformUsername(string platform, string usernameOrID)
         {
             await ServiceManager.Get<UserService>().LoadAllUserData();
 
@@ -55,9 +58,9 @@ namespace MixItUp.WPF.Services.DeveloperAPI.V2
             return Ok(new GetSingleUserResponse { User = UserMapper.ToUser(user) });
         }
 
-        [Route]
+        [Route("")]
         [HttpGet]
-        public async Task<IHttpActionResult> GetAllUsers(int skip = 0, int pageSize = 25)
+        public async Task<IActionResult> GetAllUsers(int skip = 0, int pageSize = 25)
         {
             await ServiceManager.Get<UserService>().LoadAllUserData();
 
@@ -78,7 +81,7 @@ namespace MixItUp.WPF.Services.DeveloperAPI.V2
 
         [Route("active")]
         [HttpGet]
-        public async Task<IHttpActionResult> GetAllActiveUsers(int skip = 0, int pageSize = 25)
+        public async Task<IActionResult> GetAllActiveUsers(int skip = 0, int pageSize = 25)
         {
             await ServiceManager.Get<UserService>().LoadAllUserData();
 
@@ -99,7 +102,7 @@ namespace MixItUp.WPF.Services.DeveloperAPI.V2
 
         [Route("add")]
         [HttpPost]
-        public async Task<IHttpActionResult> AddUser(NewUser newUser)
+        public async Task<IActionResult> AddUser(NewUser newUser)
         {
             if (!Enum.TryParse<StreamingPlatformTypeEnum>(newUser.Platform, ignoreCase: true, out var platformEnum))
             {
@@ -117,7 +120,7 @@ namespace MixItUp.WPF.Services.DeveloperAPI.V2
 
         [Route("{userId:guid}")]
         [HttpDelete]
-        public async Task<IHttpActionResult> DeleteUserById(Guid userId)
+        public async Task<IActionResult> DeleteUserById(Guid userId)
         {
             await ServiceManager.Get<UserService>().LoadAllUserData();
 

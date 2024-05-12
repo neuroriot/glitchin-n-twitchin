@@ -151,7 +151,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Access the folder where Mix It Up is installed.
+        ///   Looks up a localized string similar to Access the folder where Neuroriot Bot is installed.
         /// </summary>
         public static string AccessTheFolderWhereMixItUpIsInstalled {
             get {
@@ -214,7 +214,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to All changes to signed-in accounts require a full restart of Mix It Up!.
+        ///   Looks up a localized string similar to All changes to signed-in accounts require a full restart of Neuroriot Bot!.
         /// </summary>
         public static string AccountsChangesRequireRestart {
             get {
@@ -223,7 +223,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Streamer accounts are your actual account that you are streaming from. Bot accounts are separate, optional accounts that you can use to send messages from in your channel. Bots accounts must be manually created by you and you must make sure to be signed in to them before you try connecting them in Mix It Up..
+        ///   Looks up a localized string similar to Streamer accounts are your actual account that you are streaming from. Bot accounts are separate, optional accounts that you can use to send messages from in your channel. Bots accounts must be manually created by you and you must make sure to be signed in to them before you try connecting them in Neuroriot Bot..
         /// </summary>
         public static string AccountsDetails {
             get {
@@ -646,7 +646,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Select the streaming platform and the name of the user to find on there. If the user is found successfully, their user data will be added in to Mix It Up for you to be able to use..
+        ///   Looks up a localized string similar to Select the streaming platform and the name of the user to find on there. If the user is found successfully, their user data will be added in to Neuroriot Bot for you to be able to use..
         /// </summary>
         public static string AddUserDescription {
             get {
@@ -1105,7 +1105,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to A new update is available for Mix It Up!.
+        ///   Looks up a localized string similar to A new update is available for Neuroriot Bot!.
         /// </summary>
         public static string ANewUpdateIsAvailableForMixItUp {
             get {
@@ -1411,7 +1411,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The Auto Log-In setting allows Mix It Up to automatically log in the currently signed-in user account. NOTE: If there is a Mix It Up update or you are required to re-authenticate any of your services accounts, you will need to manually log in when this occurs..
+        ///   Looks up a localized string similar to The Auto Log-In setting allows Neuroriot Bot to automatically log in the currently signed-in user account. NOTE: If there is a Neuroriot Bot update or you are required to re-authenticate any of your services accounts, you will need to manually log in when this occurs..
         /// </summary>
         public static string AutoLogInCurrentAccountTooltip {
             get {
@@ -1439,7 +1439,7 @@ namespace MixItUp.Base {
         
         /// <summary>
         ///   Looks up a localized string similar to Failed to create automatic backup. Please ensure you have set the
-        ///folder path correctly and that the folder path is accessible to Mix It Up..
+        ///folder path correctly and that the folder path is accessible to Neuroriot Bot..
         /// </summary>
         public static string AutomaticBackupFailedToCreate {
             get {
@@ -1637,7 +1637,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Backup file failed to generate. If this continues, please visit the Mix It Up support Discord for further assistance..
+        ///   Looks up a localized string similar to Backup file failed to generate. If this continues, please visit the Neuroriot Bot support Discord for further assistance..
         /// </summary>
         public static string BackupGenerationFailed {
             get {
@@ -2789,7 +2789,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This will clear all data for your old Mixer Users, which includes their Hours, Currency, Rank, &amp; Custom User Commands, then restart Mix It Up. This process will take some time to complete depending on how many users you had and CAN NOT be un-done! Are you sure you wish to do this?.
+        ///   Looks up a localized string similar to This will clear all data for your old Mixer Users, which includes their Hours, Currency, Rank, &amp; Custom User Commands, then restart Neuroriot Bot. This process will take some time to complete depending on how many users you had and CAN NOT be un-done! Are you sure you wish to do this?.
         /// </summary>
         public static string ClearAllMixerUserDataWarning {
             get {
@@ -2816,7 +2816,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This will clear all data for your Users, which includes their Hours, Currency, Rank, &amp; Custom User Commands, then restart Mix It Up. This CAN NOT be un-done! Are you sure you wish to do this?.
+        ///   Looks up a localized string similar to This will clear all data for your Users, which includes their Hours, Currency, Rank, &amp; Custom User Commands, then restart Neuroriot Bot. This CAN NOT be un-done! Are you sure you wish to do this?.
         /// </summary>
         public static string ClearAllUserDataWarning {
             get {
@@ -2906,7 +2906,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This will clear all data for your Users who have not been active in your channel within the last specified number of days, which includes their Hours, Currency, Rank, &amp; Custom User Commands, then restart Mix It Up. This CAN NOT be un-done! Are you sure you wish to do this?.
+        ///   Looks up a localized string similar to This will clear all data for your Users who have not been active in your channel within the last specified number of days, which includes their Hours, Currency, Rank, &amp; Custom User Commands, then restart Neuroriot Bot. This CAN NOT be un-done! Are you sure you wish to do this?.
         /// </summary>
         public static string ClearUserDataRangeWarning {
             get {
@@ -2978,7 +2978,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Please wait while Mix It Up saves your settings and shuts down....
+        ///   Looks up a localized string similar to Please wait while Neuroriot Bot saves your settings and shuts down....
         /// </summary>
         public static string ClosingPleaseWait {
             get {
@@ -3952,7 +3952,7 @@ namespace MixItUp.Base {
         /// <summary>
         ///   Looks up a localized string similar to Channel Point Reward was not able to be created: {0}
         ///
-        ///If this problem persists, please visit the Mix It Up Support Discord for assistance..
+        ///If this problem persists, please visit the Neuroriot Bot Support Discord for assistance..
         /// </summary>
         public static string CreateChannelPointRewardFailure {
             get {
@@ -4096,7 +4096,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Failed to connect to Crowd Control service, please try again. If this persists, please visit the Mix It Up support Discord for further assistance..
+        ///   Looks up a localized string similar to Failed to connect to Crowd Control service, please try again. If this persists, please visit the Neuroriot Bot support Discord for further assistance..
         /// </summary>
         public static string CrowdControlFailedToConnectToService {
             get {
@@ -4105,7 +4105,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Crowd Control service connectivity allows you to run Mix It Up commands when specific game effects are triggered via Crowd Control. To connect to Crowd Control, you must be signed in with either a Twitch or YouTube account in Mix It Up..
+        ///   Looks up a localized string similar to Crowd Control service connectivity allows you to run Neuroriot Bot commands when specific game effects are triggered via Crowd Control. To connect to Crowd Control, you must be signed in with either a Twitch or YouTube account in Neuroriot Bot..
         /// </summary>
         public static string CrowdControlInfo1 {
             get {
@@ -4114,7 +4114,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to A Twitch account must be connected in Mix It Up to use Crowd Control connectivity.
+        ///   Looks up a localized string similar to A Twitch account must be connected in Neuroriot Bot to use Crowd Control connectivity.
         /// </summary>
         public static string CrowdControlTwitchAccountMustBeConnected {
             get {
@@ -5018,7 +5018,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The Developer API allows advanced interaction with Mix It Up from other applications running on your computer using a series of REST API services. For more information about this, please see the Developer API Wiki page..
+        ///   Looks up a localized string similar to The Developer API allows advanced interaction with Neuroriot Bot from other applications running on your computer using a series of REST API services. For more information about this, please see the Developer API Wiki page..
         /// </summary>
         public static string DeveloperAPIInfo {
             get {
@@ -5027,7 +5027,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to WARNING: This will make the developer APIs listen on all addresses and may open Mix It Up to callers from outside your network. Only use this option if you know what you are doing!.
+        ///   Looks up a localized string similar to WARNING: This will make the developer APIs listen on all addresses and may open Neuroriot Bot to callers from outside your network. Only use this option if you know what you are doing!.
         /// </summary>
         public static string DeveloperAPIWarning {
             get {
@@ -5100,7 +5100,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Diagnostic Logging helps to diagnose specific issues by logging out additional information of what is being done while Mix It Up is running. These logs will typically be huge in comparision to regular logs, so this should only be done when specifically advised by a Mix It Up developer and should be disabled immediately after the problem is solved..
+        ///   Looks up a localized string similar to Diagnostic Logging helps to diagnose specific issues by logging out additional information of what is being done while Neuroriot Bot is running. These logs will typically be huge in comparision to regular logs, so this should only be done when specifically advised by a Neuroriot Bot developer and should be disabled immediately after the problem is solved..
         /// </summary>
         public static string DiagnosticLoggingToolip {
             get {
@@ -5433,7 +5433,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Discord service connectivity allows you to get information about your Discord account, send messages to channels, and control the audio from voice channels. When you log in, an authentication webpage will open asking you to log in to Discord and approve Mix It Up to access your information..
+        ///   Looks up a localized string similar to Discord service connectivity allows you to get information about your Discord account, send messages to channels, and control the audio from voice channels. When you log in, an authentication webpage will open asking you to log in to Discord and approve Neuroriot Bot to access your information..
         /// </summary>
         public static string DiscordInfo1 {
             get {
@@ -5442,7 +5442,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The default Mix It Up Discord application has a 30 second cooldown between each Discord action to prevent rate limiting issues for all users. To circumvent the 30 second cooldown, you can create your own custom Discord Application..
+        ///   Looks up a localized string similar to The default Neuroriot Bot Discord application has a 30 second cooldown between each Discord action to prevent rate limiting issues for all users. To circumvent the 30 second cooldown, you can create your own custom Discord Application..
         /// </summary>
         public static string DiscordInfo2 {
             get {
@@ -5658,7 +5658,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to To connect DonorDrive in Mix It Up, visit your charity&apos;s website and look for your page/participant link. Then select your charity from the drop-down or select Custom if it&apos;s not in the list, copy your page/participant link into the text box, and select Log In..
+        ///   Looks up a localized string similar to To connect DonorDrive in Neuroriot Bot, visit your charity&apos;s website and look for your page/participant link. Then select your charity from the drop-down or select Custom if it&apos;s not in the list, copy your page/participant link into the text box, and select Log In..
         /// </summary>
         public static string DonorDriveInfo2 {
             get {
@@ -6018,7 +6018,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Please enable Mix It Up Overlay in the Services Section!.
+        ///   Looks up a localized string similar to Please enable Neuroriot Bot Overlay in the Services Section!.
         /// </summary>
         public static string EnableOverlay {
             get {
@@ -6432,7 +6432,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Are you sure you wish to exit Mix It Up?.
+        ///   Looks up a localized string similar to Are you sure you wish to exit Neuroriot Bot?.
         /// </summary>
         public static string ExitConfirmation {
             get {
@@ -6974,7 +6974,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Failed to connect to Twitch services. If this continues, please visit the Mix It Up Discord for assistance..
+        ///   Looks up a localized string similar to Failed to connect to Twitch services. If this continues, please visit the Neuroriot Bot Discord for assistance..
         /// </summary>
         public static string FailedToConnectToTwitch {
             get {
@@ -6992,7 +6992,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Failed to finalize initialization. If this continues, please visit the Mix It Up Discord for assistance..
+        ///   Looks up a localized string similar to Failed to finalize initialization. If this continues, please visit the Neuroriot Bot Discord for assistance..
         /// </summary>
         public static string FailedToFinalizeInitialization {
             get {
@@ -7001,7 +7001,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Failed to get channel information. If this continues, please visit the Mix It Up Discord for assistance..
+        ///   Looks up a localized string similar to Failed to get channel information. If this continues, please visit the Neuroriot Bot Discord for assistance..
         /// </summary>
         public static string FailedToGetChannelInformation {
             get {
@@ -7028,7 +7028,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Failed to initialize external services. If this continues, please visit the Mix It Up Discord for assistance..
+        ///   Looks up a localized string similar to Failed to initialize external services. If this continues, please visit the Neuroriot Bot Discord for assistance..
         /// </summary>
         public static string FailedToInitializeExternalServices {
             get {
@@ -7037,7 +7037,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Failed to initialize session. If this continues, please visit the Mix It Up Discord for assistance..
+        ///   Looks up a localized string similar to Failed to initialize session. If this continues, please visit the Neuroriot Bot Discord for assistance..
         /// </summary>
         public static string FailedToInitializeSession {
             get {
@@ -7046,7 +7046,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Failed to initialize settings. If this continues, please visit the Mix It Up Discord for assistance..
+        ///   Looks up a localized string similar to Failed to initialize settings. If this continues, please visit the Neuroriot Bot Discord for assistance..
         /// </summary>
         public static string FailedToInitializeSettings {
             get {
@@ -7055,7 +7055,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Failed to initialize streamer-based services. If this continues, please visit the Mix It Up Discord for assistance..
+        ///   Looks up a localized string similar to Failed to initialize streamer-based services. If this continues, please visit the Neuroriot Bot Discord for assistance..
         /// </summary>
         public static string FailedToInitializeStreamerBasedServices {
             get {
@@ -10956,7 +10956,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Infinite Album connectivity allows you to control functionality in the Infinite Album software, such as changing the style of music playing. To connect to Infinite Album, please open Infinite Album and click on the App Code link in the hamburger menu.  Once Infinite Album alerts you that the app code was copied to the clipboard, paste that in Mix It Up and press Connect..
+        ///   Looks up a localized string similar to Infinite Album connectivity allows you to control functionality in the Infinite Album software, such as changing the style of music playing. To connect to Infinite Album, please open Infinite Album and click on the App Code link in the hamburger menu.  Once Infinite Album alerts you that the app code was copied to the clipboard, paste that in Neuroriot Bot and press Connect..
         /// </summary>
         public static string InfiniteAlbumInfo {
             get {
@@ -12459,7 +12459,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This LoupeDeck plug-in allows you to run Mix It Up commands directly from your LoupeDeck device, as well as other status information about your stream..
+        ///   Looks up a localized string similar to This LoupeDeck plug-in allows you to run Neuroriot Bot commands directly from your LoupeDeck device, as well as other status information about your stream..
         /// </summary>
         public static string LoupeDeckInfo1 {
             get {
@@ -12468,7 +12468,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to To get started, ensure the LoupeDeck software is updated to the latest version &amp; the Developer API service is enabled in Mix It Up. To install the Mix It Up plugin, click on the Marketplace icon at the top right of your LoupeDeck software, then search for &quot;Mix It Up&quot;..
+        ///   Looks up a localized string similar to To get started, ensure the LoupeDeck software is updated to the latest version &amp; the Developer API service is enabled in Neuroriot Bot. To install the Neuroriot Bot plugin, click on the Marketplace icon at the top right of your LoupeDeck software, then search for &quot;Neuroriot Bot&quot;..
         /// </summary>
         public static string LoupeDeckInfo2 {
             get {
@@ -13037,7 +13037,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mix It Up Backup|*.miubackup|All files (*.*)|*.*.
+        ///   Looks up a localized string similar to Neuroriot Bot Backup|*.miubackup|All files (*.*)|*.*.
         /// </summary>
         public static string MixItUpBackupFileFormatFilter {
             get {
@@ -13046,7 +13046,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mix It Up Command|*.miucommand|All files (*.*)|*.*.
+        ///   Looks up a localized string similar to Neuroriot Bot Command|*.miucommand|All files (*.*)|*.*.
         /// </summary>
         public static string MixItUpCommandFileFormatFilter {
             get {
@@ -13055,7 +13055,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mix It Up Commands.
+        ///   Looks up a localized string similar to Neuroriot Bot Commands.
         /// </summary>
         public static string MixItUpCommands {
             get {
@@ -13064,7 +13064,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mix It Up - Dashboard.
+        ///   Looks up a localized string similar to Neuroriot Bot - Dashboard.
         /// </summary>
         public static string MixItUpDashboard {
             get {
@@ -13073,7 +13073,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mix It Up Install Folder.
+        ///   Looks up a localized string similar to Neuroriot Bot Install Folder.
         /// </summary>
         public static string MixItUpInstallFolder {
             get {
@@ -13082,7 +13082,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mix It Up is already running! Unless you meant to do this, please shut down any existing instances of Mix It Up before trying to run a new instance. Do you still want to continue running this instance of Mix It Up?.
+        ///   Looks up a localized string similar to Neuroriot Bot is already running! Unless you meant to do this, please shut down any existing instances of Neuroriot Bot before trying to run a new instance. Do you still want to continue running this instance of Neuroriot Bot?.
         /// </summary>
         public static string MixItUpIsAlreadyRunning {
             get {
@@ -13091,7 +13091,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mix It Up - Login.
+        ///   Looks up a localized string similar to Neuroriot Bot - Login.
         /// </summary>
         public static string MixItUpLogin {
             get {
@@ -13100,7 +13100,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mix It Up - New User Wizard.
+        ///   Looks up a localized string similar to Neuroriot Bot - New User Wizard.
         /// </summary>
         public static string MixItUpNewUserWizard {
             get {
@@ -13109,7 +13109,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mix It Up Online.
+        ///   Looks up a localized string similar to Neuroriot Bot Online.
         /// </summary>
         public static string MixItUpOnline {
             get {
@@ -13118,7 +13118,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mix It Up Online is a new cloud-hosted version of Mix It Up currently in development. Mix It Up Desktop users can pre-register now for the chance at Alpha testing access by clicking the Register button below..
+        ///   Looks up a localized string similar to Neuroriot Bot Online is a new cloud-hosted version of Neuroriot Bot currently in development. Neuroriot Bot Desktop users can pre-register now for the chance at Alpha testing access by clicking the Register button below..
         /// </summary>
         public static string MixItUpOnlineAlphaRegistrationInfo {
             get {
@@ -13127,7 +13127,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mix It Up Overlay.
+        ///   Looks up a localized string similar to Neuroriot Bot Overlay.
         /// </summary>
         public static string MixItUpOverlay {
             get {
@@ -13136,7 +13136,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mix It Up - Pop Out.
+        ///   Looks up a localized string similar to Neuroriot Bot - Pop Out.
         /// </summary>
         public static string MixItUpPopOut {
             get {
@@ -13145,7 +13145,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mix It Up Services.
+        ///   Looks up a localized string similar to Neuroriot Bot Services.
         /// </summary>
         public static string MixItUpServices {
             get {
@@ -13154,7 +13154,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mix It Up - Update Available.
+        ///   Looks up a localized string similar to Neuroriot Bot - Update Available.
         /// </summary>
         public static string MixItUpUpdateAvailable {
             get {
@@ -14315,7 +14315,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to OBS Studio connectivity can be enabled by heading to Tools -&gt; obs-websocket in OBS Studio and clicking on &quot;Enable WebSocket server&quot;. Make sure &quot;Enable Authentication&quot; is un-checked or you have set a password in both OBS Studio and Mix It Up..
+        ///   Looks up a localized string similar to OBS Studio connectivity can be enabled by heading to Tools -&gt; obs-websocket in OBS Studio and clicking on &quot;Enable WebSocket server&quot;. Make sure &quot;Enable Authentication&quot; is un-checked or you have set a password in both OBS Studio and Neuroriot Bot..
         /// </summary>
         public static string OBSStudioInfo2 {
             get {
@@ -14344,7 +14344,7 @@ namespace MixItUp.Base {
         /// <summary>
         ///   Looks up a localized string similar to Failed to connect to OBS Studio web socket. Please make sure OBS Studio is running, the obs-websocket is enabled under the Tools menu, and the connection and password match your settings in OBS Studio.
         ///
-        ///See the Wiki page on OBS Studio for further troubleshooting steps by clicking the &quot;?&quot; button on the OBS Studio tab header in Mix It Up..
+        ///See the Wiki page on OBS Studio for further troubleshooting steps by clicking the &quot;?&quot; button on the OBS Studio tab header in Neuroriot Bot..
         /// </summary>
         public static string OBSWebSocketFailed {
             get {
@@ -14668,7 +14668,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This option allows you to opt-out of any tracking of your data via our back-end services. We track data around app usage &amp; crashes to help improve your experience. If you select this option, we will stop all tracking of this data. Note that this does not disable any data included with uploading &amp; reviewing Mix It Up store commands..
+        ///   Looks up a localized string similar to This option allows you to opt-out of any tracking of your data via our back-end services. We track data around app usage &amp; crashes to help improve your experience. If you select this option, we will stop all tracking of this data. Note that this does not disable any data included with uploading &amp; reviewing Neuroriot Bot store commands..
         /// </summary>
         public static string OptOutofDataTrackingTooltip {
             get {
@@ -14812,7 +14812,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Overlay connection test failed, please ensure you have the Mix It Up Overlay page visible and running in your streaming software..
+        ///   Looks up a localized string similar to Overlay connection test failed, please ensure you have the Neuroriot Bot Overlay page visible and running in your streaming software..
         /// </summary>
         public static string OverlayConnectionFailed1 {
             get {
@@ -14821,7 +14821,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to If you launched your streaming software before Mix It Up, try refreshing the webpage source in your streaming software..
+        ///   Looks up a localized string similar to If you launched your streaming software before Neuroriot Bot, try refreshing the webpage source in your streaming software..
         /// </summary>
         public static string OverlayConnectionFailed2 {
             get {
@@ -14902,7 +14902,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to To use the Mix It Up Overlay, please ensure Mix It Up is running first before you launch your streaming software or refresh the webpage source in your streaming software after you launch Mix It Up..
+        ///   Looks up a localized string similar to To use the Neuroriot Bot Overlay, please ensure Neuroriot Bot is running first before you launch your streaming software or refresh the webpage source in your streaming software after you launch Neuroriot Bot..
         /// </summary>
         public static string OverlayInfo2 {
             get {
@@ -14920,7 +14920,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to If you have OBS Studio, XSplit, or Streamlabs OBS connectivity setup, we can auto-refresh the web browser source that contains the Mix It Up Overlay when Mix It Up starts. Simply type the name of the source below:.
+        ///   Looks up a localized string similar to If you have OBS Studio, XSplit, or Streamlabs OBS connectivity setup, we can auto-refresh the web browser source that contains the Neuroriot Bot Overlay when Neuroriot Bot starts. Simply type the name of the source below:.
         /// </summary>
         public static string OverlayInfo4 {
             get {
@@ -15451,7 +15451,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to OvrStream is a powerful, motion graphics editor for alerts &amp; overlays. Mix It Up allows you to trigger your visualizations and set variables values for them in OvrStream..
+        ///   Looks up a localized string similar to OvrStream is a powerful, motion graphics editor for alerts &amp; overlays. Neuroriot Bot allows you to trigger your visualizations and set variables values for them in OvrStream..
         /// </summary>
         public static string OvrStreamInfo1 {
             get {
@@ -15568,7 +15568,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Patreon service connectivity allows you to perform actions when a donation is received. When you log in, an authentication webpage will open asking you to log in to Patreon and approve Mix It Up to access your information..
+        ///   Looks up a localized string similar to Patreon service connectivity allows you to perform actions when a donation is received. When you log in, an authentication webpage will open asking you to log in to Patreon and approve Neuroriot Bot to access your information..
         /// </summary>
         public static string PatreonInfo1 {
             get {
@@ -16270,7 +16270,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This channel uses the Mix It Up app to improve their stream. Check out http://mixitupapp.com for more information!.
+        ///   Looks up a localized string similar to This channel uses the Neuroriot Bot app to improve their stream. Check out http://mixitupapp.com for more information!.
         /// </summary>
         public static string PreMadeChatCommandMixItUp {
             get {
@@ -16279,7 +16279,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to All pre-made Mix It Up chat commands can be found here: https://wiki.mixitupapp.com/commands/pre-made-chat-commands. For commands specific to this stream, ask your streamer/moderator..
+        ///   Looks up a localized string similar to All pre-made Neuroriot Bot chat commands can be found here: https://wiki.mixitupapp.com/commands/pre-made-chat-commands. For commands specific to this stream, ask your streamer/moderator..
         /// </summary>
         public static string PreMadeChatCommandMixItUpCommands {
             get {
@@ -16693,7 +16693,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Pulsoid service connectivity allows you to perform actions when your heart rate changes through the Pulsoid service. When you log in, an authentication webpage will open asking you to log in to Pulsoid and approve Mix It Up to access your information. A Pulsoid BRO plan is required for all external integrations..
+        ///   Looks up a localized string similar to Pulsoid service connectivity allows you to perform actions when your heart rate changes through the Pulsoid service. When you log in, an authentication webpage will open asking you to log in to Pulsoid and approve Neuroriot Bot to access your information. A Pulsoid BRO plan is required for all external integrations..
         /// </summary>
         public static string PulsoidInfo1 {
             get {
@@ -16702,7 +16702,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The Command Trigger Delay and Heart Rate Range options allows you set how often the Pulsoid Heart Rate Changed event command can be triggered due to changes in your heart rate. For full details on how these work, please visit the Mix It Up Wiki page on the Pulsoid service..
+        ///   Looks up a localized string similar to The Command Trigger Delay and Heart Rate Range options allows you set how often the Pulsoid Heart Rate Changed event command can be triggered due to changes in your heart rate. For full details on how these work, please visit the Neuroriot Bot Wiki page on the Pulsoid service..
         /// </summary>
         public static string PulsoidInfo2 {
             get {
@@ -16711,7 +16711,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to A special 20% discount is available for new Pulsoid BRO plan user that also helps support Mix It Up&apos;s continued development. Information can found by visiting the link below:.
+        ///   Looks up a localized string similar to A special 20% discount is available for new Pulsoid BRO plan user that also helps support Neuroriot Bot&apos;s continued development. Information can found by visiting the link below:.
         /// </summary>
         public static string PulsoidInfo3 {
             get {
@@ -16954,7 +16954,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This will allow you to import your quotes data from either a plain-text or spreadsheet file. To import a spreadsheet file, you must have some form of Microsoft Excel installed. Note that if there already exists a quote with the same ID in Mix It Up, the quote ID will be updated to the highest number. First, specify the file that you want to import the User data from:.
+        ///   Looks up a localized string similar to This will allow you to import your quotes data from either a plain-text or spreadsheet file. To import a spreadsheet file, you must have some form of Microsoft Excel installed. Note that if there already exists a quote with the same ID in Neuroriot Bot, the quote ID will be updated to the highest number. First, specify the file that you want to import the User data from:.
         /// </summary>
         public static string QuotesDataImportStep1 {
             get {
@@ -17065,7 +17065,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Rainmaker service connectivity allows you to perform actions when a donation is received. When you log in, an authentication webpage will open asking you to log in to Rainmaker and approve Mix It Up to access your information..
+        ///   Looks up a localized string similar to Rainmaker service connectivity allows you to perform actions when a donation is received. When you log in, an authentication webpage will open asking you to log in to Rainmaker and approve Neuroriot Bot to access your information..
         /// </summary>
         public static string RainmakerInfo1 {
             get {
@@ -18392,7 +18392,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mix It Up will restart and the New User Wizard will be re-run when you log in. This will allow you to re-import your data, which could duplicate and overwrite your Commands &amp; User data. Are you sure you wish to do this?.
+        ///   Looks up a localized string similar to Neuroriot Bot will restart and the New User Wizard will be re-run when you log in. This will allow you to re-import your data, which could duplicate and overwrite your Commands &amp; User data. Are you sure you wish to do this?.
         /// </summary>
         public static string RunNewUserWizardWarning {
             get {
@@ -19175,7 +19175,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Failed to initialize session. If this continues please, visit the Mix It Up Discord for assistance..
+        ///   Looks up a localized string similar to Failed to initialize session. If this continues please, visit the Neuroriot Bot Discord for assistance..
         /// </summary>
         public static string SessionInitializationFailed {
             get {
@@ -19283,7 +19283,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to There already exists settings with the same account for {0}. Please sign in with a different account or re-launch Mix It Up to select those settings from the drop-down..
+        ///   Looks up a localized string similar to There already exists settings with the same account for {0}. Please sign in with a different account or re-launch Neuroriot Bot to select those settings from the drop-down..
         /// </summary>
         public static string SettingsAlreadyExistForAccount {
             get {
@@ -19292,7 +19292,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The backup file selected does not appear to contain Mix It Up settings..
+        ///   Looks up a localized string similar to The backup file selected does not appear to contain Neuroriot Bot settings..
         /// </summary>
         public static string SettingsBackupNotValid {
             get {
@@ -19301,7 +19301,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The backup file is valid, but is from a newer version of Mix It Up. Be sure to upgrade to the latest version.
+        ///   Looks up a localized string similar to The backup file is valid, but is from a newer version of Neuroriot Bot. Be sure to upgrade to the latest version.
         ///
         ///NOTE: This may require you to opt-in to the Preview build from the General tab in Settings if this was made in a Preview build..
         /// </summary>
@@ -19312,7 +19312,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Some of the settings you have changed require a restart to take effect. Would you like to restart Mix It Up now?.
+        ///   Looks up a localized string similar to Some of the settings you have changed require a restart to take effect. Would you like to restart Neuroriot Bot now?.
         /// </summary>
         public static string SettingsChangedRestartPrompt {
             get {
@@ -19321,7 +19321,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to One or more settings files were unable to be loaded. Please visit the Mix It Up discord for assistance on this issue..
+        ///   Looks up a localized string similar to One or more settings files were unable to be loaded. Please visit the Neuroriot Bot discord for assistance on this issue..
         /// </summary>
         public static string SettingsLoadFailure {
             get {
@@ -20476,7 +20476,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Stream Avatars functionality is handled directly through the Stream Avatars program. Prior to connecting Stream Avatars to Mix It Up, you must ensure the Developer API is enabled on the Services page..
+        ///   Looks up a localized string similar to Stream Avatars functionality is handled directly through the Stream Avatars program. Prior to connecting Stream Avatars to Neuroriot Bot, you must ensure the Developer API is enabled on the Services page..
         /// </summary>
         public static string StreamAvatarsInfo1 {
             get {
@@ -20485,7 +20485,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to For information on how to link Stream Avatars with Mix It Up, please see the Stream Avatars wiki section..
+        ///   Looks up a localized string similar to For information on how to link Stream Avatars with Neuroriot Bot, please see the Stream Avatars wiki section..
         /// </summary>
         public static string StreamAvatarsInfo2 {
             get {
@@ -20539,7 +20539,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This Stream Deck plug-in allows you to run Mix It Up commands directly from your Stream Deck device, as well as other status information about your stream..
+        ///   Looks up a localized string similar to This Stream Deck plug-in allows you to run Neuroriot Bot commands directly from your Stream Deck device, as well as other status information about your stream..
         /// </summary>
         public static string StreamDeckInfo1 {
             get {
@@ -20548,7 +20548,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to To get started, ensure the Stream Deck software is updated to at least version 4.0 &amp; the Developer API service is enabled in Mix It Up. To install the Mix It Up plugin, click on the store icon at the top right of your Stream Deck software, then search for &quot;Mix It Up&quot; in the window..
+        ///   Looks up a localized string similar to To get started, ensure the Stream Deck software is updated to at least version 4.0 &amp; the Developer API service is enabled in Neuroriot Bot. To install the Neuroriot Bot plugin, click on the store icon at the top right of your Stream Deck software, then search for &quot;Neuroriot Bot&quot; in the window..
         /// </summary>
         public static string StreamDeckInfo2 {
             get {
@@ -20575,7 +20575,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to StreamElements service connectivity allows you to perform actions when a donation is received. When you log in, an authentication webpage will open asking you to log in to StreamElements and approve Mix It Up to access your information..
+        ///   Looks up a localized string similar to StreamElements service connectivity allows you to perform actions when a donation is received. When you log in, an authentication webpage will open asking you to log in to StreamElements and approve Neuroriot Bot to access your information..
         /// </summary>
         public static string StreamElementsInfo1 {
             get {
@@ -20782,7 +20782,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Streamlabs Desktop might be running as administrator and Mix It Up is not. Try running Mix It Up as an Administrator before connecting..
+        ///   Looks up a localized string similar to Streamlabs Desktop might be running as administrator and Neuroriot Bot is not. Try running Neuroriot Bot as an Administrator before connecting..
         /// </summary>
         public static string StreamlabDesktopAdminMaybe {
             get {
@@ -20818,7 +20818,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Streamlabs Desktop might be running as administrator and Mix It Up is not. Try running Mix It Up as an Administrator before connecting..
+        ///   Looks up a localized string similar to Streamlabs Desktop might be running as administrator and Neuroriot Bot is not. Try running Neuroriot Bot as an Administrator before connecting..
         /// </summary>
         public static string StreamlabsDesktopAdminMaybe {
             get {
@@ -20872,7 +20872,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Streamlabs service connectivity allows you to perform actions when a donation is received. When you log in, an authentication webpage will open asking you to log in to Streamlabs and approve Mix It Up to access your information..
+        ///   Looks up a localized string similar to Streamlabs service connectivity allows you to perform actions when a donation is received. When you log in, an authentication webpage will open asking you to log in to Streamlabs and approve Neuroriot Bot to access your information..
         /// </summary>
         public static string StreamlabsInfo1 {
             get {
@@ -20890,7 +20890,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Streamlabs OBS might be running as administrator and Mix It Up is not. Try running Mix It Up as an Administrator before connecting..
+        ///   Looks up a localized string similar to Streamlabs OBS might be running as administrator and Neuroriot Bot is not. Try running Neuroriot Bot as an Administrator before connecting..
         /// </summary>
         public static string StreamlabsOBSAdminMaybe {
             get {
@@ -21943,7 +21943,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Tiltify service connectivity allows you to perform actions when a donation is received. When you log in, an authentication webpage will open asking you to log in to Tiltify and approve Mix It Up to access your information. Once you have connect Tiltify, you need to select the campaign you wish to use when detecting donations..
+        ///   Looks up a localized string similar to Tiltify service connectivity allows you to perform actions when a donation is received. When you log in, an authentication webpage will open asking you to log in to Tiltify and approve Neuroriot Bot to access your information. Once you have connect Tiltify, you need to select the campaign you wish to use when detecting donations..
         /// </summary>
         public static string TiltifyInfo1 {
             get {
@@ -22186,7 +22186,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to TipeeeStream service connectivity allows you to perform actions when a donation is received. When you log in, an authentication webpage will open asking you to log in to TipeeeStream and approve Mix It Up to access your information..
+        ///   Looks up a localized string similar to TipeeeStream service connectivity allows you to perform actions when a donation is received. When you log in, an authentication webpage will open asking you to log in to TipeeeStream and approve Neuroriot Bot to access your information..
         /// </summary>
         public static string TipeeeStreamInfo1 {
             get {
@@ -22519,7 +22519,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mix It Up.
+        ///   Looks up a localized string similar to Neuroriot Bot.
         /// </summary>
         public static string TranslationBy {
             get {
@@ -22564,7 +22564,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to TreatStream service connectivity allows you to perform actions when a treat is received. When you log in, an authentication webpage will open asking you to log in to TreatStream and approve Mix It Up to access your information..
+        ///   Looks up a localized string similar to TreatStream service connectivity allows you to perform actions when a treat is received. When you log in, an authentication webpage will open asking you to log in to TreatStream and approve Neuroriot Bot to access your information..
         /// </summary>
         public static string TreatStreamInfo1 {
             get {
@@ -23086,7 +23086,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to TTS.Monster usage restrictions and limits are set by their service. For more information, please see the Mix It Up Wiki page on the TTS.Monster service..
+        ///   Looks up a localized string similar to TTS.Monster usage restrictions and limits are set by their service. For more information, please see the Neuroriot Bot Wiki page on the TTS.Monster service..
         /// </summary>
         public static string TTSMonsterInfo2 {
             get {
@@ -23149,7 +23149,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to There already exists settings for the account {0}. Please sign in with a different account or re-launch Mix It Up to select those settings from the drop-down..
+        ///   Looks up a localized string similar to There already exists settings for the account {0}. Please sign in with a different account or re-launch Neuroriot Bot to select those settings from the drop-down..
         /// </summary>
         public static string TwitchAccountExists {
             get {
@@ -23176,7 +23176,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ERROR: Could not update Channel Point Reward, please try again later. If this reward was not created through the Mix It Up UI, you will need to delete it and re-add it on the Channel Points page as they must be created through Mix It Up to allow the app to be able to update them..
+        ///   Looks up a localized string similar to ERROR: Could not update Channel Point Reward, please try again later. If this reward was not created through the Neuroriot Bot UI, you will need to delete it and re-add it on the Channel Points page as they must be created through Neuroriot Bot to allow the app to be able to update them..
         /// </summary>
         public static string TwitchActionChannelPointRewardCouldNotBeUpdated {
             get {
@@ -23194,8 +23194,8 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Channel Point Rewards must be created through Mix It Up to allow the app to be able to update them.
-        ///This can be done by clicking on Create Channel Point Reward on the Channel Points page in Mix It Up..
+        ///   Looks up a localized string similar to Channel Point Rewards must be created through Neuroriot Bot to allow the app to be able to update them.
+        ///This can be done by clicking on Create Channel Point Reward on the Channel Points page in Neuroriot Bot..
         /// </summary>
         public static string TwitchActionChannelPointRewardMustBeCreatedInMixItUp {
             get {
@@ -23870,7 +23870,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ERROR: Failed to create poll, please try again later. If this issue persists, please visit the Mix It Up support Discord server..
+        ///   Looks up a localized string similar to ERROR: Failed to create poll, please try again later. If this issue persists, please visit the Neuroriot Bot support Discord server..
         /// </summary>
         public static string TwitchPollFailedToCreate {
             get {
@@ -23879,7 +23879,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ERROR: Failed to get &amp; process poll results. If this issue persists, please visit the Mix It Up support Discord server..
+        ///   Looks up a localized string similar to ERROR: Failed to get &amp; process poll results. If this issue persists, please visit the Neuroriot Bot support Discord server..
         /// </summary>
         public static string TwitchPollFailedToGetResults {
             get {
@@ -23888,7 +23888,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to ERROR: Failed to create prediction, please try again later. If this issue persists, please visit the Mix It Up support Discord server..
+        ///   Looks up a localized string similar to ERROR: Failed to create prediction, please try again later. If this issue persists, please visit the Neuroriot Bot support Discord server..
         /// </summary>
         public static string TwitchPredictionFailedToCreate {
             get {
@@ -24185,7 +24185,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mix It Up has build in Command locking functionality which ensures only 1 command type (Chat, Interactive, etc) can run at the same time and ensures that each command finishes in the order it was run in. This option will allow you to disable locking on ALL commands. Be aware that this could cause some unforeseen issues, so please use with caution..
+        ///   Looks up a localized string similar to Neuroriot Bot has build in Command locking functionality which ensures only 1 command type (Chat, Interactive, etc) can run at the same time and ensures that each command finishes in the order it was run in. This option will allow you to disable locking on ALL commands. Be aware that this could cause some unforeseen issues, so please use with caution..
         /// </summary>
         public static string UnlockAllCommandTypesTooltip {
             get {
@@ -24203,7 +24203,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mix It Up has build in Command locking functionality which ensures
+        ///   Looks up a localized string similar to Neuroriot Bot has build in Command locking functionality which ensures
         ///only 1 command type (Chat, Interactive, etc) can run at the same time
         ///and ensures that each command finishes in the order it was run in.
         ///This option will allow you to disable locking on this command. Be aware
@@ -24351,7 +24351,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to We&apos;ve detected an older version of your settings that needs to be upgraded to a newer format. Depending on the size, this could take some time to perform &amp; is required to use Mix It Up..
+        ///   Looks up a localized string similar to We&apos;ve detected an older version of your settings that needs to be upgraded to a newer format. Depending on the size, this could take some time to perform &amp; is required to use Neuroriot Bot..
         /// </summary>
         public static string UpgradePrompt1 {
             get {
@@ -24477,7 +24477,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This will allow you to import your channel&apos;s user data from either a plain-text or spreadsheet file. To import a spreadsheet file, you must have some form of Microsoft Excel installed. Note that this WILL OVERWRITE existing user data in Mix It Up. First, specify the file that you want to import the User data from:.
+        ///   Looks up a localized string similar to This will allow you to import your channel&apos;s user data from either a plain-text or spreadsheet file. To import a spreadsheet file, you must have some form of Microsoft Excel installed. Note that this WILL OVERWRITE existing user data in Neuroriot Bot. First, specify the file that you want to import the User data from:.
         /// </summary>
         public static string UserDataStep1 {
             get {
@@ -24535,7 +24535,7 @@ namespace MixItUp.Base {
         ///Pending Imports: {1}
         ///Failed Imports: {2}
         ///
-        ///Users who have not visited your channel yet while Mix It Up is running have their data import pending and will be successfully imported when they first visit.
+        ///Users who have not visited your channel yet while Neuroriot Bot is running have their data import pending and will be successfully imported when they first visit.
         ///
         ///Failed imports could be due to invalid data or failure to find their information on the platform. Please contact support for further help with this if needed..
         /// </summary>
@@ -24717,7 +24717,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The user {0} was successfully found and added in to Mix It Up.
+        ///   Looks up a localized string similar to The user {0} was successfully found and added in to Neuroriot Bot.
         /// </summary>
         public static string UsersSuccessfullyFoundUser {
             get {
@@ -25671,7 +25671,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Failed to connect to Mix It Up Web Hooks service.
+        ///   Looks up a localized string similar to Failed to connect to Neuroriot Bot Web Hooks service.
         /// </summary>
         public static string WebhooksServiceFailedConnection {
             get {
@@ -25936,7 +25936,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mix It Up uses a Command &amp; Action structure for everything throughout the app. Think of it similar to a recipe that you would follow to make food..
+        ///   Looks up a localized string similar to Neuroriot Bot uses a Command &amp; Action structure for everything throughout the app. Think of it similar to a recipe that you would follow to make food..
         /// </summary>
         public static string WizardCommands1 {
             get {
@@ -25972,7 +25972,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mix It Up is a desktop-only application, so your settings and data only exist on your computer. Therefore we encourge users to set up automatic backups for your settings to ensure you always have something to fall back to in the event of any issues:.
+        ///   Looks up a localized string similar to Neuroriot Bot is a desktop-only application, so your settings and data only exist on your computer. Therefore we encourge users to set up automatic backups for your settings to ensure you always have something to fall back to in the event of any issues:.
         /// </summary>
         public static string WizardFinal1 {
             get {
@@ -25999,7 +25999,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Thanks for using Mix It Up and we hope it meets all your needs!.
+        ///   Looks up a localized string similar to Thanks for using Neuroriot Bot and we hope it meets all your needs!.
         /// </summary>
         public static string WizardFinal4 {
             get {
@@ -26008,7 +26008,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to This wizard will help get started with Mix It Up by logging you into your streaming platform accounts, help you import your existing data from some bots, and walk you through some of the ropes of how things work..
+        ///   Looks up a localized string similar to This wizard will help get started with Neuroriot Bot by logging you into your streaming platform accounts, help you import your existing data from some bots, and walk you through some of the ropes of how things work..
         /// </summary>
         public static string WizardIntro1 {
             get {
@@ -26152,7 +26152,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to XSplit connection test failed, please ensure you have the Mix It Up XSplit extension added and open in XSplit..
+        ///   Looks up a localized string similar to XSplit connection test failed, please ensure you have the Neuroriot Bot XSplit extension added and open in XSplit..
         /// </summary>
         public static string XSplitConnectionFailed {
             get {
@@ -26197,7 +26197,7 @@ namespace MixItUp.Base {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to The Mix It Up extension must be installed from the XSplit Folder and running in XSplit. For instructions on how to do this, please check out the XSplit Service page..
+        ///   Looks up a localized string similar to The Neuroriot Bot extension must be installed from the XSplit Folder and running in XSplit. For instructions on how to do this, please check out the XSplit Service page..
         /// </summary>
         public static string XSplitInfo2 {
             get {

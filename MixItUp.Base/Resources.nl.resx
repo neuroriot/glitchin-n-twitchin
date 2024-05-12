@@ -134,7 +134,7 @@
     <comment>Manual</comment>
   </data>
   <data name="AccessTheFolderWhereMixItUpIsInstalled" xml:space="preserve">
-    <value>Installatiemap van Mix It Up</value>
+    <value>Installatiemap van Neuroriot Bot</value>
     <comment>Manual</comment>
   </data>
   <data name="Account" xml:space="preserve">
@@ -158,7 +158,7 @@
     <comment>Manual</comment>
   </data>
   <data name="AccountsDetails" xml:space="preserve">
-    <value>Streamer-accounts zijn jouw werkelijke accounts waarmee je streamt. Bot-accounts zijn afzonderlijke, optionele accounts die je gebruikt om berichten te verzenden vanuit je kanaal. Bots-accounts moet je zelf handmatig maken en moet je er in aangemeld zijn voordat je deze probeert te verbinden met Mix It Up.</value>
+    <value>Streamer-accounts zijn jouw werkelijke accounts waarmee je streamt. Bot-accounts zijn afzonderlijke, optionele accounts die je gebruikt om berichten te verzenden vanuit je kanaal. Bots-accounts moet je zelf handmatig maken en moet je er in aangemeld zijn voordat je deze probeert te verbinden met Neuroriot Bot.</value>
     <comment>Manual</comment>
   </data>
   <data name="AccountsWizardInstructions" xml:space="preserve">
@@ -489,7 +489,7 @@
     <comment>Manual</comment>
   </data>
   <data name="ClosingPleaseWait" xml:space="preserve">
-    <value>Wacht tot Mix It Up uw instellingen heeft opgeslagen en wordt afgesloten ...</value>
+    <value>Wacht tot Neuroriot Bot uw instellingen heeft opgeslagen en wordt afgesloten ...</value>
     <comment>Manual</comment>
   </data>
   <data name="ColorScheme" xml:space="preserve">
@@ -802,7 +802,7 @@
     <comment>Manual</comment>
   </data>
   <data name="EnableOverlay" xml:space="preserve">
-    <value>Schakel Mix It Up Overlay in de Services sectie in!</value>
+    <value>Schakel Neuroriot Bot Overlay in de Services sectie in!</value>
     <comment>Manual</comment>
   </data>
   <data name="EnableOvrStream" xml:space="preserve">
@@ -873,7 +873,7 @@
     <comment>Manual</comment>
   </data>
   <data name="ExitConfirmation" xml:space="preserve">
-    <value>Weet je zeker dat je Mix It Up wilt verlaten?</value>
+    <value>Weet je zeker dat je Neuroriot Bot wilt verlaten?</value>
     <comment>Manual</comment>
   </data>
   <data name="ExportActions" xml:space="preserve">
@@ -1343,15 +1343,15 @@
     <comment>Manual</comment>
   </data>
   <data name="MixItUpCommands" xml:space="preserve">
-    <value>Mix It Up Opdrachten</value>
+    <value>Neuroriot Bot Opdrachten</value>
     <comment>Manual</comment>
   </data>
   <data name="MixItUpDashboard" xml:space="preserve">
-    <value>Mix It Up - Dashboard</value>
+    <value>Neuroriot Bot - Dashboard</value>
     <comment>Manual</comment>
   </data>
   <data name="MixItUpOverlay" xml:space="preserve">
-    <value>Mix It Up Overlay</value>
+    <value>Neuroriot Bot Overlay</value>
     <comment>Manual</comment>
   </data>
   <data name="MixPlay" xml:space="preserve">
@@ -2389,7 +2389,7 @@ Fuzzy</comment>
     <value>Gebruikersgegevens Importeren</value>
   </data>
   <data name="UserDataStep1" xml:space="preserve">
-    <value>Hiermee kun je de gebruikersgegevens van jouw kanaal importeren uit een platte tekst of spreadsheetbestand. Als je een spreadsheetbestand wilt importeren, moet een bepaalde vorm van Microsoft Excel zijn geïnstalleerd. Houd er rekening mee dat dit bestaande gebruikersgegevens OVERSCHRIJFT in Mix It Up. Geef eerst het bestand op waaruit je de gebruikersgegevens wilt importeren:</value>
+    <value>Hiermee kun je de gebruikersgegevens van jouw kanaal importeren uit een platte tekst of spreadsheetbestand. Als je een spreadsheetbestand wilt importeren, moet een bepaalde vorm van Microsoft Excel zijn geïnstalleerd. Houd er rekening mee dat dit bestaande gebruikersgegevens OVERSCHRIJFT in Neuroriot Bot. Geef eerst het bestand op waaruit je de gebruikersgegevens wilt importeren:</value>
     <comment>Manual</comment>
   </data>
   <data name="UserDataStep2" xml:space="preserve">
@@ -3161,11 +3161,11 @@ Fuzzy</comment>
     <value>Niet Geabonneerd</value>
   </data>
   <data name="AutoLogInCurrentAccountTooltip" xml:space="preserve">
-    <value>Met de instelling Automatisch Inloggen kan Mix It Up zich automatisch aanmelden bij het momenteel aangemelde gebruikersaccount. OPMERKING: Als er een Mix It Up-update is of als je een van jouw servicesaccounts opnieuw moet verifiëren, moet je je handmatig aanmelden wanneer dit gebeurt.</value>
+    <value>Met de instelling Automatisch Inloggen kan Neuroriot Bot zich automatisch aanmelden bij het momenteel aangemelde gebruikersaccount. OPMERKING: Als er een Neuroriot Bot-update is of als je een van jouw servicesaccounts opnieuw moet verifiëren, moet je je handmatig aanmelden wanneer dit gebeurt.</value>
     <comment>Manual</comment>
   </data>
   <data name="OptOutofDataTrackingTooltip" xml:space="preserve">
-    <value>Met deze optie kunt je je afmelden voor het volgen van jouw gegevens via onze back-endservices. We houden gegevens bij over app-gebruik en crashes om jouw ervaring te verbeteren. Als je deze optie selecteert, stoppen we alle tracking van deze gegevens. Houd er rekening mee dat dit geen gegevens uitschakelt die zijn opgenomen in het uploaden en beoordelen van Mix It Up-winkelopdrachten.</value>
+    <value>Met deze optie kunt je je afmelden voor het volgen van jouw gegevens via onze back-endservices. We houden gegevens bij over app-gebruik en crashes om jouw ervaring te verbeteren. Als je deze optie selecteert, stoppen we alle tracking van deze gegevens. Houd er rekening mee dat dit geen gegevens uitschakelt die zijn opgenomen in het uploaden en beoordelen van Neuroriot Bot-winkelopdrachten.</value>
     <comment>Manual</comment>
   </data>
   <data name="UpdatePreviewProgramTooltip" xml:space="preserve">
@@ -3184,11 +3184,11 @@ Fuzzy</comment>
     <comment>Manual</comment>
   </data>
   <data name="UnlockAllCommandTypesTooltip" xml:space="preserve">
-    <value>Mix It Up heeft ingebouwde Opdracht-vergrendelingsfunctionaliteit die ervoor zorgt dat slechts 1 opdrachttype (Chat, Interactief, enz.) tegelijkertijd kan worden uitgevoerd en ervoor zorgt dat elke opdracht eindigt in de volgorde waarin deze is uitgevoerd. Met deze optie kun je het vergrendelen op ALLE opdrachten uitschakelen. Houd er rekening mee dat dit onvoorziene problemen kan veroorzaken, dus wees voorzichtig.</value>
+    <value>Neuroriot Bot heeft ingebouwde Opdracht-vergrendelingsfunctionaliteit die ervoor zorgt dat slechts 1 opdrachttype (Chat, Interactief, enz.) tegelijkertijd kan worden uitgevoerd en ervoor zorgt dat elke opdracht eindigt in de volgorde waarin deze is uitgevoerd. Met deze optie kun je het vergrendelen op ALLE opdrachten uitschakelen. Houd er rekening mee dat dit onvoorziene problemen kan veroorzaken, dus wees voorzichtig.</value>
     <comment>Manual</comment>
   </data>
   <data name="ClearAllUserDataWarning" xml:space="preserve">
-    <value>Hiermee worden alle gegevens voor jouw gebruikers gewist, waaronder hun Uren, Valuta, Rang en Aangepaste Gebruikersopdrachten, en Mix It Up start opnieuw op. Dit KAN NIET ongedaan worden! Weet je zeker dat je dit wilt doen?</value>
+    <value>Hiermee worden alle gegevens voor jouw gebruikers gewist, waaronder hun Uren, Valuta, Rang en Aangepaste Gebruikersopdrachten, en Neuroriot Bot start opnieuw op. Dit KAN NIET ongedaan worden! Weet je zeker dat je dit wilt doen?</value>
     <comment>Manual</comment>
   </data>
   <data name="ShowBitsCheered" xml:space="preserve">
@@ -3236,7 +3236,7 @@ Fuzzy</comment>
     <comment>Manual</comment>
   </data>
   <data name="DiagnosticLoggingToolip" xml:space="preserve">
-    <value>Diagnostische Logboekregistratie helpt bij het diagnosticeren van specifieke problemen door aanvullende informatie uit te loggen over wat er wordt gedaan terwijl Mix It Up wordt uitgevoerd. Deze logboeken zullen meestal enorm zijn in vergelijking met gewone logboeken, dus dit moet alleen worden gedaan wanneer dit specifiek wordt geadviseerd door een Mix It Up-ontwikkelaar en moet onmiddellijk worden uitgeschakeld nadat het probleem is opgelost.</value>
+    <value>Diagnostische Logboekregistratie helpt bij het diagnosticeren van specifieke problemen door aanvullende informatie uit te loggen over wat er wordt gedaan terwijl Neuroriot Bot wordt uitgevoerd. Deze logboeken zullen meestal enorm zijn in vergelijking met gewone logboeken, dus dit moet alleen worden gedaan wanneer dit specifiek wordt geadviseerd door een Neuroriot Bot-ontwikkelaar en moet onmiddellijk worden uitgeschakeld nadat het probleem is opgelost.</value>
     <comment>Manual</comment>
   </data>
   <data name="ShowBetterTTVEmotes" xml:space="preserve">
@@ -3302,7 +3302,7 @@ Als deze optie bijvoorbeeld is ingeschakeld en het bedrag is ingesteld op 5, wor
     <comment>Manual</comment>
   </data>
   <data name="ClearAllMixerUserDataWarning" xml:space="preserve">
-    <value>Hiermee worden alle gegevens voor jouw oude Mixergebruikers gewist, waaronder hun Uren, Valuta, Rang en Aangepaste Gebruikersopdrachten, en start Mix It Up opnieuw op. Dit proces zal enige tijd duren om te voltooien, afhankelijk van het aantal gebruikers dat je had en KAN NIET ongedaan worden! Weet je zeker dat je dit wilt doen?</value>
+    <value>Hiermee worden alle gegevens voor jouw oude Mixergebruikers gewist, waaronder hun Uren, Valuta, Rang en Aangepaste Gebruikersopdrachten, en start Neuroriot Bot opnieuw op. Dit proces zal enige tijd duren om te voltooien, afhankelijk van het aantal gebruikers dat je had en KAN NIET ongedaan worden! Weet je zeker dat je dit wilt doen?</value>
     <comment>Manual</comment>
   </data>
   <data name="ClearMixerUserData" xml:space="preserve">
@@ -4939,7 +4939,7 @@ Zodra de vulkaan stadium 3 bereikt, heeft elke volgende afzetting een kans om ee
     <comment>Manual</comment>
   </data>
   <data name="UnlockCommandHelpText" xml:space="preserve">
-    <value>Mix It Up heeft ingebouwde Opdracht-vergrendelingsfunctionaliteit die ervoor zorgt dat
+    <value>Neuroriot Bot heeft ingebouwde Opdracht-vergrendelingsfunctionaliteit die ervoor zorgt dat
 slechts 1 opdrachttype (Chat, Interactief, enz.) kan tegelijkertijd worden uitgevoerd
 en zorgt ervoor dat elke opdracht wordt voltooid in de volgorde waarin deze is uitgevoerd.
 Met deze optie kun je het vergrendelen van deze opdracht uitschakelen. Let op
@@ -5424,7 +5424,7 @@ Ingeschakeld. Je kunt het vergelijkbaar zien als het schakelen tussen de optie "
     <value>Vastmaken</value>
   </data>
   <data name="RunNewUserWizardWarning" xml:space="preserve">
-    <value>Mix It Up wordt opnieuw opgestart en de Wizard Nieuwe Gebruiker wordt opnieuw uitgevoerd wanneer je je aanmeldt. Hiermee kun je jouw gegevens opnieuw importeren, waardoor jouw Opdrachten en Gebruikersgegevens kunnen worden gedupliceerd en overschreven. Weet je zeker dat je dit wilt doen?</value>
+    <value>Neuroriot Bot wordt opnieuw opgestart en de Wizard Nieuwe Gebruiker wordt opnieuw uitgevoerd wanneer je je aanmeldt. Hiermee kun je jouw gegevens opnieuw importeren, waardoor jouw Opdrachten en Gebruikersgegevens kunnen worden gedupliceerd en overschreven. Weet je zeker dat je dit wilt doen?</value>
   </data>
   <data name="Standard" xml:space="preserve">
     <value>Standaard</value>
@@ -5454,16 +5454,16 @@ Ingeschakeld. Je kunt het vergelijkbaar zien als het schakelen tussen de optie "
     <value>Open Naar Lokaal Netwerk (Moet als Administrator worden uitgevoerd):</value>
   </data>
   <data name="DeveloperAPIInfo" xml:space="preserve">
-    <value>De Developer API maakt geavanceerde interactie met Mix It Up mogelijk vanuit andere toepassingen die op uw computer worden uitgevoerd met behulp van een reeks REST API-services. Zie voor meer informatie hierover de Developer API Wiki pagina.</value>
+    <value>De Developer API maakt geavanceerde interactie met Neuroriot Bot mogelijk vanuit andere toepassingen die op uw computer worden uitgevoerd met behulp van een reeks REST API-services. Zie voor meer informatie hierover de Developer API Wiki pagina.</value>
   </data>
   <data name="DeveloperAPIWarning" xml:space="preserve">
-    <value>WAARSCHUWING: Hierdoor luisteren de ontwikkelaars-API's op alle adressen en kan Mix It Up worden geopend voor bellers van buiten jouw netwerk. Gebruik deze optie alleen als je weet wat je doet!</value>
+    <value>WAARSCHUWING: Hierdoor luisteren de ontwikkelaars-API's op alle adressen en kan Neuroriot Bot worden geopend voor bellers van buiten jouw netwerk. Gebruik deze optie alleen als je weet wat je doet!</value>
   </data>
   <data name="DiscordInfo1" xml:space="preserve">
-    <value>Met de discord-serviceconnectiviteit kun je informatie over jouw Discord-account krijgen, berichten naar kanalen verzenden en de audio van spraakkanalen bedienen. Wanneer je je aanmeldt, wordt een verificatiewebpagina geopend waarin je wordt gevraagd in te loggen bij Discord en Mix It Up goed te keuren om toegang te krijgen tot jouw gegevens.</value>
+    <value>Met de discord-serviceconnectiviteit kun je informatie over jouw Discord-account krijgen, berichten naar kanalen verzenden en de audio van spraakkanalen bedienen. Wanneer je je aanmeldt, wordt een verificatiewebpagina geopend waarin je wordt gevraagd in te loggen bij Discord en Neuroriot Bot goed te keuren om toegang te krijgen tot jouw gegevens.</value>
   </data>
   <data name="DiscordInfo2" xml:space="preserve">
-    <value>De standaard Mix It Up Discord-applicatie heeft een cooldown van 30 seconden tussen elke Discord-actie om snelheidsbeperkende problemen voor alle gebruikers te voorkomen. Om de cooldown van 30 seconden te omzeilen, kun je jouw eigen aangepaste Discord-applicatie maken.</value>
+    <value>De standaard Neuroriot Bot Discord-applicatie heeft een cooldown van 30 seconden tussen elke Discord-actie om snelheidsbeperkende problemen voor alle gebruikers te voorkomen. Om de cooldown van 30 seconden te omzeilen, kun je jouw eigen aangepaste Discord-applicatie maken.</value>
   </data>
   <data name="DiscordInvalidBotToken" xml:space="preserve">
     <value>Voer een geldig aangepaste bot-token in.</value>
@@ -5497,10 +5497,10 @@ Ingeschakeld. Je kunt het vergelijkbaar zien als het schakelen tussen de optie "
     <value>Trigger Donation Event voor team donaties:</value>
   </data>
   <data name="OverlayConnectionFailed1" xml:space="preserve">
-    <value>Overlay-verbindingstest mislukt, zorg ervoor dat je de Mix It Up Overlay-pagina zichtbaar hebt en wordt uitgevoerd in jouw streamingsoftware.</value>
+    <value>Overlay-verbindingstest mislukt, zorg ervoor dat je de Neuroriot Bot Overlay-pagina zichtbaar hebt en wordt uitgevoerd in jouw streamingsoftware.</value>
   </data>
   <data name="OverlayConnectionFailed2" xml:space="preserve">
-    <value>Als je jouw streamingsoftware vóór Mix It Up hebt gestart, probeer dan de bron van de webpagina in jouw streamingsoftware te vernieuwen.</value>
+    <value>Als je jouw streamingsoftware vóór Neuroriot Bot hebt gestart, probeer dan de bron van de webpagina in jouw streamingsoftware te vernieuwen.</value>
   </data>
   <data name="OverlayConnectionSuccess" xml:space="preserve">
     <value>Overlay verbindingstest geslaagd!</value>
@@ -5577,7 +5577,7 @@ Ingeschakeld. Je kunt het vergelijkbaar zien als het schakelen tussen de optie "
     <comment>Manual</comment>
   </data>
   <data name="JustGivingInfo1" xml:space="preserve">
-    <value>Met de connectiviteit van de JustGiving-service kun je acties uitvoeren wanneer een donatie wordt ontvangen. Wanneer je je aanmeldt, wordt een verificatiewebpagina geopend waarin je wordt gevraagd in te loggen bij JustGiving en Mix It Up goed te keuren om toegang te krijgen tot jouw gegevens.</value>
+    <value>Met de connectiviteit van de JustGiving-service kun je acties uitvoeren wanneer een donatie wordt ontvangen. Wanneer je je aanmeldt, wordt een verificatiewebpagina geopend waarin je wordt gevraagd in te loggen bij JustGiving en Neuroriot Bot goed te keuren om toegang te krijgen tot jouw gegevens.</value>
   </data>
   <data name="LayerPosition" xml:space="preserve">
     <value>Laag Positie</value>
@@ -5608,19 +5608,19 @@ Ingeschakeld. Je kunt het vergelijkbaar zien als het schakelen tussen de optie "
     <value>Voeg een webbrowserbron toe aan jouw streamingsoftware met de volgende URL:</value>
   </data>
   <data name="OverlayInfo2" xml:space="preserve">
-    <value>Als je de Mix It Up-overlay wilt gebruiken, moet je ervoor zorgen dat Mix It Up eerst wordt uitgevoerd voordat je jouw streamingsoftware start of vernieuw de webpaginabron in jouw streamingsoftware nadat je Mix It Up hebt gestart.</value>
+    <value>Als je de Neuroriot Bot-overlay wilt gebruiken, moet je ervoor zorgen dat Neuroriot Bot eerst wordt uitgevoerd voordat je jouw streamingsoftware start of vernieuw de webpaginabron in jouw streamingsoftware nadat je Neuroriot Bot hebt gestart.</value>
   </data>
   <data name="OverlayInfo3" xml:space="preserve">
     <value>Ondersteuning voor meerdere overlays is te vinden onder Instellingen -&gt; Overlay.</value>
   </data>
   <data name="OverlayInfo4" xml:space="preserve">
-    <value>Als je OBS Studio, XSplit of Streamlabs OBS-connectiviteit hebt ingesteld, kunnen we de webbrowserbron die de Mix It Up-overlay bevat automatisch vernieuwen wanneer Mix It Up wordt gestart. Typ gewoon de naam van de bron hieronder:</value>
+    <value>Als je OBS Studio, XSplit of Streamlabs OBS-connectiviteit hebt ingesteld, kunnen we de webbrowserbron die de Neuroriot Bot-overlay bevat automatisch vernieuwen wanneer Neuroriot Bot wordt gestart. Typ gewoon de naam van de bron hieronder:</value>
   </data>
   <data name="OverlayInfo5" xml:space="preserve">
     <value>Typ gewoon de naam van de bron van de webbrowser in jouw streamingsoftware hieronder:</value>
   </data>
   <data name="OvrStreamInfo1" xml:space="preserve">
-    <value>OvrStream is een krachtige, bewegende, grafische editor voor waarschuwingen &amp; overlays. Met Mix It Up kun je jouw visualisaties activeren en variabele waarden voor hen instellen in OvrStream.</value>
+    <value>OvrStream is een krachtige, bewegende, grafische editor voor waarschuwingen &amp; overlays. Met Neuroriot Bot kun je jouw visualisaties activeren en variabele waarden voor hen instellen in OvrStream.</value>
   </data>
   <data name="OvrStreamInfo2" xml:space="preserve">
     <value>Voor informatie over OvrStream, zie de volgende link:</value>
@@ -5633,7 +5633,7 @@ Ingeschakeld. Je kunt het vergelijkbaar zien als het schakelen tussen de optie "
     <comment>Manual</comment>
   </data>
   <data name="PatreonInfo1" xml:space="preserve">
-    <value>Patreon serviceconnectiviteit stelt je in staat om acties uit te voeren wanneer een donatie wordt ontvangen. Wanneer je je aanmeldt, wordt een verificatiewebpagina geopend waarin je wordt gevraagd in te loggen bij Patreon en Mix It Up goed te keuren om toegang te krijgen tot jouw gegevens.</value>
+    <value>Patreon serviceconnectiviteit stelt je in staat om acties uit te voeren wanneer een donatie wordt ontvangen. Wanneer je je aanmeldt, wordt een verificatiewebpagina geopend waarin je wordt gevraagd in te loggen bij Patreon en Neuroriot Bot goed te keuren om toegang te krijgen tot jouw gegevens.</value>
   </data>
   <data name="Percentage" xml:space="preserve">
     <value>Percentage</value>
@@ -5691,10 +5691,10 @@ Ingeschakeld. Je kunt het vergelijkbaar zien als het schakelen tussen de optie "
     <comment>Manual</comment>
   </data>
   <data name="StreamAvatarsInfo1" xml:space="preserve">
-    <value>Stream Avatars functionaliteit wordt direct afgehandeld via het Stream Avatars programma. Voordat je Stream-avatars verbindt met Mix It Up, moet je ervoor zorgen dat de Developer API is ingeschakeld op de pagina Services.</value>
+    <value>Stream Avatars functionaliteit wordt direct afgehandeld via het Stream Avatars programma. Voordat je Stream-avatars verbindt met Neuroriot Bot, moet je ervoor zorgen dat de Developer API is ingeschakeld op de pagina Services.</value>
   </data>
   <data name="StreamAvatarsInfo2" xml:space="preserve">
-    <value>Voor informatie over het koppelen van Stream Avatars met Mix It Up, zie de Stream Avatars wiki sectie.</value>
+    <value>Voor informatie over het koppelen van Stream Avatars met Neuroriot Bot, zie de Stream Avatars wiki sectie.</value>
   </data>
   <data name="StreamAvatarsWikiSection" xml:space="preserve">
     <value>Stream Avatars Wiki Sectie</value>
@@ -5704,10 +5704,10 @@ Ingeschakeld. Je kunt het vergelijkbaar zien als het schakelen tussen de optie "
     <comment>Manual</comment>
   </data>
   <data name="StreamDeckInfo1" xml:space="preserve">
-    <value>Met deze Stream Deck plug-in kun je Mix It Up-opdrachten rechtstreeks vanaf je Stream Deck-apparaat uitvoeren, evenals andere statusinformatie over je stream.</value>
+    <value>Met deze Stream Deck plug-in kun je Neuroriot Bot-opdrachten rechtstreeks vanaf je Stream Deck-apparaat uitvoeren, evenals andere statusinformatie over je stream.</value>
   </data>
   <data name="StreamDeckInfo2" xml:space="preserve">
-    <value>Om aan de slag te gaan, moet je ervoor zorgen dat de Stream Deck software is bijgewerkt naar ten minste versie 4.0 en dat de Developer API-service is ingeschakeld in Mix It Up. Om de Mix It Up plugin te installeren, klik op de "Meer acties..." in de rechterbenedenhoek en zoek vervolgens naar "Mix It Up" in het venster.</value>
+    <value>Om aan de slag te gaan, moet je ervoor zorgen dat de Stream Deck software is bijgewerkt naar ten minste versie 4.0 en dat de Developer API-service is ingeschakeld in Neuroriot Bot. Om de Neuroriot Bot plugin te installeren, klik op de "Meer acties..." in de rechterbenedenhoek en zoek vervolgens naar "Neuroriot Bot" in het venster.</value>
     <comment>Fuzzy</comment>
   </data>
   <data name="StreamElements" xml:space="preserve">
@@ -5715,7 +5715,7 @@ Ingeschakeld. Je kunt het vergelijkbaar zien als het schakelen tussen de optie "
     <comment>Manual</comment>
   </data>
   <data name="StreamElementsInfo1" xml:space="preserve">
-    <value>Met de serviceconnectiviteit van StreamElements kun je acties uitvoeren wanneer een donatie wordt ontvangen. Wanneer je je aanmeldt, wordt een verificatiewebpagina geopend waarin je wordt gevraagd je aan te melden bij StreamElements en Mix It Up goed te keuren om toegang te krijgen tot jouw gegevens.</value>
+    <value>Met de serviceconnectiviteit van StreamElements kun je acties uitvoeren wanneer een donatie wordt ontvangen. Wanneer je je aanmeldt, wordt een verificatiewebpagina geopend waarin je wordt gevraagd je aan te melden bij StreamElements en Neuroriot Bot goed te keuren om toegang te krijgen tot jouw gegevens.</value>
   </data>
   <data name="StreamingSoftwareSourceName" xml:space="preserve">
     <value>Bronnaam Streamingsoftware</value>
@@ -5724,10 +5724,10 @@ Ingeschakeld. Je kunt het vergelijkbaar zien als het schakelen tussen de optie "
     <value>Rainmaker</value>
   </data>
   <data name="RainmakerInfo1" xml:space="preserve">
-    <value>Met de serviceconnectiviteit van Rainmaker kun je acties uitvoeren wanneer een donatie wordt ontvangen. Wanneer je je aanmeldt, wordt een verificatiewebpagina geopend waarin je wordt gevraagd in te loggen bij Rainmaker en Mix It Up goed te keuren om toegang te krijgen tot jouw informatie.</value>
+    <value>Met de serviceconnectiviteit van Rainmaker kun je acties uitvoeren wanneer een donatie wordt ontvangen. Wanneer je je aanmeldt, wordt een verificatiewebpagina geopend waarin je wordt gevraagd in te loggen bij Rainmaker en Neuroriot Bot goed te keuren om toegang te krijgen tot jouw informatie.</value>
   </data>
   <data name="StreamlabsInfo1" xml:space="preserve">
-    <value>Streamlabs-serviceconnectiviteit kun je acties uitvoeren wanneer een donatie wordt ontvangen. Wanneer je je aanmeldt, wordt een verificatiewebpagina geopend waarin je wordt gevraagd je aan te melden bij Streamlabs en Mix It Up goed te keuren om toegang te krijgen tot jouw gegevens.</value>
+    <value>Streamlabs-serviceconnectiviteit kun je acties uitvoeren wanneer een donatie wordt ontvangen. Wanneer je je aanmeldt, wordt een verificatiewebpagina geopend waarin je wordt gevraagd je aan te melden bij Streamlabs en Neuroriot Bot goed te keuren om toegang te krijgen tot jouw gegevens.</value>
   </data>
   <data name="StreamlabsOBSConnectionFailed" xml:space="preserve">
     <value>Streamlabs OBS verbindingstest is mislukt, zorg ervoor dat Streamlabs OBS actief is.</value>
@@ -5772,14 +5772,14 @@ Ingeschakeld. Je kunt het vergelijkbaar zien als het schakelen tussen de optie "
     <comment>Manual</comment>
   </data>
   <data name="TiltifyInfo1" xml:space="preserve">
-    <value>Met de Tiltify service connectiviteit kun je acties uitvoeren wanneer een donatie wordt ontvangen. Wanneer je je aanmeldt, wordt er een verificatiewebpagina geopend waarin je wordt gevraagd in te loggen bij Tiltify en Mix It Up goed te keuren om toegang te krijgen tot jouw gegevens. Zodra je Tiltify hebt verbonden, moet je de campagne selecteren die je wilt gebruiken bij het detecteren van donaties.</value>
+    <value>Met de Tiltify service connectiviteit kun je acties uitvoeren wanneer een donatie wordt ontvangen. Wanneer je je aanmeldt, wordt er een verificatiewebpagina geopend waarin je wordt gevraagd in te loggen bij Tiltify en Neuroriot Bot goed te keuren om toegang te krijgen tot jouw gegevens. Zodra je Tiltify hebt verbonden, moet je de campagne selecteren die je wilt gebruiken bij het detecteren van donaties.</value>
   </data>
   <data name="TipeeeStream" xml:space="preserve">
     <value>TipeeeStream</value>
     <comment>Manual</comment>
   </data>
   <data name="TipeeeStreamInfo1" xml:space="preserve">
-    <value>Met de serviceconnectiviteit van TipeeeStream kun je acties uitvoeren wanneer een donatie wordt ontvangen. Wanneer je je aanmeldt, wordt een verificatiewebpagina geopend waarin je wordt gevraagd je aan te melden bij TipeeeStream en Mix It Up goed te keuren om toegang te krijgen tot jouw gegevens.</value>
+    <value>Met de serviceconnectiviteit van TipeeeStream kun je acties uitvoeren wanneer een donatie wordt ontvangen. Wanneer je je aanmeldt, wordt een verificatiewebpagina geopend waarin je wordt gevraagd je aan te melden bij TipeeeStream en Neuroriot Bot goed te keuren om toegang te krijgen tot jouw gegevens.</value>
   </data>
   <data name="TitleHTMLStyle" xml:space="preserve">
     <value>HTML Stijl van Titel</value>
@@ -5796,7 +5796,7 @@ Ingeschakeld. Je kunt het vergelijkbaar zien als het schakelen tussen de optie "
     <comment>Manual</comment>
   </data>
   <data name="TreatStreamInfo1" xml:space="preserve">
-    <value>TreatStream-serviceconnectiviteit stelt je in staat om acties uit te voeren wanneer een traktatie wordt ontvangen. Wanneer je je aanmeldt, wordt een verificatiewebpagina geopend waarin je wordt gevraagd in te loggen bij TreatStream en Mix It Up goed te keuren om toegang te krijgen tot jouw gegevens.</value>
+    <value>TreatStream-serviceconnectiviteit stelt je in staat om acties uit te voeren wanneer een traktatie wordt ontvangen. Wanneer je je aanmeldt, wordt een verificatiewebpagina geopend waarin je wordt gevraagd in te loggen bij TreatStream en Neuroriot Bot goed te keuren om toegang te krijgen tot jouw gegevens.</value>
   </data>
   <data name="TwitterInfo1" xml:space="preserve">
     <value>Met de connectiviteit van de Twitter-service kun je tweets op jouw account verzenden en eenvoudig jouw persoonlijke tweets opvragen voor gebruik binnen jouw stream.</value>
@@ -5811,7 +5811,7 @@ Ingeschakeld. Je kunt het vergelijkbaar zien als het schakelen tussen de optie "
     <value>Breedte (Pixels)</value>
   </data>
   <data name="XSplitConnectionFailed" xml:space="preserve">
-    <value>XSplit verbindingstest is mislukt, zorg ervoor dat je de Mix It Up XSplit extensie hebt toegevoegd en geopend in XSplit.</value>
+    <value>XSplit verbindingstest is mislukt, zorg ervoor dat je de Neuroriot Bot XSplit extensie hebt toegevoegd en geopend in XSplit.</value>
   </data>
   <data name="XSplitConnectionSuccess" xml:space="preserve">
     <value>XSplit verbindingstest geslaagd!</value>
@@ -5823,7 +5823,7 @@ Ingeschakeld. Je kunt het vergelijkbaar zien als het schakelen tussen de optie "
     <value>Met de XSplit service kun je rechtstreeks communiceren met jouw exemplaar van XSplit om wijzigingen in scènes en bronnen uit te voeren.</value>
   </data>
   <data name="XSplitInfo2" xml:space="preserve">
-    <value>De Mix It Up extensie moet worden geïnstalleerd vanuit de XSplit Map en worden uitgevoerd in XSplit. Voor instructies over hoe je dit kunt doen, raadpleeg je de XSplit Servicepagina.</value>
+    <value>De Neuroriot Bot extensie moet worden geïnstalleerd vanuit de XSplit Map en worden uitgevoerd in XSplit. Voor instructies over hoe je dit kunt doen, raadpleeg je de XSplit Servicepagina.</value>
   </data>
   <data name="XSplitServicePage" xml:space="preserve">
     <value>XSplit Servicepagina</value>
@@ -5955,25 +5955,25 @@ Ingeschakeld. Je kunt het vergelijkbaar zien als het schakelen tussen de optie "
     <value>Fout details: </value>
   </data>
   <data name="FailedToConnectToTwitch" xml:space="preserve">
-    <value>Kan geen verbinding maken met Twitch services. Als dit zo doorgaat, ga dan naar de Mix It Up Discord voor hulp.</value>
+    <value>Kan geen verbinding maken met Twitch services. Als dit zo doorgaat, ga dan naar de Neuroriot Bot Discord voor hulp.</value>
   </data>
   <data name="FailedToFinalizeInitialization" xml:space="preserve">
-    <value>De initialisatie kan niet worden voltooid. Als dit zo doorgaat, ga dan naar de Mix It Up Discord voor hulp.</value>
+    <value>De initialisatie kan niet worden voltooid. Als dit zo doorgaat, ga dan naar de Neuroriot Bot Discord voor hulp.</value>
   </data>
   <data name="FailedToGetChannelInformation" xml:space="preserve">
-    <value>Kan kanaalinformatie niet krijgen. Als dit zo doorgaat, ga dan naar de Mix It Up Discord voor hulp.</value>
+    <value>Kan kanaalinformatie niet krijgen. Als dit zo doorgaat, ga dan naar de Neuroriot Bot Discord voor hulp.</value>
   </data>
   <data name="FailedToInitializeBotAccount" xml:space="preserve">
     <value>Bot account kan niet worden geïnitialiseerd</value>
   </data>
   <data name="FailedToInitializeExternalServices" xml:space="preserve">
-    <value>Kan externe services niet initialiseren. Als dit zo doorgaat, ga dan naar de Mix It Up Discord voor hulp.</value>
+    <value>Kan externe services niet initialiseren. Als dit zo doorgaat, ga dan naar de Neuroriot Bot Discord voor hulp.</value>
   </data>
   <data name="FailedToInitializeSettings" xml:space="preserve">
-    <value>Kan instellingen niet initialiseren. Als dit zo doorgaat, ga dan naar de Mix It Up Discord voor hulp.</value>
+    <value>Kan instellingen niet initialiseren. Als dit zo doorgaat, ga dan naar de Neuroriot Bot Discord voor hulp.</value>
   </data>
   <data name="FailedToInitializeStreamerBasedServices" xml:space="preserve">
-    <value>Kan streamerservices niet initialiseren. Als dit zo doorgaat, ga dan naar de Mix It Up Discord voor hulp.</value>
+    <value>Kan streamerservices niet initialiseren. Als dit zo doorgaat, ga dan naar de Neuroriot Bot Discord voor hulp.</value>
   </data>
   <data name="FollowBonusZeroOrMore" xml:space="preserve">
     <value>De Volg Bonus moet groter zijn dan of gelijk zijn aan 0.</value>
@@ -6214,13 +6214,13 @@ Ingeschakeld. Je kunt het vergelijkbaar zien als het schakelen tussen de optie "
     <value>en proberen opnieuw verbinding te maken:</value>
   </data>
   <data name="SessionInitializationFailed" xml:space="preserve">
-    <value>Kan sessie niet initialiseren. Als dit zo doorgaat, ga dan naar de Mix It Up Discord voor hulp.</value>
+    <value>Kan sessie niet initialiseren. Als dit zo doorgaat, ga dan naar de Neuroriot Bot Discord voor hulp.</value>
   </data>
   <data name="SettingsChangedRestartPrompt" xml:space="preserve">
-    <value>Voor sommige instellingen die je hebt gewijzigd, moet je opnieuw opstarten om ze te activeren. Wil je Mix It Up nu opnieuw opstarten?</value>
+    <value>Voor sommige instellingen die je hebt gewijzigd, moet je opnieuw opstarten om ze te activeren. Wil je Neuroriot Bot nu opnieuw opstarten?</value>
   </data>
   <data name="SettingsLoadFailure" xml:space="preserve">
-    <value>Een of meer instellingsbestanden kunnen niet worden geladen. Bezoek de Mix It Up discord voor hulp bij dit probleem.</value>
+    <value>Een of meer instellingsbestanden kunnen niet worden geladen. Bezoek de Neuroriot Bot discord voor hulp bij dit probleem.</value>
   </data>
   <data name="Shadow" xml:space="preserve">
     <value>Schaduw (Optioneel)</value>
@@ -6277,7 +6277,7 @@ Ingeschakeld. Je kunt het vergelijkbaar zien als het schakelen tussen de optie "
     <value>Er moet een opdrachtnaam worden opgegeven voor de handel.</value>
   </data>
   <data name="TwitchAccountExists" xml:space="preserve">
-    <value>Er bestaan al instellingen voor het account {0}. Meld u aan met een ander account of start Mix It Up opnieuw om deze instellingen te selecteren in de vervolgkeuzelijst.</value>
+    <value>Er bestaan al instellingen voor het account {0}. Meld u aan met een ander account of start Neuroriot Bot opnieuw om deze instellingen te selecteren in de vervolgkeuzelijst.</value>
     <comment>{0} is the username</comment>
   </data>
   <data name="TwitchAccountMismatch" xml:space="preserve">
@@ -6290,7 +6290,7 @@ Ingeschakeld. Je kunt het vergelijkbaar zien als het schakelen tussen de optie "
     <value>Elke rang moet een unieke naam en minimumbedrag hebben.</value>
   </data>
   <data name="UpgradePrompt1" xml:space="preserve">
-    <value>We hebben een oudere versie van jouw instellingen gedetecteerd die moeten worden bijgewerkt naar een nieuwere indeling. Afhankelijk van de grootte kan dit enige tijd duren om uit te voeren &amp; is het nodig om Mix It Up te gebruiken.</value>
+    <value>We hebben een oudere versie van jouw instellingen gedetecteerd die moeten worden bijgewerkt naar een nieuwere indeling. Afhankelijk van de grootte kan dit enige tijd duren om uit te voeren &amp; is het nodig om Neuroriot Bot te gebruiken.</value>
   </data>
   <data name="UpgradePrompt2" xml:space="preserve">
     <value>Als je klaar bent om dit te doen, druk je op Ja. Druk anders op Nee en sluit de toepassing om deze later uit te voeren.</value>
@@ -6367,7 +6367,7 @@ Ingeschakeld. Je kunt het vergelijkbaar zien als het schakelen tussen de optie "
     <value>Kan kanaalgegevens niet ophalen</value>
   </data>
   <data name="StreamlabsOBSAdminMaybe" xml:space="preserve">
-    <value>Streamlabs OBS wordt mogelijk uitgevoerd als beheerder en Mix It Up niet. Probeer Mix It Up uit te voeren als beheerder voordat je verbinding maakt.</value>
+    <value>Streamlabs OBS wordt mogelijk uitgevoerd als beheerder en Neuroriot Bot niet. Probeer Neuroriot Bot uit te voeren als beheerder voordat je verbinding maakt.</value>
   </data>
   <data name="StreamlabsOBSFailed" xml:space="preserve">
     <value>Streamlabs OBS kan niet worden bereikt</value>
@@ -6545,17 +6545,17 @@ Ingeschakeld. Je kunt het vergelijkbaar zien als het schakelen tussen de optie "
   <data name="CreateChannelPointRewardFailure" xml:space="preserve">
     <value>Kanaalpunten Beloning kon niet worden gemaakt: {0}
 
-Als dit probleem zich blijft voordoen, ga dan naar de Mix It Up Support Discord voor hulp.</value>
+Als dit probleem zich blijft voordoen, ga dan naar de Neuroriot Bot Support Discord voor hulp.</value>
   </data>
   <data name="CreateChannelPointRewardSuccess" xml:space="preserve">
     <value>Kanaalpunten Beloning succesvol gemaakt! Je kunt deze Kanaalpunten Beloning nu dynamisch bijwerken met de Twitch actie in een opdracht. Gebruik de link op de Kanaalpunten hoofdpagina om de editor op Twitch te bezoeken om je beloning aan te passen.</value>
   </data>
   <data name="TwitchActionChannelPointRewardCouldNotBeUpdated" xml:space="preserve">
-    <value>FOUT: Kan Kanaalpunten Beloning niet bijwerken, probeer het later opnieuw. Als deze beloning niet is gemaakt via de Mix It Up UI, moet je deze verwijderen en opnieuw toevoegen op de pagina Kanaalpunten, omdat ze moeten worden gemaakt via Mix It Up om de app in staat te stellen ze bij te werken.</value>
+    <value>FOUT: Kan Kanaalpunten Beloning niet bijwerken, probeer het later opnieuw. Als deze beloning niet is gemaakt via de Neuroriot Bot UI, moet je deze verwijderen en opnieuw toevoegen op de pagina Kanaalpunten, omdat ze moeten worden gemaakt via Neuroriot Bot om de app in staat te stellen ze bij te werken.</value>
   </data>
   <data name="TwitchActionChannelPointRewardMustBeCreatedInMixItUp" xml:space="preserve">
-    <value>Kanaalpunten Beloningen moeten worden gemaakt via Mix It Up om de app in staat te stellen ze bij te werken.
-Dit kan worden gedaan door te klikken op Kanaalpunt Beloning maken op de pagina Kanaalpunten in Mix It Up.</value>
+    <value>Kanaalpunten Beloningen moeten worden gemaakt via Neuroriot Bot om de app in staat te stellen ze bij te werken.
+Dit kan worden gedaan door te klikken op Kanaalpunt Beloning maken op de pagina Kanaalpunten in Neuroriot Bot.</value>
   </data>
   <data name="FollowEventModeration" xml:space="preserve">
     <value>Volg Gebeurtenis Moderatie</value>
@@ -6616,11 +6616,11 @@ Dit kan worden gedaan door te klikken op Kanaalpunt Beloning maken op de pagina 
     <value>Map Automatische Back-ups</value>
   </data>
   <data name="MixItUpInstallFolder" xml:space="preserve">
-    <value>Mix It Up Installatiemap</value>
+    <value>Neuroriot Bot Installatiemap</value>
   </data>
   <data name="AutomaticBackupFailedToCreate" xml:space="preserve">
     <value>Kan geen automatische back-up maken. Zorg ervoor dat de
-map pad correct is en dat de map pad toegankelijk is voor Mix It Up.</value>
+map pad correct is en dat de map pad toegankelijk is voor Neuroriot Bot.</value>
   </data>
   <data name="ActionList" xml:space="preserve">
     <value>Actielijst</value>
@@ -7047,7 +7047,7 @@ Als je een van de volgende handelingen niet uitvoert, kan dit van invloed zijn o
     <value>Hype Train Gestart</value>
   </data>
   <data name="WebhooksServiceFailedConnection" xml:space="preserve">
-    <value>Kan geen verbinding maken met de Mix It Up Web Hooks service</value>
+    <value>Kan geen verbinding maken met de Neuroriot Bot Web Hooks service</value>
   </data>
   <data name="WebhookEvents" xml:space="preserve">
     <value>Webhook Evenementen</value>
@@ -7378,7 +7378,7 @@ Als je een van de volgende handelingen niet uitvoert, kan dit van invloed zijn o
     <value>YouTube Abonnee</value>
   </data>
   <data name="AccountsChangesRequireRestart" xml:space="preserve">
-    <value>Alle wijzigingen in ingelogde accounts vereisen een volledige herstart van Mix It Up!</value>
+    <value>Alle wijzigingen in ingelogde accounts vereisen een volledige herstart van Neuroriot Bot!</value>
   </data>
   <data name="TwitchAccountMustBeConnectedToUseThisFeature" xml:space="preserve">
     <value>Er moet een Twitch Account zijn gekoppeld om deze functie te kunnen gebruiken</value>
@@ -7543,7 +7543,7 @@ Als je een van de volgende handelingen niet uitvoert, kan dit van invloed zijn o
 In afwachting van import: {1}
 Mislukte import: {2}
 
-Gebruikers die je kanaal nog niet hebben bezocht terwijl Mix It Up actief is, hebben hun gegevensimport in behandeling en worden geïmporteerd wanneer ze het voor het eerst bezoeken.
+Gebruikers die je kanaal nog niet hebben bezocht terwijl Neuroriot Bot actief is, hebben hun gegevensimport in behandeling en worden geïmporteerd wanneer ze het voor het eerst bezoeken.
 
 Mislukte importen kunnen te wijten zijn aan ongeldige gegevens of het niet vinden van hun informatie op het platform. Neem indien nodig contact op met de ondersteuning voor verdere hulp hierbij.</value>
     <comment>{0} is the number of successes, {1} is the number of pending, {2} is the number of failures</comment>
@@ -7855,7 +7855,7 @@ Mislukte importen kunnen te wijten zijn aan ongeldige gegevens of het niet vinde
     <value>Citaten Gegevens importeren</value>
   </data>
   <data name="QuotesDataImportStep1" xml:space="preserve">
-    <value>Hiermee kun je jouw citatengegevens importeren uit een platte tekst- of spreadsheetbestand. Als je een spreadsheetbestand wilt importeren, moet een of andere vorm van Microsoft Excel zijn geïnstalleerd. Houd er rekening mee dat als er al een citaat met dezelfde ID bestaat in Mix It Up, de citaat ID wordt bijgewerkt naar het hoogste nummer. Geef eerst het bestand op waaruit je de gebruikersgegevens wilt importeren:</value>
+    <value>Hiermee kun je jouw citatengegevens importeren uit een platte tekst- of spreadsheetbestand. Als je een spreadsheetbestand wilt importeren, moet een of andere vorm van Microsoft Excel zijn geïnstalleerd. Houd er rekening mee dat als er al een citaat met dezelfde ID bestaat in Neuroriot Bot, de citaat ID wordt bijgewerkt naar het hoogste nummer. Geef eerst het bestand op waaruit je de gebruikersgegevens wilt importeren:</value>
   </data>
   <data name="QuotesDataImportStep2" xml:space="preserve">
     <value>Vervolgens moet je het kolomnummer voor elke waarde in jouw gegevensbestand opgeven of leeg laten als die waarde niet aanwezig is.</value>
@@ -8096,10 +8096,10 @@ Geïmporteerde citaten met ID's die overeenkomen met bestaande citaten, worden g
     <value>Beschikbare Spellen: </value>
   </data>
   <data name="PreMadeChatCommandMixItUp" xml:space="preserve">
-    <value>Dit kanaal gebruikt de Mix It Up-app om hun stream te verbeteren. Bekijk http://mixitupapp.com voor meer informatie!</value>
+    <value>Dit kanaal gebruikt de Neuroriot Bot-app om hun stream te verbeteren. Bekijk http://mixitupapp.com voor meer informatie!</value>
   </data>
   <data name="PreMadeChatCommandMixItUpCommands" xml:space="preserve">
-    <value>Alle vooraf gemaakte Mix It Up chat commando's zijn hier te vinden: https://wiki.mixitupapp.com/commands/pre-made-chat-commands. Voor opdrachten die specifiek zijn voor deze stream, vraag je de streamer/moderator.</value>
+    <value>Alle vooraf gemaakte Neuroriot Bot chat commando's zijn hier te vinden: https://wiki.mixitupapp.com/commands/pre-made-chat-commands. Voor opdrachten die specifiek zijn voor deze stream, vraag je de streamer/moderator.</value>
   </data>
   <data name="PreMadeChatCommandQuotesNotEnabled" xml:space="preserve">
     <value>Citaten moeten zijn ingeschakeld en er moet ten minste één prijsopgave worden toegevoegd om deze functie te laten werken.</value>
@@ -8386,10 +8386,10 @@ Geïmporteerde citaten met ID's die overeenkomen met bestaande citaten, worden g
     <value>Je bevindt je momenteel niet in de wachtrij om te spelen</value>
   </data>
   <data name="SettingsBackupNotValid" xml:space="preserve">
-    <value>Het geselecteerde back-upbestand lijkt geen Mix It Up-instellingen te bevatten.</value>
+    <value>Het geselecteerde back-upbestand lijkt geen Neuroriot Bot-instellingen te bevatten.</value>
   </data>
   <data name="SettingsBackupTooNew" xml:space="preserve">
-    <value>Het back-upbestand is geldig, maar komt uit een nieuwere versie van Mix It Up. Zorg ervoor dat je een upgrade uitvoert naar de nieuwste versie.
+    <value>Het back-upbestand is geldig, maar komt uit een nieuwere versie van Neuroriot Bot. Zorg ervoor dat je een upgrade uitvoert naar de nieuwste versie.
 
 OPMERKING: Hiervoor moet je je mogelijk aanmelden voor de Preview-build via het tabblad Algemeen in Instellingen als dit is gemaakt in een Preview-build.</value>
   </data>
@@ -8540,7 +8540,7 @@ We zullen proberen indien mogelijk opnieuw verbinding te maken met de service. A
 {1} is the number of points</comment>
   </data>
   <data name="FailedToInitializeSession" xml:space="preserve">
-    <value>Kan sessie niet initialiseren. Als dit zo doorgaat, ga dan naar de Mix It Up Discord voor hulp.</value>
+    <value>Kan sessie niet initialiseren. Als dit zo doorgaat, ga dan naar de Neuroriot Bot Discord voor hulp.</value>
   </data>
   <data name="FileIsNotInCorrectFormat" xml:space="preserve">
     <value>Bestand is niet in het juiste formaat</value>
@@ -8564,7 +8564,7 @@ We zullen proberen indien mogelijk opnieuw verbinding te maken met de service. A
     <value>Ten minste 1 streameraccount moet zijn aangemeld</value>
   </data>
   <data name="SettingsAlreadyExistForAccount" xml:space="preserve">
-    <value>Er bestaan al instellingen met hetzelfde account voor {0}. Meld je aan met een ander account of start Mix It Up opnieuw om deze instellingen te selecteren in de drop-down.</value>
+    <value>Er bestaan al instellingen met hetzelfde account voor {0}. Meld je aan met een ander account of start Neuroriot Bot opnieuw om deze instellingen te selecteren in de drop-down.</value>
     <comment>{0} is the name of the streaming platform</comment>
   </data>
   <data name="SettingsNoFileHasBeenLoaded" xml:space="preserve">
@@ -8619,10 +8619,10 @@ We zullen proberen indien mogelijk opnieuw verbinding te maken met de service. A
     <value>De volgende opdrachten kunnen automatisch worden gemaakt zodat je aan de slag kunt met deze functie. Wil je dat wij automatisch de volgende opdrachten voor je toevoegen?</value>
   </data>
   <data name="MixItUpPopOut" xml:space="preserve">
-    <value>Mix It Up - Pop Out</value>
+    <value>Neuroriot Bot - Pop Out</value>
   </data>
   <data name="MixItUpNewUserWizard" xml:space="preserve">
-    <value>Mix It Up - Wizard Nieuwe Gebruiker</value>
+    <value>Neuroriot Bot - Wizard Nieuwe Gebruiker</value>
   </data>
   <data name="UserEditor" xml:space="preserve">
     <value>Gebruikers Editor</value>
@@ -8631,7 +8631,7 @@ We zullen proberen indien mogelijk opnieuw verbinding te maken met de service. A
     <value>&lt; Terug</value>
   </data>
   <data name="WizardCommands1" xml:space="preserve">
-    <value>Mix It Up gebruikt een Opdracht &amp; Actie structuur voor alles in de app. Zie het als een recept dat je zou volgen om voedsel te maken.</value>
+    <value>Neuroriot Bot gebruikt een Opdracht &amp; Actie structuur voor alles in de app. Zie het als een recept dat je zou volgen om voedsel te maken.</value>
   </data>
   <data name="WizardCommands2" xml:space="preserve">
     <value>Stel dat je wat pasta wilde maken; je zou de stappen in het recept achter elkaar volgen totdat je klaar bent. Je zou ook elke stap volgen in de volgorde waarin ze zijn opgegeven. Je moet bijvoorbeeld het water verwarmen voordat je de pasta kunt toevoegen.</value>
@@ -8643,7 +8643,7 @@ We zullen proberen indien mogelijk opnieuw verbinding te maken met de service. A
     <value>In dit voorbeeld stuurt onze opdracht shout-out een bericht naar chat, speelt een geluid af, wacht 10 seconden en toont vervolgens een afbeelding. Elk van deze komt overeen met een ander actietype (Chat, Geluid, Wachten en Overlay).</value>
   </data>
   <data name="WizardFinal1" xml:space="preserve">
-    <value>Mix It Up is alleen een desktop applicatie, dus uw instellingen en gegevens bestaan alleen op jouw computer. Daarom moedigen we gebruikers aan om automatische back-ups voor je instellingen in te stellen om ervoor te zorgen dat je altijd iets hebt om op terug te vallen in het geval van problemen:</value>
+    <value>Neuroriot Bot is alleen een desktop applicatie, dus uw instellingen en gegevens bestaan alleen op jouw computer. Daarom moedigen we gebruikers aan om automatische back-ups voor je instellingen in te stellen om ervoor te zorgen dat je altijd iets hebt om op terug te vallen in het geval van problemen:</value>
   </data>
   <data name="WizardFinal2" xml:space="preserve">
     <value>Weet je niet hoe een functie werkt of wil je meer informatie? Klik gewoon op het Help pictogram in de bovenste balk van het hoofdvenster voor meer informatie!</value>
@@ -8652,10 +8652,10 @@ We zullen proberen indien mogelijk opnieuw verbinding te maken met de service. A
     <value>Vergeet niet de volgende bronnen die voor ke beschikbaar zijn voor vragen en ondersteuning:</value>
   </data>
   <data name="WizardFinal4" xml:space="preserve">
-    <value>Bedankt voor het gebruik van Mix It Up en we hopen dat het aan al je behoeften voldoet!</value>
+    <value>Bedankt voor het gebruik van Neuroriot Bot en we hopen dat het aan al je behoeften voldoet!</value>
   </data>
   <data name="WizardIntro1" xml:space="preserve">
-    <value>Deze wizard helpt je aan de slag te gaan met Mix It Up door je aan te melden bij jouw streamingplatform accounts, je te helpen jouw bestaande gegevens van sommige bots te importeren en je door enkele touwen van hoe dingen werken te leiden.</value>
+    <value>Deze wizard helpt je aan de slag te gaan met Neuroriot Bot door je aan te melden bij jouw streamingplatform accounts, je te helpen jouw bestaande gegevens van sommige bots te importeren en je door enkele touwen van hoe dingen werken te leiden.</value>
   </data>
   <data name="WizardIntro2" xml:space="preserve">
     <value>Voordat we aan de slag gaan, willen we je op de hoogte brengen van enkele geweldige bronnen die je kunt gebruiken om je te helpen met problemen of om je ideeën te geven over dingen die je kunt maken. Klik op een van de onderstaande knoppen om naar die bron te gaan:</value>
@@ -8676,10 +8676,10 @@ We zullen proberen indien mogelijk opnieuw verbinding te maken met de service. A
     <value>Volgende &gt;</value>
   </data>
   <data name="MixItUpLogin" xml:space="preserve">
-    <value>Mix It Up - Inloggen</value>
+    <value>Neuroriot Bot - Inloggen</value>
   </data>
   <data name="ANewUpdateIsAvailableForMixItUp" xml:space="preserve">
-    <value>Er is een nieuwe update beschikbaar voor Mix It Up!</value>
+    <value>Er is een nieuwe update beschikbaar voor Neuroriot Bot!</value>
   </data>
   <data name="CurrentVersion" xml:space="preserve">
     <value>Huidige versie</value>
@@ -8688,7 +8688,7 @@ We zullen proberen indien mogelijk opnieuw verbinding te maken met de service. A
     <value>Als de update niet wordt voltooid en je wordt gevraagd opnieuw bij te werken, start je de computer eerst opnieuw op en probeert je het vervolgens opnieuw.</value>
   </data>
   <data name="MixItUpUpdateAvailable" xml:space="preserve">
-    <value>Mix It Up - Update Beschikbaar</value>
+    <value>Neuroriot Bot - Update Beschikbaar</value>
   </data>
   <data name="NewVersion" xml:space="preserve">
     <value>Nieuwe Versie</value>
@@ -8722,11 +8722,11 @@ We zullen proberen indien mogelijk opnieuw verbinding te maken met de service. A
     <comment>{0} is the name of the user</comment>
   </data>
   <data name="UsersSuccessfullyFoundUser" xml:space="preserve">
-    <value>De gebruiker {0} was met succes gevonden en toegevoegd in Mix It Up</value>
+    <value>De gebruiker {0} was met succes gevonden en toegevoegd in Neuroriot Bot</value>
     <comment>{0} is the name of the user</comment>
   </data>
   <data name="AddUserDescription" xml:space="preserve">
-    <value>Selecteer het streaming platform en de naam van de gebruiker om deze te vinden. Als de gebruiker met succes is gevonden, zal hun gebruikersdata worden toegevoegd in Mix It Up zodat jij het kan gebruiken.</value>
+    <value>Selecteer het streaming platform en de naam van de gebruiker om deze te vinden. Als de gebruiker met succes is gevonden, zal hun gebruikersdata worden toegevoegd in Neuroriot Bot zodat jij het kan gebruiken.</value>
   </data>
   <data name="ChatUserEntranceCommand" xml:space="preserve">
     <value>Chat Gebruiker Ingang Opdracht</value>
@@ -8776,10 +8776,10 @@ We zullen proberen indien mogelijk opnieuw verbinding te maken met de service. A
 Image Files|*.bmp;*.gif;*.jpg;*.jpeg;*.png;|All files (*.*)|*.*</value>
   </data>
   <data name="MixItUpBackupFileFormatFilter" xml:space="preserve">
-    <value>Mix It Up Backup|*.miubackup|All files (*.*)|*.*</value>
+    <value>Neuroriot Bot Backup|*.miubackup|All files (*.*)|*.*</value>
   </data>
   <data name="MixItUpCommandFileFormatFilter" xml:space="preserve">
-    <value>Mix It Up Command|*.miucommand|All files (*.*)|*.*</value>
+    <value>Neuroriot Bot Command|*.miucommand|All files (*.*)|*.*</value>
   </data>
   <data name="SoundFileFormatFilter" xml:space="preserve">
     <value>Sound Files|*.mp3;*.wav|All files (*.*)|*.*</value>
@@ -8806,13 +8806,13 @@ Image Files|*.bmp;*.gif;*.jpg;*.jpeg;*.png;|All files (*.*)|*.*</value>
     <value>Please enter a valid Extra Life participant ID.</value>
   </data>
   <data name="BackupGenerationFailed" xml:space="preserve">
-    <value>Backup file failed to generate. If this continues, please visit the Mix It Up support Discord for further assistance.</value>
+    <value>Backup file failed to generate. If this continues, please visit the Neuroriot Bot support Discord for further assistance.</value>
   </data>
   <data name="Transparent" xml:space="preserve">
     <value>Transparent</value>
   </data>
   <data name="MixItUpServices" xml:space="preserve">
-    <value>Mix It Up Services</value>
+    <value>Neuroriot Bot Services</value>
   </data>
   <data name="DisableAnimatedEmotes" xml:space="preserve">
     <value>Disable Animated Emotes</value>
@@ -8863,7 +8863,7 @@ Image Files|*.bmp;*.gif;*.jpg;*.jpeg;*.png;|All files (*.*)|*.*</value>
     <value>Glimesh Channel Donation</value>
   </data>
   <data name="MixItUpIsAlreadyRunning" xml:space="preserve">
-    <value>Mix It Up is already running! Unless you meant to do this, please shut down any existing instances of Mix It Up before trying to run a new instance. Do you still want to continue running this instance of Mix It Up?</value>
+    <value>Neuroriot Bot is already running! Unless you meant to do this, please shut down any existing instances of Neuroriot Bot before trying to run a new instance. Do you still want to continue running this instance of Neuroriot Bot?</value>
   </data>
   <data name="EnableStreamlabsDesktop" xml:space="preserve">
     <value>Please enable Streamlabs Desktop connection on the Services page!</value>
@@ -8879,7 +8879,7 @@ Image Files|*.bmp;*.gif;*.jpg;*.jpeg;*.png;|All files (*.*)|*.*</value>
     <value>The Streamlabs Desktop service allows you to directly interact with your instance of Streamlabs Desktop to perform changes to scenes and sources.</value>
   </data>
   <data name="StreamlabsDesktopAdminMaybe" xml:space="preserve">
-    <value>Streamlabs Desktop might be running as administrator and Mix It Up is not. Try running Mix It Up as an Administrator before connecting.</value>
+    <value>Streamlabs Desktop might be running as administrator and Neuroriot Bot is not. Try running Neuroriot Bot as an Administrator before connecting.</value>
   </data>
   <data name="StreamlabsDesktopFailed" xml:space="preserve">
     <value>Streamlabs Desktop could not be reached</value>
@@ -9234,10 +9234,10 @@ namespace CustomNamespace
     <value>LoupeDeck</value>
   </data>
   <data name="LoupeDeckInfo1" xml:space="preserve">
-    <value>This LoupeDeck plug-in allows you to run Mix It Up commands directly from your LoupeDeck device, as well as other status information about your stream.</value>
+    <value>This LoupeDeck plug-in allows you to run Neuroriot Bot commands directly from your LoupeDeck device, as well as other status information about your stream.</value>
   </data>
   <data name="LoupeDeckInfo2" xml:space="preserve">
-    <value>To get started, ensure the LoupeDeck software is updated to the latest version &amp; the Developer API service is enabled in Mix It Up. To install the Mix It Up plugin, click on the Marketplace icon at the top right of your LoupeDeck software, then search for "Mix It Up".</value>
+    <value>To get started, ensure the LoupeDeck software is updated to the latest version &amp; the Developer API service is enabled in Neuroriot Bot. To install the Neuroriot Bot plugin, click on the Marketplace icon at the top right of your LoupeDeck software, then search for "Neuroriot Bot".</value>
   </data>
   <data name="ShellExecute" xml:space="preserve">
     <value>Shell Execute</value>
@@ -9255,7 +9255,7 @@ namespace CustomNamespace
     <value>Twitch custom tags must be 25 characters or less and only contain letters and numbers</value>
   </data>
   <data name="StreamlabDesktopAdminMaybe" xml:space="preserve">
-    <value>Streamlabs Desktop might be running as administrator and Mix It Up is not. Try running Mix It Up as an Administrator before connecting.</value>
+    <value>Streamlabs Desktop might be running as administrator and Neuroriot Bot is not. Try running Neuroriot Bot as an Administrator before connecting.</value>
   </data>
   <data name="ShadowColor" xml:space="preserve">
     <value>Shadow Color</value>

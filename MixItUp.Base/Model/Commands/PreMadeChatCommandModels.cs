@@ -73,7 +73,7 @@ namespace MixItUp.Base.Model.Commands
 
     public class MixItUpPreMadeChatCommandModel : PreMadeChatCommandModelBase
     {
-        public MixItUpPreMadeChatCommandModel() : base("Mix It Up", "mixitup", 5, UserRoleEnum.User) { }
+        public MixItUpPreMadeChatCommandModel() : base("Neuroriot Bot", "mixitup", 5, UserRoleEnum.User) { }
 
         public override async Task CustomRun(CommandParametersModel parameters)
         {

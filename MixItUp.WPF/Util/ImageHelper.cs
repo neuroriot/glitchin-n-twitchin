@@ -13,9 +13,9 @@ namespace MixItUp.WPF.Util
 {
     public static class ImageHelper
     {
-        private static ICacheManager<WriteableBitmap> bitmapCache = CacheFactory.Build<WriteableBitmap>(settings => settings
-                                                                                                        .WithSystemRuntimeCacheHandle()
-                                                                                                        .WithExpiration(ExpirationMode.Sliding, TimeSpan.FromMinutes(30)));
+        private static ICacheManager<WriteableBitmap> bitmapCache = CacheFactory.Build<WriteableBitmap>(settings => settings.WithUpdateMode(CacheUpdateMode.None));
+                                                                                                        //.WithSystemRuntimeCacheHandle()
+                                                                                                        //.WithExpiration(ExpirationMode.Sliding, TimeSpan.FromMinutes(30)));
 
         public static void SetImageSource(Image image, string path, double width, double height, string tooltip = "")
         {

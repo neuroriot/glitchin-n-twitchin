@@ -336,6 +336,9 @@ namespace MixItUp.Base.Model.Actions
                     iframeHTML = OverlayV3Service.ReplaceProperty(iframeHTML, EntranceAnimationNamePropertyName, this.EntranceAnimation.AnimationName);
                     iframeHTML = OverlayV3Service.ReplaceProperty(iframeHTML, ExitAnimationFrameworkPropertyName, this.ExitAnimation.AnimationFramework);
                     iframeHTML = OverlayV3Service.ReplaceProperty(iframeHTML, ExitAnimationNamePropertyName, this.ExitAnimation.AnimationName);
+
+                    duration = duration*1;
+
                     iframeHTML = OverlayV3Service.ReplaceProperty(iframeHTML, nameof(this.Duration), duration);
 
                     iframeHTML = await SpecialIdentifierStringBuilder.ProcessSpecialIdentifiers(iframeHTML, parameters);

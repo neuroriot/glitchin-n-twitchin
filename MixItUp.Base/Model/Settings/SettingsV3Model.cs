@@ -44,7 +44,7 @@ namespace MixItUp.Base.Model.Settings
         {
             if (await DialogHelper.ShowConfirmation(Resources.RestoreSettingsConfirmation))
             {
-                string filePath = ServiceManager.Get<IFileService>().ShowOpenFileDialog(string.Format("Mix It Up Settings V2 Backup (*.{0})|*.{0}|All files (*.*)|*.*", SettingsV3Model.SettingsBackupFileExtension));
+                string filePath = ServiceManager.Get<IFileService>().ShowOpenFileDialog(string.Format("Neuroriot Bot Settings V2 Backup (*.{0})|*.{0}|All files (*.*)|*.*", SettingsV3Model.SettingsBackupFileExtension));
                 if (!string.IsNullOrEmpty(filePath))
                 {
                     Result<SettingsV3Model> result = await ServiceManager.Get<SettingsService>().RestorePackagedBackup(filePath);
@@ -924,10 +924,12 @@ namespace MixItUp.Base.Model.Settings
             {
                 this.PulsoidOAuthToken = ServiceManager.Get<PulsoidService>().GetOAuthTokenCopy();
             }
+            /*
             if (ServiceManager.Get<ITTSMonsterService>().IsConnected)
             {
                 this.TTSMonsterOAuthToken = ServiceManager.Get<ITTSMonsterService>().GetOAuthTokenCopy();
             }
+            */
         }
 
         public async Task SaveDatabaseData()

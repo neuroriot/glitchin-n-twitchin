@@ -134,7 +134,7 @@
     <comment>Manual</comment>
   </data>
   <data name="AccessTheFolderWhereMixItUpIsInstalled" xml:space="preserve">
-    <value>Mix It Up がインストールされているフォルダーにアクセスする</value>
+    <value>Neuroriot Bot がインストールされているフォルダーにアクセスする</value>
     <comment>Manual</comment>
   </data>
   <data name="Account" xml:space="preserve">
@@ -158,7 +158,7 @@
     <comment>Manual</comment>
   </data>
   <data name="AccountsDetails" xml:space="preserve">
-    <value>ストリーマーアカウントは、ストリーミングを行う実際のアカウントです。ボット アカウントは、チャネル内でメッセージを送信するために使用できる、オプションのアカウントです。ボットアカウントは手動で作成する必要があり、Mix It Up で接続する前に、それらにサインインしていることを確認する必要があります。</value>
+    <value>ストリーマーアカウントは、ストリーミングを行う実際のアカウントです。ボット アカウントは、チャネル内でメッセージを送信するために使用できる、オプションのアカウントです。ボットアカウントは手動で作成する必要があり、Neuroriot Bot で接続する前に、それらにサインインしていることを確認する必要があります。</value>
     <comment>Manual</comment>
   </data>
   <data name="AccountsWizardInstructions" xml:space="preserve">
@@ -2301,7 +2301,7 @@
     <comment>Manual</comment>
   </data>
   <data name="TranslationBy" xml:space="preserve">
-    <value>Mix It Up</value>
+    <value>Neuroriot Bot</value>
     <comment>Manual</comment>
   </data>
   <data name="TweetImageURL" xml:space="preserve">
@@ -2384,7 +2384,7 @@
     <value>ユーザー データのインポート</value>
   </data>
   <data name="UserDataStep1" xml:space="preserve">
-    <value>これにより、チャンネルのユーザデータをプレーンテキストファイルまたはスプレッドシートファイルからインポートできます。スプレッドシート ファイルをインポートするには、Excel の形式をインストールしておく必要があります。これは Mix It Up の既存のユーザー データを上書きします。まず、ユーザー データのインポート元のファイルを指定します。</value>
+    <value>これにより、チャンネルのユーザデータをプレーンテキストファイルまたはスプレッドシートファイルからインポートできます。スプレッドシート ファイルをインポートするには、Excel の形式をインストールしておく必要があります。これは Neuroriot Bot の既存のユーザー データを上書きします。まず、ユーザー データのインポート元のファイルを指定します。</value>
     <comment>Manual</comment>
   </data>
   <data name="UserDataStep2" xml:space="preserve">
@@ -3156,11 +3156,11 @@
     <value>購読していない</value>
   </data>
   <data name="AutoLogInCurrentAccountTooltip" xml:space="preserve">
-    <value>自動ログイン設定では、Mix It Upは、現在サインインしているユーザーアカウントに自動的にログインできます。注: Mix It Up アップデートがある場合、またはサービス アカウントを再認証する必要がある場合は、この場合は手動でログインする必要があります。</value>
+    <value>自動ログイン設定では、Neuroriot Botは、現在サインインしているユーザーアカウントに自動的にログインできます。注: Neuroriot Bot アップデートがある場合、またはサービス アカウントを再認証する必要がある場合は、この場合は手動でログインする必要があります。</value>
     <comment>Manual</comment>
   </data>
   <data name="OptOutofDataTrackingTooltip" xml:space="preserve">
-    <value>このオプションを使用すると、バックエンドサービスを介してデータの追跡をオプトアウトすることができます。アプリの使用状況とクラッシュに関するデータを追跡し、エクスペリエンスを向上させます。このオプションを選択すると、このデータの追跡はすべて停止します。これは、Mix It Up ストアコマンドのアップロードとレビューに含まれるデータを無効にしないことに注意してください。</value>
+    <value>このオプションを使用すると、バックエンドサービスを介してデータの追跡をオプトアウトすることができます。アプリの使用状況とクラッシュに関するデータを追跡し、エクスペリエンスを向上させます。このオプションを選択すると、このデータの追跡はすべて停止します。これは、Neuroriot Bot ストアコマンドのアップロードとレビューに含まれるデータを無効にしないことに注意してください。</value>
     <comment>Manual</comment>
   </data>
   <data name="UpdatePreviewProgramTooltip" xml:space="preserve">
@@ -3179,7 +3179,7 @@
     <comment>Manual</comment>
   </data>
   <data name="UnlockAllCommandTypesTooltip" xml:space="preserve">
-    <value>Mix It Upは、1つのコマンドタイプ(チャット、インタラクティブなど)が同時に実行できることを保証し、各コマンドが実行された順序で終了することを保証するコマンドロック機能でビルドしています。このオプションを使用すると、ALL コマンドのロックを無効にできます。これは、いくつかの予期せぬ問題を引き起こす可能性があることに注意してください, 注意して使用してください.</value>
+    <value>Neuroriot Botは、1つのコマンドタイプ(チャット、インタラクティブなど)が同時に実行できることを保証し、各コマンドが実行された順序で終了することを保証するコマンドロック機能でビルドしています。このオプションを使用すると、ALL コマンドのロックを無効にできます。これは、いくつかの予期せぬ問題を引き起こす可能性があることに注意してください, 注意して使用してください.</value>
     <comment>Manual</comment>
   </data>
   <data name="ClearAllUserDataWarning" xml:space="preserve">
@@ -3231,7 +3231,7 @@
     <comment>Manual</comment>
   </data>
   <data name="DiagnosticLoggingToolip" xml:space="preserve">
-    <value>診断ログは、Mix It Up の実行中に実行される内容の追加情報をログアウトすることで、特定の問題を診断するのに役立ちます。これらのログは通常のログとの比較で通常の巨大であるため、これは Mix It Up 開発者が具体的に助言した場合にのみ行い、問題が解決された直後に無効にする必要があります。</value>
+    <value>診断ログは、Neuroriot Bot の実行中に実行される内容の追加情報をログアウトすることで、特定の問題を診断するのに役立ちます。これらのログは通常のログとの比較で通常の巨大であるため、これは Neuroriot Bot 開発者が具体的に助言した場合にのみ行い、問題が解決された直後に無効にする必要があります。</value>
     <comment>Manual</comment>
   </data>
   <data name="ShowBetterTTVEmotes" xml:space="preserve">
@@ -5449,16 +5449,16 @@ Fuzzy</comment>
     <value>ローカル ネットワークに開く (管理者として実行する必要があります):</value>
   </data>
   <data name="DeveloperAPIInfo" xml:space="preserve">
-    <value>開発者 API では、一連の REST API サービスを使用して、コンピュータ上で実行されている他のアプリケーションから Mix It Up との高度な対話を可能にします。詳細については、開発者 API Wiki ページを参照してください。</value>
+    <value>開発者 API では、一連の REST API サービスを使用して、コンピュータ上で実行されている他のアプリケーションから Neuroriot Bot との高度な対話を可能にします。詳細については、開発者 API Wiki ページを参照してください。</value>
   </data>
   <data name="DeveloperAPIWarning" xml:space="preserve">
     <value>警告: これにより、開発者 API がすべてのアドレスをリッスンし、ネットワークの外部からの発信者にミックス・イット・アップを開く場合があります。あなたが何をしているか分かっている場合にのみ、このオプションを使用してください!</value>
   </data>
   <data name="DiscordInfo1" xml:space="preserve">
-    <value>不調和サービス接続を使用すると、不和アカウントに関する情報を取得し、チャンネルにメッセージを送信し、音声チャンネルから音声を制御することができます。ログインすると、認証ウェブページが開き、不和にログインし、あなたの情報にアクセスするためにMix It Upを承認するように求めます。</value>
+    <value>不調和サービス接続を使用すると、不和アカウントに関する情報を取得し、チャンネルにメッセージを送信し、音声チャンネルから音声を制御することができます。ログインすると、認証ウェブページが開き、不和にログインし、あなたの情報にアクセスするためにNeuroriot Botを承認するように求めます。</value>
   </data>
   <data name="DiscordInfo2" xml:space="preserve">
-    <value>デフォルトの Mix It Up 不和アプリケーションには、各不和アクションの間に 30 秒間のクールダウンがあり、すべてのユーザーのレート制限の問題を防ぎます。30 秒のクールダウンを回避するには、独自のカスタム不和アプリケーションを作成できます。</value>
+    <value>デフォルトの Neuroriot Bot 不和アプリケーションには、各不和アクションの間に 30 秒間のクールダウンがあり、すべてのユーザーのレート制限の問題を防ぎます。30 秒のクールダウンを回避するには、独自のカスタム不和アプリケーションを作成できます。</value>
   </data>
   <data name="DiscordInvalidBotToken" xml:space="preserve">
     <value>有効なカスタム ボット トークンを入力してください。</value>
@@ -5495,7 +5495,7 @@ Fuzzy</comment>
     <value>オーバーレイ接続テストが失敗した場合、ストリーミングソフトウェアで[ミックスアップオーバーレイ]ページが表示され、実行されていることを確認してください。</value>
   </data>
   <data name="OverlayConnectionFailed2" xml:space="preserve">
-    <value>Mix It Up の前にストリーミングソフトウェアを起動した場合は、ストリーミングソフトウェアのウェブページソースを更新してみてください。</value>
+    <value>Neuroriot Bot の前にストリーミングソフトウェアを起動した場合は、ストリーミングソフトウェアのウェブページソースを更新してみてください。</value>
   </data>
   <data name="OverlayConnectionSuccess" xml:space="preserve">
     <value>オーバーレイ接続テストが成功しました!</value>
@@ -5572,7 +5572,7 @@ Fuzzy</comment>
     <comment>Manual</comment>
   </data>
   <data name="JustGivingInfo1" xml:space="preserve">
-    <value>JustGiving サービス接続を使用すると、寄付を受け取ったときにアクションを実行できます。ログインすると、認証ウェブページが開き、JustGivingにログインし、あなたの情報にアクセスするためにMix It Upを承認するように求めます。</value>
+    <value>JustGiving サービス接続を使用すると、寄付を受け取ったときにアクションを実行できます。ログインすると、認証ウェブページが開き、JustGivingにログインし、あなたの情報にアクセスするためにNeuroriot Botを承認するように求めます。</value>
   </data>
   <data name="LayerPosition" xml:space="preserve">
     <value>レイヤーの位置</value>
@@ -5628,7 +5628,7 @@ Fuzzy</comment>
     <comment>Manual</comment>
   </data>
   <data name="PatreonInfo1" xml:space="preserve">
-    <value>Patreonサービス接続により、寄付を受け取ったときにアクションを実行できます。ログインすると、認証ウェブページが開き、Patreonにログインして、あなたの情報にアクセスするためにMix It Upを承認するように求める。</value>
+    <value>Patreonサービス接続により、寄付を受け取ったときにアクションを実行できます。ログインすると、認証ウェブページが開き、Patreonにログインして、あなたの情報にアクセスするためにNeuroriot Botを承認するように求める。</value>
   </data>
   <data name="Percentage" xml:space="preserve">
     <value>百分率</value>
@@ -5699,10 +5699,10 @@ Fuzzy</comment>
     <comment>Manual</comment>
   </data>
   <data name="StreamDeckInfo1" xml:space="preserve">
-    <value>このストリームデッキプラグインを使用すると、ストリームデッキデバイスから直接Mix It Upコマンドを実行でき、ストリームに関するその他のステータス情報も実行できます。</value>
+    <value>このストリームデッキプラグインを使用すると、ストリームデッキデバイスから直接Neuroriot Botコマンドを実行でき、ストリームに関するその他のステータス情報も実行できます。</value>
   </data>
   <data name="StreamDeckInfo2" xml:space="preserve">
-    <value>開始するには、Stream Deck ソフトウェアが少なくともバージョン 4.0 に更新され、開発者 API サービスが Mix It Up で有効になっていることを確認します。Mix It Up プラグインをインストールするには、「その他のアクション.」をクリックします。ボタンをクリックし、ウィンドウで「ミックス・イット・アップ」を検索します。</value>
+    <value>開始するには、Stream Deck ソフトウェアが少なくともバージョン 4.0 に更新され、開発者 API サービスが Neuroriot Bot で有効になっていることを確認します。Neuroriot Bot プラグインをインストールするには、「その他のアクション.」をクリックします。ボタンをクリックし、ウィンドウで「ミックス・イット・アップ」を検索します。</value>
     <comment>Fuzzy</comment>
   </data>
   <data name="StreamElements" xml:space="preserve">
@@ -5710,7 +5710,7 @@ Fuzzy</comment>
     <comment>Manual</comment>
   </data>
   <data name="StreamElementsInfo1" xml:space="preserve">
-    <value>StreamElements サービス接続を使用すると、寄付を受け取ったときにアクションを実行できます。ログインすると、認証ウェブページが開き、StreamElementsにログインし、あなたの情報にアクセスするためにMix It Upを承認するように求めます。</value>
+    <value>StreamElements サービス接続を使用すると、寄付を受け取ったときにアクションを実行できます。ログインすると、認証ウェブページが開き、StreamElementsにログインし、あなたの情報にアクセスするためにNeuroriot Botを承認するように求めます。</value>
   </data>
   <data name="StreamingSoftwareSourceName" xml:space="preserve">
     <value>ストリーミング ソフトウェア ソース名</value>
@@ -5719,10 +5719,10 @@ Fuzzy</comment>
     <value>レインメーカー</value>
   </data>
   <data name="RainmakerInfo1" xml:space="preserve">
-    <value>Rainmaker サービス接続では、寄付を受け取ったときにアクションを実行できます。ログインすると、認証ウェブページが開き、Rainmakerにログインし、あなたの情報にアクセスするためにMix It Upを承認するように求めます。</value>
+    <value>Rainmaker サービス接続では、寄付を受け取ったときにアクションを実行できます。ログインすると、認証ウェブページが開き、Rainmakerにログインし、あなたの情報にアクセスするためにNeuroriot Botを承認するように求めます。</value>
   </data>
   <data name="StreamlabsInfo1" xml:space="preserve">
-    <value>Streamlabs サービス接続では、寄付を受け取ったときにアクションを実行できます。ログインすると、認証ウェブページが開き、Streamlabsにログインし、情報にアクセスするためにMix It Upを承認するように求める。</value>
+    <value>Streamlabs サービス接続では、寄付を受け取ったときにアクションを実行できます。ログインすると、認証ウェブページが開き、Streamlabsにログインし、情報にアクセスするためにNeuroriot Botを承認するように求める。</value>
   </data>
   <data name="StreamlabsOBSConnectionFailed" xml:space="preserve">
     <value>ストリームラボ OBS 接続テストに失敗しました。</value>
@@ -5767,14 +5767,14 @@ Fuzzy</comment>
     <comment>Manual</comment>
   </data>
   <data name="TiltifyInfo1" xml:space="preserve">
-    <value>Tiltify サービス接続では、寄付を受け取ったときにアクションを実行できます。ログインすると、認証ウェブページが開き、Tiltifyにログインし、あなたの情報にアクセスするためにMix It Upを承認するように求める。Tiltifyを接続したら、寄付を検出するときに使用するキャンペーンを選択する必要があります。</value>
+    <value>Tiltify サービス接続では、寄付を受け取ったときにアクションを実行できます。ログインすると、認証ウェブページが開き、Tiltifyにログインし、あなたの情報にアクセスするためにNeuroriot Botを承認するように求める。Tiltifyを接続したら、寄付を検出するときに使用するキャンペーンを選択する必要があります。</value>
   </data>
   <data name="TipeeeStream" xml:space="preserve">
     <value>TipeeeStream</value>
     <comment>Manual</comment>
   </data>
   <data name="TipeeeStreamInfo1" xml:space="preserve">
-    <value>TipeeStream サービス接続では、寄付を受け取ったときにアクションを実行できます。ログインすると、認証ウェブページが開き、TipeeeStreamにログインし、あなたの情報にアクセスするためにMix It Upを承認するように求めます。</value>
+    <value>TipeeStream サービス接続では、寄付を受け取ったときにアクションを実行できます。ログインすると、認証ウェブページが開き、TipeeeStreamにログインし、あなたの情報にアクセスするためにNeuroriot Botを承認するように求めます。</value>
   </data>
   <data name="TitleHTMLStyle" xml:space="preserve">
     <value>タイトル HTML スタイル</value>
@@ -5791,7 +5791,7 @@ Fuzzy</comment>
     <comment>Manual</comment>
   </data>
   <data name="TreatStreamInfo1" xml:space="preserve">
-    <value>TreatStream サービス接続を使用すると、処置を受けたときにアクションを実行できます。ログインすると、認証ウェブページが開き、TreatStreamにログインし、あなたの情報にアクセスするためにMix It Upを承認するように求めます。</value>
+    <value>TreatStream サービス接続を使用すると、処置を受けたときにアクションを実行できます。ログインすると、認証ウェブページが開き、TreatStreamにログインし、あなたの情報にアクセスするためにNeuroriot Botを承認するように求めます。</value>
   </data>
   <data name="TwitterInfo1" xml:space="preserve">
     <value>Twitterサービスの接続機能を使用すると、アカウントでツイートを送信し、ストリーム内で使用するために個人のツイートを簡単に問い合わせることができます。</value>
@@ -5818,7 +5818,7 @@ Fuzzy</comment>
     <value>XSplit サービスを使用すると、XSplit のインスタンスと直接対話して、シーンやソースに対する変更を実行できます。</value>
   </data>
   <data name="XSplitInfo2" xml:space="preserve">
-    <value>Mix It Up 拡張機能は、XSplit フォルダからインストールされ、XSplit で実行されている必要があります。この操作方法については、XSplit サービスページを参照してください。</value>
+    <value>Neuroriot Bot 拡張機能は、XSplit フォルダからインストールされ、XSplit で実行されている必要があります。この操作方法については、XSplit サービスページを参照してください。</value>
   </data>
   <data name="XSplitServicePage" xml:space="preserve">
     <value>XSplit サービス ページ</value>
@@ -5950,25 +5950,25 @@ Fuzzy</comment>
     <value>エラーの詳細:</value>
   </data>
   <data name="FailedToConnectToTwitch" xml:space="preserve">
-    <value>Twitch サービスに接続できませんでした。このままでは、Mix It Up の不和にアクセスしてサポートを受けてください。</value>
+    <value>Twitch サービスに接続できませんでした。このままでは、Neuroriot Bot の不和にアクセスしてサポートを受けてください。</value>
   </data>
   <data name="FailedToFinalizeInitialization" xml:space="preserve">
-    <value>初期化の完了に失敗しました。このままでは、Mix It Up の不和にアクセスしてサポートを受けてください。</value>
+    <value>初期化の完了に失敗しました。このままでは、Neuroriot Bot の不和にアクセスしてサポートを受けてください。</value>
   </data>
   <data name="FailedToGetChannelInformation" xml:space="preserve">
-    <value>チャネル情報を取得できませんでした。このままでは、Mix It Up の不和にアクセスしてサポートを受けてください。</value>
+    <value>チャネル情報を取得できませんでした。このままでは、Neuroriot Bot の不和にアクセスしてサポートを受けてください。</value>
   </data>
   <data name="FailedToInitializeBotAccount" xml:space="preserve">
     <value>ボット アカウントを初期化できませんでした</value>
   </data>
   <data name="FailedToInitializeExternalServices" xml:space="preserve">
-    <value>外部サービスを初期化できませんでした。このままでは、Mix It Up の不和にアクセスしてサポートを受けてください。</value>
+    <value>外部サービスを初期化できませんでした。このままでは、Neuroriot Bot の不和にアクセスしてサポートを受けてください。</value>
   </data>
   <data name="FailedToInitializeSettings" xml:space="preserve">
-    <value>設定を初期化できませんでした。このままでは、Mix It Up の不和にアクセスしてサポートを受けてください。</value>
+    <value>設定を初期化できませんでした。このままでは、Neuroriot Bot の不和にアクセスしてサポートを受けてください。</value>
   </data>
   <data name="FailedToInitializeStreamerBasedServices" xml:space="preserve">
-    <value>ストリーマー ベースのサービスを初期化できませんでした。このままでは、Mix It Up の不和にアクセスしてサポートを受けてください。</value>
+    <value>ストリーマー ベースのサービスを初期化できませんでした。このままでは、Neuroriot Bot の不和にアクセスしてサポートを受けてください。</value>
   </data>
   <data name="FollowBonusZeroOrMore" xml:space="preserve">
     <value>フォローボーナスは 0 以上である必要があります。</value>
@@ -6209,13 +6209,13 @@ Fuzzy</comment>
     <value>再接続中:</value>
   </data>
   <data name="SessionInitializationFailed" xml:space="preserve">
-    <value>セッションを初期化できませんでした。このままお願いする場合は、Mix It Upの不和にアクセスして支援を受けてください。</value>
+    <value>セッションを初期化できませんでした。このままお願いする場合は、Neuroriot Botの不和にアクセスして支援を受けてください。</value>
   </data>
   <data name="SettingsChangedRestartPrompt" xml:space="preserve">
     <value>変更した設定の一部を有効にするには、再起動が必要です。今すぐミックス・イット・アップを再起動しますか?</value>
   </data>
   <data name="SettingsLoadFailure" xml:space="preserve">
-    <value>1 つ以上の設定ファイルを読み込めませんでした。この問題に関する支援については、Mix It Upの不和をご覧ください。</value>
+    <value>1 つ以上の設定ファイルを読み込めませんでした。この問題に関する支援については、Neuroriot Botの不和をご覧ください。</value>
   </data>
   <data name="Shadow" xml:space="preserve">
     <value>シャドウ (オプション)</value>
@@ -6362,7 +6362,7 @@ Fuzzy</comment>
     <value>チャネル データの取得に失敗しました</value>
   </data>
   <data name="StreamlabsOBSAdminMaybe" xml:space="preserve">
-    <value>ストリームラボ OBS は管理者として実行されている可能性があり、ミックス・イット・アップは実行されません。接続する前に、管理者として Mix It Up を実行してみてください。</value>
+    <value>ストリームラボ OBS は管理者として実行されている可能性があり、ミックス・イット・アップは実行されません。接続する前に、管理者として Neuroriot Bot を実行してみてください。</value>
   </data>
   <data name="StreamlabsOBSFailed" xml:space="preserve">
     <value>ストリームラボ OBS に到達できませんでした</value>
@@ -6540,13 +6540,13 @@ Fuzzy</comment>
   <data name="CreateChannelPointRewardFailure" xml:space="preserve">
     <value>チャンネルポイント報酬を作成できませんでした: {0}
 
-この問題が解決しない場合は、Mix It Up サポートの不和にアクセスしてサポートを依頼してください。</value>
+この問題が解決しない場合は、Neuroriot Bot サポートの不和にアクセスしてサポートを依頼してください。</value>
   </data>
   <data name="CreateChannelPointRewardSuccess" xml:space="preserve">
     <value>チャンネルポイント報酬が作成されました!コマンド内の Twitch アクションを使用して、このチャンネルポイントリワードを動的に更新できるようになりました。メインのチャンネルポイントページのリンクを使用して、Twitchのエディタにアクセスして報酬をカスタマイズしてください。</value>
   </data>
   <data name="TwitchActionChannelPointRewardCouldNotBeUpdated" xml:space="preserve">
-    <value>エラー: チャンネルポイント報酬を更新できませんでした。この報酬が Mix It Up UI を通じて作成されなかった場合は、それを削除し、アプリが更新できるように Mix It Up を使用して作成する必要があるため、[チャンネル ポイント] ページに再度追加する必要があります。</value>
+    <value>エラー: チャンネルポイント報酬を更新できませんでした。この報酬が Neuroriot Bot UI を通じて作成されなかった場合は、それを削除し、アプリが更新できるように Neuroriot Bot を使用して作成する必要があるため、[チャンネル ポイント] ページに再度追加する必要があります。</value>
   </data>
   <data name="TwitchActionChannelPointRewardMustBeCreatedInMixItUp" xml:space="preserve">
     <value>チャンネルポイント報酬は、アプリがそれらを更新できるようにミックス・イット・アップを介して作成する必要があります。
@@ -6615,7 +6615,7 @@ Fuzzy</comment>
   </data>
   <data name="AutomaticBackupFailedToCreate" xml:space="preserve">
     <value>自動バックアップを作成できませんでした。設定されていることを確認してください。
-フォルダパスが正しく、フォルダパスにアクセス可能な場合は、Mix It Upにアクセスできます。</value>
+フォルダパスが正しく、フォルダパスにアクセス可能な場合は、Neuroriot Botにアクセスできます。</value>
   </data>
   <data name="ActionList" xml:space="preserve">
     <value>アクションリスト</value>
@@ -6748,13 +6748,13 @@ Fuzzy</comment>
     <value>Twitchアクション:予測には2つの有効な結果が必要です</value>
   </data>
   <data name="TwitchPollFailedToCreate" xml:space="preserve">
-    <value>エラー: ポーリングを作成できませんでした。この問題が解決しない場合は、Mix It Up サポートの不和サーバーにアクセスしてください。</value>
+    <value>エラー: ポーリングを作成できませんでした。この問題が解決しない場合は、Neuroriot Bot サポートの不和サーバーにアクセスしてください。</value>
   </data>
   <data name="TwitchPollFailedToGetResults" xml:space="preserve">
-    <value>エラー: ポーリング結果を取得して処理できませんでした。この問題が解決しない場合は、Mix It Up サポートの不和サーバーにアクセスしてください。</value>
+    <value>エラー: ポーリング結果を取得して処理できませんでした。この問題が解決しない場合は、Neuroriot Bot サポートの不和サーバーにアクセスしてください。</value>
   </data>
   <data name="TwitchPredictionFailedToCreate" xml:space="preserve">
-    <value>エラー: 予測を作成できませんでした。この問題が解決しない場合は、Mix It Up サポートの不和サーバーにアクセスしてください。</value>
+    <value>エラー: 予測を作成できませんでした。この問題が解決しない場合は、Neuroriot Bot サポートの不和サーバーにアクセスしてください。</value>
   </data>
   <data name="Arguments" xml:space="preserve">
     <value>引数</value>
@@ -7539,7 +7539,7 @@ Fuzzy</comment>
 保留中のインポート: {1}
 失敗したインポート: {2}
 
-Mix It Up の実行中にまだチャンネルにアクセスしていないユーザーは、データのインポートが保留され、最初にアクセスしたときに正常にインポートされます。
+Neuroriot Bot の実行中にまだチャンネルにアクセスしていないユーザーは、データのインポートが保留され、最初にアクセスしたときに正常にインポートされます。
 
 インポートの失敗は、無効なデータまたはプラットフォーム上での情報の検出に失敗した可能性があります。必要に応じて、サポートに連絡して、このサポートに連絡してください。</value>
     <comment>{0} is the number of successes, {1} is the number of pending, {2} is the number of failures</comment>
@@ -7851,7 +7851,7 @@ Mix It Up の実行中にまだチャンネルにアクセスしていないユ�
     <value>見積もりデータのインポート</value>
   </data>
   <data name="QuotesDataImportStep1" xml:space="preserve">
-    <value>これにより、プレーンテキストまたはスプレッドシート ファイルから見積もりデータをインポートできます。スプレッドシート ファイルをインポートするには、Excel の形式をインストールしておく必要があります。Mix It Up に同じ ID の見積もりが既に存在する場合、見積もり ID は最高の番号に更新されます。まず、ユーザー データのインポート元のファイルを指定します。</value>
+    <value>これにより、プレーンテキストまたはスプレッドシート ファイルから見積もりデータをインポートできます。スプレッドシート ファイルをインポートするには、Excel の形式をインストールしておく必要があります。Neuroriot Bot に同じ ID の見積もりが既に存在する場合、見積もり ID は最高の番号に更新されます。まず、ユーザー データのインポート元のファイルを指定します。</value>
   </data>
   <data name="QuotesDataImportStep2" xml:space="preserve">
     <value>次に、データ ファイル内の各値の列番号を指定するか、値が存在しない場合は空白のままにする必要があります。</value>
@@ -8095,7 +8095,7 @@ Mix It Up の実行中にまだチャンネルにアクセスしていないユ�
     <value>このチャンネルは、ミックス・イット・アップ・アプリを使用してストリームを改善します。詳細については、http://mixitupapp.com をチェックしてください!</value>
   </data>
   <data name="PreMadeChatCommandMixItUpCommands" xml:space="preserve">
-    <value>すべての事前に作られたMix It Upチャットコマンドはこちらで見つけることができます: https://wiki.mixitupapp.com/commands/pre-made-chat-commands。このストリームに固有のコマンドについては、ストリーマー/モデレーターに問い合わせてください。</value>
+    <value>すべての事前に作られたNeuroriot Botチャットコマンドはこちらで見つけることができます: https://wiki.mixitupapp.com/commands/pre-made-chat-commands。このストリームに固有のコマンドについては、ストリーマー/モデレーターに問い合わせてください。</value>
   </data>
   <data name="PreMadeChatCommandQuotesNotEnabled" xml:space="preserve">
     <value>この機能を動作させるには、見積もりを有効にし、少なくとも 1 つの見積もりを追加する必要があります。</value>
@@ -8382,10 +8382,10 @@ Mix It Up の実行中にまだチャンネルにアクセスしていないユ�
     <value>現在、再生するキューにありません</value>
   </data>
   <data name="SettingsBackupNotValid" xml:space="preserve">
-    <value>選択したバックアップ ファイルに Mix It Up 設定が含まれていないように見えます。</value>
+    <value>選択したバックアップ ファイルに Neuroriot Bot 設定が含まれていないように見えます。</value>
   </data>
   <data name="SettingsBackupTooNew" xml:space="preserve">
-    <value>バックアップ ファイルは有効ですが、新しいバージョンの Mix It Up から取得されています。必ず最新バージョンにアップグレードしてください。
+    <value>バックアップ ファイルは有効ですが、新しいバージョンの Neuroriot Bot から取得されています。必ず最新バージョンにアップグレードしてください。
 
 注: プレビュー ビルドで設定した場合は、[設定] の [全般] タブからプレビュー ビルドをオプトインする必要がある場合があります。</value>
   </data>
@@ -8536,7 +8536,7 @@ Mix It Up の実行中にまだチャンネルにアクセスしていないユ�
 {1} is the number of points</comment>
   </data>
   <data name="FailedToInitializeSession" xml:space="preserve">
-    <value>セッションを初期化できませんでした。このままでは、Mix It Up の不和にアクセスしてサポートを受けてください。</value>
+    <value>セッションを初期化できませんでした。このままでは、Neuroriot Bot の不和にアクセスしてサポートを受けてください。</value>
   </data>
   <data name="FileIsNotInCorrectFormat" xml:space="preserve">
     <value>ファイルの形式が正しくありません</value>
@@ -8627,7 +8627,7 @@ Mix It Up の実行中にまだチャンネルにアクセスしていないユ�
     <value>&lt;バック</value>
   </data>
   <data name="WizardCommands1" xml:space="preserve">
-    <value>Mix It Upは、アプリ全体のすべてのコマンド&amp;アクション構造を使用しています。あなたが食べ物を作るために従うレシピに似ていると思います。</value>
+    <value>Neuroriot Botは、アプリ全体のすべてのコマンド&amp;アクション構造を使用しています。あなたが食べ物を作るために従うレシピに似ていると思います。</value>
   </data>
   <data name="WizardCommands2" xml:space="preserve">
     <value>パスタを作りたかったとしましょう。完了するまで、レシピの手順を次々と実行します。また、指定された順序ですべてのステップに従うこともできます。たとえば、パスタを追加する前に、水を加熱する必要があります。</value>
@@ -8639,7 +8639,7 @@ Mix It Up の実行中にまだチャンネルにアクセスしていないユ�
     <value>この例では、shoutout コマンドはメッセージをチャットに送信し、サウンドを再生し、10 秒間待機してから画像を表示します。これらの各アクションの種類 (チャット、サウンド、待機、およびオーバーレイ) に対応します。</value>
   </data>
   <data name="WizardFinal1" xml:space="preserve">
-    <value>Mix It Up はデスクトップ専用のアプリケーションであるため、設定とデータはコンピューター上にのみ存在します。したがって、問題が発生した場合に常にフォールバックする必要があるものを確保するために、設定の自動バックアップを設定するようユーザーに求めます。</value>
+    <value>Neuroriot Bot はデスクトップ専用のアプリケーションであるため、設定とデータはコンピューター上にのみ存在します。したがって、問題が発生した場合に常にフォールバックする必要があるものを確保するために、設定の自動バックアップを設定するようユーザーに求めます。</value>
   </data>
   <data name="WizardFinal2" xml:space="preserve">
     <value>機能の仕組みや詳細情報が必要な場合は、次の点に関する情報が必要ですか?メインウィンドウの上部のバーにあるヘルプアイコンをクリックするだけで、詳細を確認できます。</value>
@@ -8651,7 +8651,7 @@ Mix It Up の実行中にまだチャンネルにアクセスしていないユ�
     <value>ミックス・イット・アップを使用してくれてありがとう、私たちはそれがすべてのあなたのニーズを満たしていることを願っています!</value>
   </data>
   <data name="WizardIntro1" xml:space="preserve">
-    <value>このウィザードは、ストリーミングプラットフォームアカウントにログインしてMix It Upを使い始め、一部のボットから既存のデータをインポートし、物事がどのように機能するかを説明します。</value>
+    <value>このウィザードは、ストリーミングプラットフォームアカウントにログインしてNeuroriot Botを使い始め、一部のボットから既存のデータをインポートし、物事がどのように機能するかを説明します。</value>
   </data>
   <data name="WizardIntro2" xml:space="preserve">
     <value>始める前に、問題を解決したり、作成するアイデアを提供するために使用できるいくつかの優れたリソースについてお知らせしたいと思います。以下のいずれかのボタンをクリックして、そのリソースに移動します。</value>
@@ -8718,11 +8718,11 @@ Mix It Up の実行中にまだチャンネルにアクセスしていないユ�
     <comment>{0} is the name of the user</comment>
   </data>
   <data name="UsersSuccessfullyFoundUser" xml:space="preserve">
-    <value>The user {0} was successfully found and added in to Mix It Up</value>
+    <value>The user {0} was successfully found and added in to Neuroriot Bot</value>
     <comment>{0} is the name of the user</comment>
   </data>
   <data name="AddUserDescription" xml:space="preserve">
-    <value>Select the streaming platform and the name of the user to find on there. If the user is found successfully, their user data will be added in to Mix It Up for you to be able to use.</value>
+    <value>Select the streaming platform and the name of the user to find on there. If the user is found successfully, their user data will be added in to Neuroriot Bot for you to be able to use.</value>
   </data>
   <data name="ChatUserEntranceCommand" xml:space="preserve">
     <value>Chat User Entrance Command</value>
@@ -8774,10 +8774,10 @@ via Twitch, it's a "your mileage may vary" situation.</value>
     <value>Image Files|*.bmp;*.gif;*.jpg;*.jpeg;*.png;|All files (*.*)|*.*</value>
   </data>
   <data name="MixItUpBackupFileFormatFilter" xml:space="preserve">
-    <value>Mix It Up Backup|*.miubackup|All files (*.*)|*.*</value>
+    <value>Neuroriot Bot Backup|*.miubackup|All files (*.*)|*.*</value>
   </data>
   <data name="MixItUpCommandFileFormatFilter" xml:space="preserve">
-    <value>Mix It Up Command|*.miucommand|All files (*.*)|*.*</value>
+    <value>Neuroriot Bot Command|*.miucommand|All files (*.*)|*.*</value>
   </data>
   <data name="SoundFileFormatFilter" xml:space="preserve">
     <value>Sound Files|*.mp3;*.wav|All files (*.*)|*.*</value>
@@ -8804,13 +8804,13 @@ via Twitch, it's a "your mileage may vary" situation.</value>
     <value>Please enter a valid Extra Life participant ID.</value>
   </data>
   <data name="BackupGenerationFailed" xml:space="preserve">
-    <value>Backup file failed to generate. If this continues, please visit the Mix It Up support Discord for further assistance.</value>
+    <value>Backup file failed to generate. If this continues, please visit the Neuroriot Bot support Discord for further assistance.</value>
   </data>
   <data name="Transparent" xml:space="preserve">
     <value>Transparent</value>
   </data>
   <data name="MixItUpServices" xml:space="preserve">
-    <value>Mix It Up Services</value>
+    <value>Neuroriot Bot Services</value>
   </data>
   <data name="DisableAnimatedEmotes" xml:space="preserve">
     <value>Disable Animated Emotes</value>
@@ -8861,7 +8861,7 @@ via Twitch, it's a "your mileage may vary" situation.</value>
     <value>Glimesh Channel Donation</value>
   </data>
   <data name="MixItUpIsAlreadyRunning" xml:space="preserve">
-    <value>Mix It Up is already running! Unless you meant to do this, please shut down any existing instances of Mix It Up before trying to run a new instance. Do you still want to continue running this instance of Mix It Up?</value>
+    <value>Neuroriot Bot is already running! Unless you meant to do this, please shut down any existing instances of Neuroriot Bot before trying to run a new instance. Do you still want to continue running this instance of Neuroriot Bot?</value>
   </data>
   <data name="EnableStreamlabsDesktop" xml:space="preserve">
     <value>Please enable Streamlabs Desktop connection on the Services page!</value>
@@ -8877,7 +8877,7 @@ via Twitch, it's a "your mileage may vary" situation.</value>
     <value>The Streamlabs Desktop service allows you to directly interact with your instance of Streamlabs Desktop to perform changes to scenes and sources.</value>
   </data>
   <data name="StreamlabsDesktopAdminMaybe" xml:space="preserve">
-    <value>Streamlabs Desktop might be running as administrator and Mix It Up is not. Try running Mix It Up as an Administrator before connecting.</value>
+    <value>Streamlabs Desktop might be running as administrator and Neuroriot Bot is not. Try running Neuroriot Bot as an Administrator before connecting.</value>
   </data>
   <data name="StreamlabsDesktopFailed" xml:space="preserve">
     <value>Streamlabs Desktop could not be reached</value>
@@ -9232,10 +9232,10 @@ namespace CustomNamespace
     <value>LoupeDeck</value>
   </data>
   <data name="LoupeDeckInfo1" xml:space="preserve">
-    <value>This LoupeDeck plug-in allows you to run Mix It Up commands directly from your LoupeDeck device, as well as other status information about your stream.</value>
+    <value>This LoupeDeck plug-in allows you to run Neuroriot Bot commands directly from your LoupeDeck device, as well as other status information about your stream.</value>
   </data>
   <data name="LoupeDeckInfo2" xml:space="preserve">
-    <value>To get started, ensure the LoupeDeck software is updated to the latest version &amp; the Developer API service is enabled in Mix It Up. To install the Mix It Up plugin, click on the Marketplace icon at the top right of your LoupeDeck software, then search for "Mix It Up".</value>
+    <value>To get started, ensure the LoupeDeck software is updated to the latest version &amp; the Developer API service is enabled in Neuroriot Bot. To install the Neuroriot Bot plugin, click on the Marketplace icon at the top right of your LoupeDeck software, then search for "Neuroriot Bot".</value>
   </data>
   <data name="ShellExecute" xml:space="preserve">
     <value>Shell Execute</value>
@@ -9253,7 +9253,7 @@ namespace CustomNamespace
     <value>Twitch custom tags must be 25 characters or less and only contain letters and numbers</value>
   </data>
   <data name="StreamlabDesktopAdminMaybe" xml:space="preserve">
-    <value>Streamlabs Desktop might be running as administrator and Mix It Up is not. Try running Mix It Up as an Administrator before connecting.</value>
+    <value>Streamlabs Desktop might be running as administrator and Neuroriot Bot is not. Try running Neuroriot Bot as an Administrator before connecting.</value>
   </data>
   <data name="ShadowColor" xml:space="preserve">
     <value>Shadow Color</value>

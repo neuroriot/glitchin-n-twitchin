@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         
         Icon="./../../Logo.ico"
-        Title="Mix It Up - Authorization" Height="600" Width="600">
+        Title="Neuroriot Bot - Authorization" Height="600" Width="600">
     <Grid>
         <WebBrowser x:Name="Browser" />
     </Grid>

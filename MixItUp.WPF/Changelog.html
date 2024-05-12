@@ -42,7 +42,7 @@
         <h2 style="color: #2e6c80;">v1.1.0.1706:</h2>
         <ul>
             <li>Fixing bug with Chat Overlay Widget javascript code to properly disable badges for users. <b><u>REQUIRES RE-CREATING CHAT OVERLAY WIDGET</u></b></li>
-            <li>Adding settings option to hide specific users messages from Chat view in Mix It Up</li>
+            <li>Adding settings option to hide specific users messages from Chat view in Neuroriot Bot</li>
             <li>Various quality of life &amp; bug fixes</li>
         </ul>
 
@@ -77,7 +77,7 @@
             <li>Adding starting amount property to Goal Overlay Widget</li>
             <li>Fixing bug related to End Credits Overlay Widget not properly tracking data for the specified sections when the credits are triggered under normal circumstances</li>
             <li>Fixing bug related to the audio of Overlay Videos &amp; YouTube not properly handling volume levels below 100% for certain user computer locales</li>
-            <li>Fixing bug related to Windows Text To Speech provider in the Text to Speech Action not properly playing over the Mix It Up Overlay when selected as the output audio device</li>
+            <li>Fixing bug related to Windows Text To Speech provider in the Text to Speech Action not properly playing over the Neuroriot Bot Overlay when selected as the output audio device</li>
             <li>Various quality of life &amp; bug fixes</li>
         </ul>
 
@@ -130,7 +130,7 @@
                 <li>Scripts can be written in either C#, Python, or Javascript.</li>
                 <li>Special Identifier replacement is supported in the text of the script.</li>
                 <li>Any value returned from the script is stored in the Special Identifier "$scriptresult" which can be leveraged in subsequent action.</li>
-                <li>There is not unique functionality provided in the Script action to directly interact with Mix It Up, the Script action simply is a means to perform more complex logic in a simpler form for experience users. However, you are able to leverage the Mix It Up Developer API from inside your Script action to perform some operations within Mix It Up.</li>
+                <li>There is not unique functionality provided in the Script action to directly interact with Neuroriot Bot, the Script action simply is a means to perform more complex logic in a simpler form for experience users. However, you are able to leverage the Neuroriot Bot Developer API from inside your Script action to perform some operations within Neuroriot Bot.</li>
             </ul>
             <li>Various quality of life &amp; bug fixes</li>
         </ul>
@@ -147,7 +147,7 @@
             <li>Adding Pulsoid service connectivity</li>
             <ul>
                 <li>Pulsoid can be connected by visiting the Services page.</li>
-                <li>A special 20% discount is available for new Pulsoid BRO plan user that also helps support Mix It Up development: https://pulsoid.net/s/WAoxz</li>
+                <li>A special 20% discount is available for new Pulsoid BRO plan user that also helps support Neuroriot Bot development: https://pulsoid.net/s/WAoxz</li>
                 <li>The Pulsoid Heart Rate Changed Event command allows you to perform actions as your heart rate changes based on your Pulsoid service settings.</li>
                 <li>Adding $pulsoidheartrate Global Special Identifier</li>
             </ul>
@@ -216,7 +216,7 @@
 
         <h2 style="color: #2e6c80;">v1.1.0.5:</h2>
         <ul>
-            <li>Adding information on Mix It Up Online Alpha pre-registration</li>
+            <li>Adding information on Neuroriot Bot Online Alpha pre-registration</li>
             <li>Adding Twitch Channel Updated event command</li>
             <li>Adding Chat User First Message event command</li>
             <li>Adding "Count Lines In File" option to File Action</li>
@@ -252,15 +252,15 @@
                 <li>Event Commands: YouTube Channel Stream Start, YouTube Channel Stream Stop, YouTube Channel New Member, YouTube Channel Member Milestone, YouTube Channel Membership Gifted, YouTube Channel Mass Membership Gifted, YouTube Channel Super Chat</li>
                 <li>YouTube Action: Updating Title &amp; Description, Running Ad Break</li>
                 <li>Integration with general features and commands where applicable (EX: !uptime, !title, etc)</li>
-                <li>BetterTTV emote support for YouTube if you have connected your YouTube account for BetterTTV and enable the feature within Mix It Up under Settings -> Chat</li>
+                <li>BetterTTV emote support for YouTube if you have connected your YouTube account for BetterTTV and enable the feature within Neuroriot Bot under Settings -> Chat</li>
                 <li>YouTube supports the ability for users to have spaces in their username, which adjusts how User Special Identifiers are processed. When using any User-based Special Identifier, if the user in question has spaces in their username, then you must use an '@' before their name and the user must be presently active in your chat for us to be able to correlate them.</li>
             </ul>
-            <li>Due to the naming conventions used for YouTube, there may be some confusion when using various features in Mix It Up. We are still working on the best way to help distinquish between these conflicting terms, but in the mean-time, a general rule of thumb is as follows:</li>
+            <li>Due to the naming conventions used for YouTube, there may be some confusion when using various features in Neuroriot Bot. We are still working on the best way to help distinquish between these conflicting terms, but in the mean-time, a general rule of thumb is as follows:</li>
             <ul>
                 <li>On most streaming platforms, a user that is interested notifications for your channel is called a Follower, while a person that is paying money to your stream for special perks is a Subscriber.</li>
                 <li>On YouTube, a user that is interested in notifications for your channel is a Subscriber, while a person that is paying money to your stream for special perks is a Member.</li>
                 <li>You'll notice that there is an overlap in terminology for Subscriber, but they don't mean the same thing. EX: Twitch Follower = YouTube Subscriber, Twitch Subscriber = YouTube Member</li>
-                <li>Within Mix It Up, we have focused on keeping the terminology aligned with what users have been used to on most streaming platforms: Notifications => Follower, Paid User => Subscriber</li>
+                <li>Within Neuroriot Bot, we have focused on keeping the terminology aligned with what users have been used to on most streaming platforms: Notifications => Follower, Paid User => Subscriber</li>
                 <li>If you see anywhere in the app where it specifically says <b>YouTube</b> Subscriber, you can safely assume it means a user who is getting notifications for your channel.</li>
                 <li>However, if it <b>does not</b> have the word YouTube in front of Subscriber, then it means a person who has paid money for perks in your channel</li>
             </ul>
@@ -293,7 +293,7 @@
             </ul>
             <li>Adding Music Player feature</li>
             <ul>
-                <li>The Music Player feature can be found on the main Mix It Up menu.</li>
+                <li>The Music Player feature can be found on the main Neuroriot Bot menu.</li>
                 <li>Music can be loaded by navigating to the Music Player page and clicking on the Folder icon on the right-side.</li>
                 <li>The following are the list of support music file formats: MP3, WAV, FLAC, MP4, M4A, AAC</li>
                 <li>The Music Player action can be added to commands to allow you to control the currently playing song from the Music Player and other options.</li>
@@ -544,13 +544,13 @@
                 <li>Adding additional options to Twitch action for various chat moderation features</li>
                 <li>Adding $twitchsubcount and $twitchsubpoints Special Identifier</li>
                 <li>Adding $streamtwitchtags Special Identifier</li>
-                <li>User subscription dates are no longer available due to breaking changes with Twitch's API. Dates will be tracked with a best-effort basis based on historical tracking in Mix It Up and when subscription events occur while Mix It Up is running.</li>
+                <li>User subscription dates are no longer available due to breaking changes with Twitch's API. Dates will be tracked with a best-effort basis based on historical tracking in Neuroriot Bot and when subscription events occur while Neuroriot Bot is running.</li>
             </ul>
             <li>Users:</li>
             <ul>
-                <li>Adding "Add User" option to Users page to manually add individual user data to Mix It Up directly from a streaming platform</li>
+                <li>Adding "Add User" option to Users page to manually add individual user data to Neuroriot Bot directly from a streaming platform</li>
                 <li>Basic account linking is now supported for user data between different platforms by using "!linkaccount" in chat</li>
-                <li>User data importing now supports handling data from different platforms. Imported data is added to users that Mix It Up currently knows about or is saved for later importing when that user is detected by Mix It Up for the first time.</li>
+                <li>User data importing now supports handling data from different platforms. Imported data is added to users that Neuroriot Bot currently knows about or is saved for later importing when that user is detected by Neuroriot Bot for the first time.</li>
             </ul>
             <li>Special Identifiers:</li>
             <ul>
@@ -632,7 +632,7 @@
         <ul>
             <li>Screenshots can now be optionally uploaded with Community Commands to help showcase what the command does</li>
             <li>Re-enabling User Data Import functionality on the Users page</li>
-            <li>Fixing bug with chat message deletion detection failing sometimes when deleted from outside of Mix It Up</li>
+            <li>Fixing bug with chat message deletion detection failing sometimes when deleted from outside of Neuroriot Bot</li>
             <li>Various quality of life &amp; bug fixes</li>
         </ul>
 
@@ -654,7 +654,7 @@
         <ul>
             <li>Community Commands:</li>
             <ul>
-                <li>Re-adding the Community Commands feature (formerly known as the Mix It Up Store), which allows users to upload commands they have created and search through commands other users have made.</li>
+                <li>Re-adding the Community Commands feature (formerly known as the Neuroriot Bot Store), which allows users to upload commands they have created and search through commands other users have made.</li>
                 <li>By visiting the Community Commands section from the main menu, you will be able to see some of the highlighted commands available, search for commands, and see the commands you have uploaded</li>
                 <li>Users can rate &amp; review commands based on how well they worked and how much they liked them. They can also report commands if they deemed malicious or inappropriate.</li>
                 <li>Commands can be uploaded by editing an existing command you have and selected "Upload Command" in the bottom-right of the command editor window. A command must be saved first before the option will be available.</li>
@@ -705,7 +705,7 @@
                 <li>Adding $userfulldisplayname Special Identifier</li>
                 <li>Adding $userismod Special Identifier for whether the current user has the Moderator role</li>
                 <li>Adding $userdisplayroles Special Identifier for the language localized version of roles for a user</li>
-                <li>Adding $userinchat Special Identifier. Accuracy for this Special Identifier can't be guaranteed due to the unreliability of chat notifications sent down to us. All that can be guaranteed is that the user is either currently in chat or was in chat at some point during the specific instance of Mix It Up</li>
+                <li>Adding $userinchat Special Identifier. Accuracy for this Special Identifier can't be guaranteed due to the unreliability of chat notifications sent down to us. All that can be guaranteed is that the user is either currently in chat or was in chat at some point during the specific instance of Neuroriot Bot</li>
             </ul>
             <li>Removing the ability to follow/unfollow a user from the User pop-up dialog in Chat due to Twitch deprecation of the corresponding API: https://blog.twitch.tv/en/2021/06/28/deprecation-of-create-and-delete-follows-api-endpoints/</li>
             <li>Adding filter options to Users page</li>
@@ -752,14 +752,14 @@
                 <li>Adding new Command History page that shows the most recent triggered commands, what their progress is, and the ability to cancel &amp; retry them</li>
                 <li>Adding Command Lock System option to select what types of commands are locked under Settings -> Commands</li>
                 <li>Adding Requirement Errors Cooldown Type option to determine how requirement error messages should be cooled down under Settings -> Commands </li>
-                <li>Exported *.miucommand command files will now show Mix It Up icon in Windows Explorer and can be opened to import data into a new or existing command</li>
+                <li>Exported *.miucommand command files will now show Neuroriot Bot icon in Windows Explorer and can be opened to import data into a new or existing command</li>
                 <li>Exported *.miucommand command files can now be drag &amp; dropped into a command editor window to import the actions from it</li>
                 <li>Adding Cancel All Commands option to Command Action</li>
             </ul>
             <li>Twitch Channel Point Reward Commands:</li>
             <ul>
                 <li>Twitch Channel Point Rewards can now be created directly from the Channel Points page of the app. This will create a basic reward with the name specified and additional details for the reward must then be configured up on Twitch's website</li>
-                <li>Twitch Channel Point Rewards that are <b>created through Mix It Up</b> can now have their properties dynamically updated using the Twitch action</li>
+                <li>Twitch Channel Point Rewards that are <b>created through Neuroriot Bot</b> can now have their properties dynamically updated using the Twitch action</li>
             </ul>
             <li>Adding Streamloots Cards page for creating dedicated commands that are triggered when specific Streamloots cards are redeemed. <b>Only shown when Streamloots service is connected.</b></li>
             <li>Twitch Mass Subscriptions Gifted event command now includes all users that received a gifted sub as arguments to the command. <b>Requires the Twitch Mass Subscriptions Gifted Filter option enabled under Settings -> Commands</b></li>
@@ -980,10 +980,10 @@
                 <li>Option to clear all Mixer user data permanently from your settings</li>
                 <li>Moving option to clear all user data from Advanced section to Users section</li>
             </ul>
-            <li>Automated settings backups will now default to the Mix It Up settings folder when enabled unless a location is set</li>
+            <li>Automated settings backups will now default to the Neuroriot Bot settings folder when enabled unless a location is set</li>
             <li>Users that are gifted a sub and choose to continue it by paying for the next month's sub will now trigger the Subscribed event command</li>
             <li>Adjusting Twitch Channel Points Redeemed event command & Channel Points commands to only translate $message if there is a valid message sent by the user and having it also passed in as arguments to the command</li>
-            <li>Messages that are highlighted by the Twitch Channel Points Reward now show as highlighted in the Mix It Up chat UI</li>
+            <li>Messages that are highlighted by the Twitch Channel Points Reward now show as highlighted in the Neuroriot Bot chat UI</li>
             <li>Discord actions now list announcement channels for community servers in the list of selectable channels</li>
             <li>Adding Manual Reset option on Inventory editor window</li>
             <li>Fixing bug with Bit Cheermotes where individual, non-standard amounts did not display properly (EX: A single bit cheermote for 3 bits)</li>
@@ -1030,14 +1030,14 @@
             </ul>
             <li>The following features are being temporarily removed and will be returning in some form after changes and/or investigation:</li>
             <ul>
-                <li>Mix It Up Store</li>
-                <li>Mix It Up Remote</li>
+                <li>Neuroriot Bot Store</li>
+                <li>Neuroriot Bot Remote</li>
                 <li>New User Wizard importing</li>
             </ul>
             <li>The following features have been replaced by an equivalent feature:</li>
             <ul>
                 <li>All Mixer event commands have been migrated over to their Twitch equivilents if they were possible. Please see our Wiki page for a full explanation of how each new event command works: <a href="https://github.com/SaviorXTanren/mixer-mixitup/wiki/Events">https://github.com/SaviorXTanren/mixer-mixitup/wiki/Events</a></li>
-                <li>MixPlay has been replaced by its equivilent of Channel Points. Custom Channel Point Rewards that are created can be linked to a command in Mix It Up that will automatically be run when the reward is purchased: <a href="https://github.com/SaviorXTanren/mixer-mixitup/wiki/Channel-Points">https://github.com/SaviorXTanren/mixer-mixitup/wiki/Channel-Points</a></li>
+                <li>MixPlay has been replaced by its equivilent of Channel Points. Custom Channel Point Rewards that are created can be linked to a command in Neuroriot Bot that will automatically be run when the reward is purchased: <a href="https://github.com/SaviorXTanren/mixer-mixitup/wiki/Channel-Points">https://github.com/SaviorXTanren/mixer-mixitup/wiki/Channel-Points</a></li>
                 <li>The Mixer Clips action has been removed and the Clips action has been added. You will need to manually add this action to any existing commands that used to use the Mixer Clips action</li>
                 <li>The Stream Clip Playback Overlay Widget has been removed and the Clip Playback Overlay Widget has been added. You will need to manually add this Overlay Widget to use this functionality</li>
                 <li>Features that took advantage of Sparks &amp; Embers have now been updated to use Bits instead</li>
@@ -1061,11 +1061,11 @@
             </ul>
             <li>Special Identifiers that are unique to a specific feature have been moved to that respective feature's Wiki page. For example, to see what Special Identifiers only work with Channel Points, visit the Channel Points Wiki page</li>
             <li>Due to limits &amp; restrictions that Twitch places on whispers, all automated chat whispers from things such as error messages that relied on whispers will now appear as regular chat messages. Anything that is specifically indicated to be a whisper by you, such as via a Chat action, will continue to be an actual whisper</li>
-            <li>Adding !linkmixeraccount &amp; !approvemixeraccount pre-made chat command to assist with merging the user's Mix It Up data from their Mixer account over to their Twitch account</li>
+            <li>Adding !linkmixeraccount &amp; !approvemixeraccount pre-made chat command to assist with merging the user's Neuroriot Bot data from their Mixer account over to their Twitch account</li>
             <li>The following services will be automatically disconnected and must be manually reconnected to change from your Mixer account to your Twitch account: Streamlabs, StreamElements, TipeeeStream, TreatStream, StreamJar</li>
             <li>Adding the ability to specify the required tier for Subscriber role for Role Usage Requirements</li>
             <li>Adding support for BetterTTV &amp; FrankerFaceZ emotes. This can be enabled by heading to Settings -> Chat</li>
-            <li>Patreon patrons that have their Twitch account link will now improve user account pairing process with Mix It Up</li>
+            <li>Patreon patrons that have their Twitch account link will now improve user account pairing process with Neuroriot Bot</li>
             <li>When restoring backed up settings, the restoration process will not occur after the application restarts to prevent an occassional locking state that can occur</li>
             <li>Updating Developer APIs to support querying information for Twitch users</li>
             <li>Adding the following new themes: Mixer, Twitch, Atl3m's Plexify, BlueLeprechaunTV</li>
@@ -1163,7 +1163,7 @@
             <li>Large-scale rework of services connectivity, events, and MixPlay logic to improve speed and reliability</li>
             <li>Adding improved error messaging to connections &amp; services to assist with diagnosing issues for users</li>
             <li>Adding MixPlay spamming input detection for visual cooldowns to prevent extra MixPlay command triggering</li>
-            <li>Adding the Mix It Up Overlay as a sound device option for the Sound action</li>
+            <li>Adding the Neuroriot Bot Overlay as a sound device option for the Sound action</li>
             <li>Adding "Run Ad" option to Streaming Platform action</li>
             <li>Adding "Replaced" comparator to Conditional Action to determine if the 1st value has been changed or replaced due to Special Identifier processing</li>
             <li>Adding Chat User Timeout event command with $timeoutlength Special Identifier</li>
@@ -1479,7 +1479,7 @@
 
         <h2 style="color: #2e6c80;">v0.5.0.0:</h2>
         <ul>
-            <li>Official launch of Mix It Up Remote application for iOS &amp; Android</li>
+            <li>Official launch of Neuroriot Bot Remote application for iOS &amp; Android</li>
             <li>Adding stand-alone Auto-Hoster application for the automatic hosting of channels when you are offline</li>
             <li>Adding Channel Subscription Gifted event command</li>
             <li>Adding Super Animal Royale Drop Map MixPlay game</li>
@@ -1641,7 +1641,7 @@
         <h2 style="color: #2e6c80;">v0.4.20.4:</h2>
         <ul>
             <li>BREAKING CHANGE: Removing $embermessage special identifier and adding $skillmessage special identifier</li>
-            <li>Allowing Action Groups &amp; Custom Commands to be able to download commands from the Mix It Up store</li>
+            <li>Allowing Action Groups &amp; Custom Commands to be able to download commands from the Neuroriot Bot store</li>
             <li>Adding $skillcosttype Special Identifier</li>
             <li>Renaming the Channel Sparks/Embers Used events to Channel Sparks/Embers Spent to better associate with what the event does</li>
             <li>Renaming User First Joined event to New User Joined to better reflect when the event triggers</li>
@@ -1716,7 +1716,7 @@
 
         <h2 style="color: #2e6c80;">v0.4.19.8:</h2>
         <ul>
-            <li>Tweaking cooldown logic for textbox controls to allow them to be cooled down in Mix It Up since they can not currently be cooled down on Mixer</li>
+            <li>Tweaking cooldown logic for textbox controls to allow them to be cooled down in Neuroriot Bot since they can not currently be cooled down on Mixer</li>
             <li>Adding support for arrays in web request JSON to Special Identifier parsing</li>
             <li>Various quality of life &amp; bug fixes</li>
         </ul>
@@ -1793,7 +1793,7 @@
 
         <h2 style="color: #2e6c80;">v0.4.18.19:</h2>
         <ul>
-            <li>Adding check to Mix It Up Store to prevent downloading commands created in a newer version of Mix It Up</li>
+            <li>Adding check to Neuroriot Bot Store to prevent downloading commands created in a newer version of Neuroriot Bot</li>
         </ul>
 
         <h2 style="color: #2e6c80;">v0.4.18.18:</h2>
@@ -1823,7 +1823,7 @@
 
         <h2 style="color: #2e6c80;">v0.4.18.14:</h2>
         <ul>
-            <li>Updating Skills Catalog Data &amp; and changing loading mechanism to get data from online hosted file to allow for updating data without releasing an update for Mix It Up</li>
+            <li>Updating Skills Catalog Data &amp; and changing loading mechanism to get data from online hosted file to allow for updating data without releasing an update for Neuroriot Bot</li>
             <li>Adding $mixplaycontrolid &amp; $mixplaycontrolcost Special Identifiers</li>
             <li>Various quality of life &amp; bug fixes</li>
         </ul>
@@ -1906,7 +1906,7 @@
         <h2 style="color: #2e6c80;">v0.4.18.2:</h2>
         <ul>
             <li>Window location &amp; sizing is now saved and will be reused when launched again</li>
-            <li>Including single settings backup on launching Mix It Up in the event of a file corruption</li>
+            <li>Including single settings backup on launching Neuroriot Bot in the event of a file corruption</li>
             <li>Various quality of life & bug fixes</li>
         </ul>
 
@@ -2157,7 +2157,7 @@
         <ul>
             <li>Sound action file paths now support Special Identifiers</li>
             <li>!setgame now displays the name of the game it has been set to</li>
-            <li>An error message will now appear when the currently logged in Mixer account does not match the account in Mix It Up</li>
+            <li>An error message will now appear when the currently logged in Mixer account does not match the account in Neuroriot Bot</li>
             <li>The "Global" cooldown type is now called "Individual"</li>
             <li>Various quality of life & bug fixes</li>
         </ul>
@@ -2321,7 +2321,7 @@
 
         <h2 style="color: #2e6c80;">v0.4.11.0:</h2>
         <ul>
-            <li><h3 style="color:red;">This update will remove all existing Games. If you want to save/export any information from your current Games, please decline this update, save/export your data, and relaunch Mix It Up to get the update.</h3></li>
+            <li><h3 style="color:red;">This update will remove all existing Games. If you want to save/export any information from your current Games, please decline this update, save/export your data, and relaunch Neuroriot Bot to get the update.</h3></li>
             <li>Large Games overhaul that adds 12 new game types and an easier UI for building & updating your games</li>
             <li>Large UI rework of Currency & Rank editor window and the ability to convert currencies to ranks & vice-versa</li>
             <li>When creating a new currency or rank, a new option is presented to create 3-4 "starter" commands to work with them</li>
@@ -2345,7 +2345,7 @@
 
         <h2 style="color: #2e6c80;">v0.4.10.3:</h2>
         <ul>
-            <li>Fixing bug where imported ScorpBot chat commands don't have the "!" toggle set for them. If you recently imported from ScorpBot and have this issue, you can reset your settings by closing Mix It Up, going to the folder "%localappdata%/MixItUp/Settings", and deleting all files in there</li>
+            <li>Fixing bug where imported ScorpBot chat commands don't have the "!" toggle set for them. If you recently imported from ScorpBot and have this issue, you can reset your settings by closing Neuroriot Bot, going to the folder "%localappdata%/MixItUp/Settings", and deleting all files in there</li>
         </ul>
 
         <h2 style="color: #2e6c80;">v0.4.10.2:</h2>
@@ -2360,7 +2360,7 @@
 
         <h2 style="color: #2e6c80;">v0.4.10.0:</h2>
         <ul>
-            <li>Adding new Mixer Clips action to allow Partner streamers to create & download clips through Mix It Up</li>
+            <li>Adding new Mixer Clips action to allow Partner streamers to create & download clips through Neuroriot Bot</li>
             <li>Adding Streamlabs action to interact with Streamlabs overlay functionality</li>
             <li>Adding exporting of Statistics information to spreadsheet file</li>
             <li>Adding generic User data importing via plain-text file or spreadsheet file</li>
@@ -2395,7 +2395,7 @@
 
         <h2 style="color: #2e6c80;">v0.4.9.0:</h2>
         <ul>
-            <li>Official launch of the Mix It Up Store for download</li>
+            <li>Official launch of the Neuroriot Bot Store for download</li>
             <li>Tweaking Currency Action UI & removing chat message functionality from it to simplify action</li>
             <li>Adding Export User Data option in Users area to create a tab-delimited data file</li>
             <li>Fixing sorting issues in Users area not sorting by all users instead of just the currently displayed users</li>
@@ -2745,7 +2745,7 @@
         <h2 style="color: #2e6c80;">v0.3.13:</h2>
         <ul>
             <li>Adding the ability to set cooldowns on a global or individual user basis</li>
-            <li>Adding alert message in Mix It Up chat window for chat user join/leave, events, and interactive</li>
+            <li>Adding alert message in Neuroriot Bot chat window for chat user join/leave, events, and interactive</li>
             <li>Adding support for messages that are larger than 360 characters by splitting them into multiple messages</li>
             <li>Adding extra checks for follower & subscriber validation</li>
             <li>Updating the user endpoint for the Developer API</li>
@@ -2758,7 +2758,7 @@
         <ul>
             <li>Adding new Interactive Action options to cooldown a specific button, cooldown group, or entier scene</li>
             <li>Adding the option to save & read a Counter Action's value to a text file in Counters folder</li>
-            <li>Adding support for Youtube Video display on Mix It Up Overlay</li>
+            <li>Adding support for Youtube Video display on Neuroriot Bot Overlay</li>
             <li>Large UI & reliability improvements to Find Channel To Raid feature, including Team searching</li>
             <li>Adding new File Action to allow for saving text out to a file and reading text from a file into a custom Special Identifier</li>
             <li>Adding new !addcommand, !updatecommand, & !disablecommand Pre-Made Chat Commands for Streamer command management by Moderators</li>

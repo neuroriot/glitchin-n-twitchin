@@ -9,6 +9,7 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using NAudio.Wave.SampleProviders;
 
 namespace MixItUp.WPF.Services
 {
@@ -80,10 +81,10 @@ namespace MixItUp.WPF.Services
                     deviceName = this.GetOutputDeviceName(deviceName);
                     if (this.MixItUpOverlay.Equals(deviceName))
                     {
-                        Logger.ForceLog(LogLevel.Error, "Mix It Up Overlay not supported for playing PCM streams");
+                        Logger.ForceLog(LogLevel.Error, "Neuroriot Bot Overlay not supported for playing PCM streams");
                         if (ChannelSession.IsDebug())
                         {
-                            throw new Exception("Mix It Up Overlay not supported for playing PCM streams");
+                            throw new Exception("Neuroriot Bot Overlay not supported for playing PCM streams");
                         }
                         return;
                     }
@@ -172,7 +173,7 @@ namespace MixItUp.WPF.Services
             audioOptions.AddRange(ServiceManager.Get<IAudioService>().GetOutputDevices());
             return audioOptions;
         }
-
+        
         public IEnumerable<string> GetOutputDevices()
         {
             List<string> results = new List<string>();
@@ -202,7 +203,7 @@ namespace MixItUp.WPF.Services
                 }
                 else if (File.Exists(filePath))
                 {
-                    AudioFileReader audioFile = new AudioFileReader(filePath);
+                    NAudio.Wave.AudioFileReader audioFile = new AudioFileReader(filePath);
                     audioFile.Volume = floatVolume;
                     waveStream = audioFile;
                 }

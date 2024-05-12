@@ -158,7 +158,7 @@
 
   </data>
   <data name="AccountsDetails" xml:space="preserve">
-    <value>主播帳戶是您從中流式傳輸的實際帳戶。機器人帳戶是單獨的可選帳戶，可用於從頻道中發送消息。機器人帳戶必須由您手動創建，並且您必須確保先登錄到它們，然後再嘗試在Mix It Up 中連接它們。</value>
+    <value>主播帳戶是您從中流式傳輸的實際帳戶。機器人帳戶是單獨的可選帳戶，可用於從頻道中發送消息。機器人帳戶必須由您手動創建，並且您必須確保先登錄到它們，然後再嘗試在Neuroriot Bot 中連接它們。</value>
 
   </data>
   <data name="AccountsWizardInstructions" xml:space="preserve">
@@ -3149,11 +3149,11 @@
     <value>未訂閱</value>
   </data>
   <data name="AutoLogInCurrentAccountTooltip" xml:space="preserve">
-    <value>“自動登錄”設置允許“混合起來”自動登錄當前登錄的用戶帳戶。注意：如果有“Mix It Up”更新，或者您需要重新驗證您的任何服務帳戶，則在發生這種情況時，您將需要手動登錄。</value>
+    <value>“自動登錄”設置允許“混合起來”自動登錄當前登錄的用戶帳戶。注意：如果有“Neuroriot Bot”更新，或者您需要重新驗證您的任何服務帳戶，則在發生這種情況時，您將需要手動登錄。</value>
 
   </data>
   <data name="OptOutofDataTrackingTooltip" xml:space="preserve">
-    <value>這個選項允許您透過我們的後端服務退出退出對您的資料的任何跟蹤。我們會跟蹤有關應用使用方式和崩潰的數據，以説明改善您的體驗。如果您選擇此選項，我們將停止對此數據的所有跟蹤。請注意，這不會禁用上傳和查看Mix It Up儲存命令中包含的任何數據。</value>
+    <value>這個選項允許您透過我們的後端服務退出退出對您的資料的任何跟蹤。我們會跟蹤有關應用使用方式和崩潰的數據，以説明改善您的體驗。如果您選擇此選項，我們將停止對此數據的所有跟蹤。請注意，這不會禁用上傳和查看Neuroriot Bot儲存命令中包含的任何數據。</value>
 
   </data>
   <data name="UpdatePreviewProgramTooltip" xml:space="preserve">
@@ -3172,7 +3172,7 @@
 
   </data>
   <data name="UnlockAllCommandTypesTooltip" xml:space="preserve">
-    <value>Mix It Up具有內置的命令鎖定功能，可確保只有1種命令類型（聊天，互動式等）可以同時運行，並確保每個命令都按其運行順序完成。這個選項將允許您關閉所有命令的鎖定。請注意，這可能會導致一些不可預見的問題，因此請謹慎使用。</value>
+    <value>Neuroriot Bot具有內置的命令鎖定功能，可確保只有1種命令類型（聊天，互動式等）可以同時運行，並確保每個命令都按其運行順序完成。這個選項將允許您關閉所有命令的鎖定。請注意，這可能會導致一些不可預見的問題，因此請謹慎使用。</value>
 
   </data>
   <data name="ClearAllUserDataWarning" xml:space="preserve">
@@ -3224,7 +3224,7 @@
 
   </data>
   <data name="DiagnosticLoggingToolip" xml:space="preserve">
-    <value>診斷日誌記錄通過註銷在Mix It Up 運行時正在執行的操作的其他資訊來幫助診斷特定問題。與常規日誌相比，這些日誌通常很大，因此只有在Mix It Up開發人員特別建議的情況下才能執行此操作，並且應在問題解決后立即禁用。</value>
+    <value>診斷日誌記錄通過註銷在Neuroriot Bot 運行時正在執行的操作的其他資訊來幫助診斷特定問題。與常規日誌相比，這些日誌通常很大，因此只有在Neuroriot Bot開發人員特別建議的情況下才能執行此操作，並且應在問題解決后立即禁用。</value>
 
   </data>
   <data name="ShowBetterTTVEmotes" xml:space="preserve">
@@ -4903,7 +4903,7 @@
 
   </data>
   <data name="UnlockCommandHelpText" xml:space="preserve">
-    <value>Mix It Up 具有內置的命令鎖定功能，可確保
+    <value>Neuroriot Bot 具有內置的命令鎖定功能，可確保
 只有 1 種命令類型（聊天、交互等）可以同時運行
 並確保每個命令都按其運行順序完成。
 這個選項將允許您關閉此命令的鎖定。注意
@@ -5388,7 +5388,7 @@
     <value>針</value>
   </data>
   <data name="RunNewUserWizardWarning" xml:space="preserve">
-    <value>Mix It Up 將重新啟動，並且當您登錄時，將重新運行新建用戶嚮導。這將允許您重新導入數據，這可能會複製並覆蓋您的命令 &amp;用戶數據。您確定要這樣做嗎？</value>
+    <value>Neuroriot Bot 將重新啟動，並且當您登錄時，將重新運行新建用戶嚮導。這將允許您重新導入數據，這可能會複製並覆蓋您的命令 &amp;用戶數據。您確定要這樣做嗎？</value>
   </data>
   <data name="Standard" xml:space="preserve">
     <value>標準</value>
@@ -5418,10 +5418,10 @@
     <value>開啟到本地網路（必須以管理員身份執行）：</value>
   </data>
   <data name="DeveloperAPIInfo" xml:space="preserve">
-    <value>開發人員 API 允許使用一系列 REST API 服務從電腦上運行的其他應用程式與 Mix It Up 進行高級交互。有關此內容的更多資訊，請參閱開發人員 API Wiki 頁面。</value>
+    <value>開發人員 API 允許使用一系列 REST API 服務從電腦上運行的其他應用程式與 Neuroriot Bot 進行高級交互。有關此內容的更多資訊，請參閱開發人員 API Wiki 頁面。</value>
   </data>
   <data name="DeveloperAPIWarning" xml:space="preserve">
-    <value>警告：這將使開發人員 API 偵聽所有位址，並可能向來自網路外部的呼叫者打開 Mix It Up。僅當您知道自己在做什麼時才使用此選項！</value>
+    <value>警告：這將使開發人員 API 偵聽所有位址，並可能向來自網路外部的呼叫者打開 Neuroriot Bot。僅當您知道自己在做什麼時才使用此選項！</value>
   </data>
   <data name="DiscordInfo1" xml:space="preserve">
     <value>不和諧服務連接允許您獲取有關Discord帳戶的資訊，向頻道發送消息以及控制來自語音頻道的音訊。當您登錄時，將打開一個身份驗證網頁，要求您登錄到Discord並批准混合它訪問您的資訊。</value>
@@ -5464,7 +5464,7 @@
     <value>覆蓋連接測試失敗，請確保您的「混合疊加」頁面可見並在流媒體軟體中運行。</value>
   </data>
   <data name="OverlayConnectionFailed2" xml:space="preserve">
-    <value>如果您在 Mix It Up 之前啟動了串流媒體軟體，請嘗試刷新串流媒體軟體中的網頁原始碼。</value>
+    <value>如果您在 Neuroriot Bot 之前啟動了串流媒體軟體，請嘗試刷新串流媒體軟體中的網頁原始碼。</value>
   </data>
   <data name="OverlayConnectionSuccess" xml:space="preserve">
     <value>覆蓋連接測試成功！</value>
@@ -5670,7 +5670,7 @@
     <value>此流錄機外掛程式允許您直接從流台設備運行「混合它」命令，以及有關流的其他狀態資訊。</value>
   </data>
   <data name="StreamDeckInfo2" xml:space="preserve">
-    <value>要開始使用，請確保流甲板軟體至少更新到 4.0 版，並在 Mix It Up 中啟用了開發人員 API 服務。要安裝「混合它」外掛程式，請按下Stream Deck軟體右上角的商店圖示，然後在視窗中搜索「混合起來」。</value>
+    <value>要開始使用，請確保流甲板軟體至少更新到 4.0 版，並在 Neuroriot Bot 中啟用了開發人員 API 服務。要安裝「混合它」外掛程式，請按下Stream Deck軟體右上角的商店圖示，然後在視窗中搜索「混合起來」。</value>
   </data>
   <data name="StreamElements" xml:space="preserve">
     <value>流元素</value>
@@ -6251,7 +6251,7 @@
     <value>每個等級必須具有唯一的名稱和最低金額。</value>
   </data>
   <data name="UpgradePrompt1" xml:space="preserve">
-    <value>我們檢測到您的設置有較舊版本，需要升級到較新的格式。根據大小，這可能需要一些時間來執行 &amp;需要使用Mix It Up。</value>
+    <value>我們檢測到您的設置有較舊版本，需要升級到較新的格式。根據大小，這可能需要一些時間來執行 &amp;需要使用Neuroriot Bot。</value>
   </data>
   <data name="UpgradePrompt2" xml:space="preserve">
     <value>如果您已準備好執行此操作，請按“是”。否則，請按 No 並關閉應用程式以稍後執行。</value>
@@ -6516,7 +6516,7 @@
     <value>錯誤：無法更新頻道積分獎勵，請稍後再試。如果此獎勵不是通過「混合起來」UI 創建的，則需要將其刪除並在「管道積分」頁面上重新添加，因為它們必須通過「混合起來」創建，才能讓應用能夠更新它們。</value>
   </data>
   <data name="TwitchActionChannelPointRewardMustBeCreatedInMixItUp" xml:space="preserve">
-    <value>必須通過Mix It Up創建管道積分獎勵，才能讓應用能夠更新它們。
+    <value>必須通過Neuroriot Bot創建管道積分獎勵，才能讓應用能夠更新它們。
 這可以通過按兩下混合中的「管道積分獎勵」頁面上的「創建管道積分獎勵」來完成。</value>
   </data>
   <data name="FollowEventModeration" xml:space="preserve">
@@ -7505,7 +7505,7 @@
 未決進口：{1}
 失敗的匯入：{2}
 
-在Mix It Up運行時尚未訪問過您的頻道的使用者的數據導入處於待處理狀態，並且會在首次訪問時成功導入。
+在Neuroriot Bot運行時尚未訪問過您的頻道的使用者的數據導入處於待處理狀態，並且會在首次訪問時成功導入。
 
 導入失敗可能是由於數據無效或無法在平臺上找到其資訊。如果需要，請聯繫支持人員以獲取進一步的説明。</value>
     <comment>{0} is the number of successes, {1} is the number of pending, {2} is the number of failures</comment>
@@ -8590,7 +8590,7 @@ ID 與現有報價匹配的導入報價將更改為下一個最大數位。匯�
     <value>&lt; 返回</value>
   </data>
   <data name="WizardCommands1" xml:space="preserve">
-    <value>Mix It Up 使用命令 &amp; 操作結構來執行整個應用中的所有內容。把它想像成一個類似於你用來做食物的食譜。</value>
+    <value>Neuroriot Bot 使用命令 &amp; 操作結構來執行整個應用中的所有內容。把它想像成一個類似於你用來做食物的食譜。</value>
   </data>
   <data name="WizardCommands2" xml:space="preserve">
     <value>假設你想做一些義大利面;您將一個接一個地按照食譜中的步驟進行操作，直到完成為止。您還可以按照指定的順序執行每個步驟。例如，您需要先加熱水，然後才能添加義大利面。</value>
@@ -8602,7 +8602,7 @@ ID 與現有報價匹配的導入報價將更改為下一個最大數位。匯�
     <value>在此範例中，我們的喊叫命令發送消息進行聊天，播放聲音，等待 10 秒鐘，然後顯示圖像。其中每個都對應於不同的操作類型（聊天、聲音、等待和疊加）。</value>
   </data>
   <data name="WizardFinal1" xml:space="preserve">
-    <value>Mix It Up 是一個僅限桌面的應用程式，因此您的設置和數據僅存在於您的電腦上。因此，我們鼓勵使用者為您的設置設置自動備份，以確保您在遇到任何問題時始終可以回退：</value>
+    <value>Neuroriot Bot 是一個僅限桌面的應用程式，因此您的設置和數據僅存在於您的電腦上。因此，我們鼓勵使用者為您的設置設置自動備份，以確保您在遇到任何問題時始終可以回退：</value>
   </data>
   <data name="WizardFinal2" xml:space="preserve">
     <value>不知道功能的工作原理或想要更多資訊？只需按下主視窗頂部列上的「説明」圖示即可瞭解更多資訊！</value>
@@ -8614,7 +8614,7 @@ ID 與現有報價匹配的導入報價將更改為下一個最大數位。匯�
     <value>感謝您使用混合它，我們希望它能滿足您的所有需求！</value>
   </data>
   <data name="WizardIntro1" xml:space="preserve">
-    <value>此精靈將通過登錄您的流媒體平台帳戶來幫助開始使用Mix It Up，説明您從某些機器人導入現有數據，並引導您完成一些工作原理。</value>
+    <value>此精靈將通過登錄您的流媒體平台帳戶來幫助開始使用Neuroriot Bot，説明您從某些機器人導入現有數據，並引導您完成一些工作原理。</value>
   </data>
   <data name="WizardIntro2" xml:space="preserve">
     <value>在開始之前，我們想讓你知道一些很棒的資源，你可以用它來説明你解決問題，或者給你一些想法來創造。點選以下任何按鈕以轉到該資源：</value>
@@ -8824,7 +8824,7 @@ ID 與現有報價匹配的導入報價將更改為下一個最大數位。匯�
     <value>格利梅什頻道捐贈</value>
   </data>
   <data name="MixItUpIsAlreadyRunning" xml:space="preserve">
-    <value>混合它已經在運行！除非您打算這樣做，否則請在嘗試運行新實例之前關閉Mix It Up的任何現有實例。是否仍要繼續運行此混合實例？</value>
+    <value>混合它已經在運行！除非您打算這樣做，否則請在嘗試運行新實例之前關閉Neuroriot Bot的任何現有實例。是否仍要繼續運行此混合實例？</value>
   </data>
   <data name="TrovoChannelMagicChat" xml:space="preserve">
     <value>特羅沃頻道魔術聊天</value>

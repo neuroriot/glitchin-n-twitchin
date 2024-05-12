@@ -25,8 +25,12 @@ namespace MixItUp.WPF.Controls.MainControls
         {
             List<ServiceContainerControl> services = new List<ServiceContainerControl>();
 
+            // remember to also enable/disable in \MixItUp.Base\ChannelSession.cs
+
             services.Add(new ServiceContainerControl(this.Window, new CrowdControlServiceControl()));
-            services.Add(new ServiceContainerControl(this.Window, new DeveloperAPIServiceControl()));
+
+            //services.Add(new ServiceContainerControl(this.Window, new DeveloperAPIServiceControl()));
+
             services.Add(new ServiceContainerControl(this.Window, new DiscordServiceControl()));
             services.Add(new ServiceContainerControl(this.Window, new DonorDriveServiceControl()));
             services.Add(new ServiceContainerControl(this.Window, new IFTTTServiceControl()));
@@ -54,11 +58,17 @@ namespace MixItUp.WPF.Controls.MainControls
             services.Add(new ServiceContainerControl(this.Window, new TipeeeStreamServiceControl()));
             services.Add(new ServiceContainerControl(this.Window, new TITSServiceControl()));
             services.Add(new ServiceContainerControl(this.Window, new TreatStreamServiceControl()));
-            services.Add(new ServiceContainerControl(this.Window, new TTSMonsterServiceControl()));
-            services.Add(new ServiceContainerControl(this.Window, new VoicemodServiceControl()));
+
+            //services.Add(new ServiceContainerControl(this.Window, new TTSMonsterServiceControl()));
+            //services.Add(new ServiceContainerControl(this.Window, new VoicemodServiceControl()));
+
+            /* might work
             services.Add(new ServiceContainerControl(this.Window, new VTSPogServiceControl()));
             services.Add(new ServiceContainerControl(this.Window, new VTubeStudioServiceControl()));
+
             services.Add(new ServiceContainerControl(this.Window, new XSplitServiceControl()));
+            */
+
 
             this.services.ClearAndAddRange(services);
 

@@ -4,16 +4,17 @@ using MixItUp.Base.Services;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using System.Web.Http;
+using Microsoft.AspNetCore.Mvc;
 
 namespace MixItUp.WPF.Services.DeveloperAPI.V2
 {
-    [RoutePrefix("api/v2/currency")]
-    public class CurrencyV2Controller : ApiController
+    //Prefix
+    [Route("api/v2/currency")]
+    public class CurrencyV2Controller : ControllerBase
     {
-        [Route]
+        [Route("")]
         [HttpGet]
-        public IHttpActionResult GetCurrencies()
+        public IActionResult GetCurrencies()
         {
             var currencies = new List<GetCurrencyResponse>();
 
@@ -31,7 +32,7 @@ namespace MixItUp.WPF.Services.DeveloperAPI.V2
 
         [Route("{currencyId:guid}/{userId:guid}")]
         [HttpGet]
-        public async Task<IHttpActionResult> GetCurrencyAmountForUser(Guid currencyId, Guid userId)
+        public async Task<IActionResult> GetCurrencyAmountForUser(Guid currencyId, Guid userId)
         {
             if (!ChannelSession.Settings.Currency.TryGetValue(currencyId, out var currency) || currency == null)
             {
@@ -50,7 +51,7 @@ namespace MixItUp.WPF.Services.DeveloperAPI.V2
 
         [Route("{currencyId:guid}/{userId:guid}")]
         [HttpPatch]
-        public async Task<IHttpActionResult> UpdateCurrencyAmountForUser(Guid currencyId, Guid userId, [FromBody] UpdateCurrencyAmount updateAmount)
+        public async Task<IActionResult> UpdateCurrencyAmountForUser(Guid currencyId, Guid userId, [FromBody] UpdateCurrencyAmount updateAmount)
         {
             if (!ChannelSession.Settings.Currency.TryGetValue(currencyId, out var currency) || currency == null)
             {
@@ -71,7 +72,7 @@ namespace MixItUp.WPF.Services.DeveloperAPI.V2
 
         [Route("{currencyId:guid}/{userId:guid}")]
         [HttpPut]
-        public async Task<IHttpActionResult> SetCurrencyAmountForUser(Guid currencyId, Guid userId, [FromBody] UpdateCurrencyAmount updateAmount)
+        public async Task<IActionResult> SetCurrencyAmountForUser(Guid currencyId, Guid userId, [FromBody] UpdateCurrencyAmount updateAmount)
         {
             if (!ChannelSession.Settings.Currency.TryGetValue(currencyId, out var currency) || currency == null)
             {

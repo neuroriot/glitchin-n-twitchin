@@ -67,7 +67,8 @@ namespace MixItUp.Base {
         /// * Licensed under the MIT license - http://opensource.org/licenses/MIT
         /// *
         /// * Copyright (c) 2020 Animate.css
-        /// */:root{--animate-duration:1s;--animate-delay:1s;--animate-repeat:1}.animate__animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-duration:var(--animate-duration);animation-duration:var(--animate-duration);-webkit-animation-fill-mode:both;animation-fill-mode:both}.animate__animated.animate [rest of string was truncated]&quot;;.
+        /// * Changed default duration to 750ms - Neurioriot Bot
+        /// */:root{--animate-duration:750ms;--animate-delay:750ms;--animate-repeat:1}.animate__animated{-webkit-animation-duration:750ms;animation-duration:750ms;-webkit-animation-duration:var(--animate-duration);animation-duration:var(--animate-duration);-webkit-animation [rest of string was truncated]&quot;;.
         /// </summary>
         public static string animateCSS {
             get {
@@ -661,7 +662,7 @@ namespace MixItUp.Base {
         ///&lt;html lang=&quot;en&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
         ///&lt;head&gt;
         ///    &lt;meta charset=&quot;utf-8&quot; /&gt;
-        ///    &lt;title&gt;Mix It Up - Overlay&lt;/title&gt;
+        ///    &lt;title&gt;Neuroriot Bot - Overlay&lt;/title&gt;
         ///
         ///    &lt;script src=&quot;jquery-3.6.0.min.js&quot;&gt;&lt;/script&gt;
         ///
@@ -673,7 +674,7 @@ namespace MixItUp.Base {
         ///        {CSS}
         ///    &lt;/style&gt;
         ///&lt;/head&gt;
-        ///&lt;body style=&quot;background-color: transparent; overflow: hidden; position: absolute; width: 100%; max-width: 100%; min-width: 100 [rest of string was truncated]&quot;;.
+        ///&lt;body style=&quot;background-color: transparent; overflow: hidden; position: absolute; width: 100%; max-width: 100%; min-width: [rest of string was truncated]&quot;;.
         /// </summary>
         public static string OverlayItemIFrameHTML {
             get {
@@ -861,7 +862,7 @@ namespace MixItUp.Base {
         ///&lt;html lang=&quot;en&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
         ///&lt;head&gt;
         ///    &lt;meta charset=&quot;utf-8&quot; /&gt;
-        ///    &lt;title&gt;Mix It Up - Overlay&lt;/title&gt;
+        ///    &lt;title&gt;Neuroriot Bot - Overlay&lt;/title&gt;
         ///
         ///    &lt;script&gt;
         ///        var connection;
@@ -873,7 +874,7 @@ namespace MixItUp.Base {
         ///
         ///        function openWebsocketConnectionWithAddressPort(address, port, path) {
         ///            try {
-        ///                va [rest of string was truncated]&quot;;.
+        ///               [rest of string was truncated]&quot;;.
         /// </summary>
         public static string OverlayMainHTML {
             get {

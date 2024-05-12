@@ -54,7 +54,7 @@ namespace MixItUp.Base.Services.External
 
     public class DiscordServer : IEquatable<DiscordServer>
     {
-        private const string MixItUpServerRoleName = "Mix It Up";
+        private const string MixItUpServerRoleName = "Neuroriot Bot";
 
         [JsonProperty("id")]
         public string ID { get; set; }
@@ -369,7 +369,7 @@ namespace MixItUp.Base.Services.External
                         data["large_threshold"] = 100;
 
                         JObject propertiesObj = new JObject();
-                        propertiesObj["$device"] = "Mix It Up";
+                        propertiesObj["$device"] = "Neuroriot Bot";
                         data["properties"] = propertiesObj;
 
                         DiscordWebSocketPacket identifyPacket = new DiscordWebSocketPacket() { OPCodeType = DiscordWebSocketPacketTypeEnum.Identify, Data = data };

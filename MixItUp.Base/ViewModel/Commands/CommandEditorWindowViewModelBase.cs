@@ -19,7 +19,7 @@ namespace MixItUp.Base.ViewModel.Commands
 
         public static string OpenCommandFileBrowser()
         {
-            return ServiceManager.Get<IFileService>().ShowOpenFileDialog(string.Format("Mix It Up Command (*{0})|*{0}|All files (*.*)|*.*", MixItUpCommandFileExtension));
+            return ServiceManager.Get<IFileService>().ShowOpenFileDialog(string.Format("Neuroriot Bot Command (*{0})|*{0}|All files (*.*)|*.*", MixItUpCommandFileExtension));
         }
 
         public static async Task<CommandModelBase> ImportCommandFromFile(string filePath)

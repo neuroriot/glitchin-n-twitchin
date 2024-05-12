@@ -19,7 +19,7 @@ namespace MixItUp.Reporter.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class Resources {
@@ -70,7 +70,7 @@ namespace MixItUp.Reporter.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Whoops! Looks like Mix It Up ran into an issue. Would you like to submit a bug to help us improve?.
+        ///   Looks up a localized string similar to Whoops! Looks like Neuroriot Bot ran into an issue. Would you like to submit a bug to help us improve?.
         /// </summary>
         public static string DialogDescription {
             get {
@@ -124,7 +124,7 @@ namespace MixItUp.Reporter.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Mix It Up - Error Reporter.
+        ///   Looks up a localized string similar to Neuroriot Bot - Error Reporter.
         /// </summary>
         public static string Title {
             get {

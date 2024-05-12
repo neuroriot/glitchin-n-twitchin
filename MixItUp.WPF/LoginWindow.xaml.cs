@@ -1,4 +1,5 @@
-﻿using MixItUp.Base;
+﻿using Amazon.Runtime.Internal.Util;
+using MixItUp.Base;
 using MixItUp.Base.Model.API;
 using MixItUp.Base.Model.Settings;
 using MixItUp.Base.Services;
@@ -47,7 +48,7 @@ namespace MixItUp.WPF
 
             this.ExistingStreamerComboBox.ItemsSource = streamerSettings;
 
-            await this.CheckForUpdates();
+            //await this.CheckForUpdates();
 
             foreach (SettingsV3Model setting in (await ServiceManager.Get<SettingsService>().GetAllSettings()).OrderBy(s => s.Name))
             {
@@ -136,6 +137,10 @@ namespace MixItUp.WPF
 
         private async Task CheckForUpdates()
         {
+            // Neuro disabled
+
+            await Task.Delay(1);
+            /*
             this.currentUpdate = await ServiceManager.Get<MixItUpService>().GetLatestUpdate();
             if (this.currentUpdate != null && this.currentUpdate.SystemVersion > Assembly.GetEntryAssembly().GetName().Version)
             {
@@ -143,6 +148,7 @@ namespace MixItUp.WPF
                 UpdateWindow window = new UpdateWindow(this.currentUpdate);
                 window.Show();
             }
+            */
         }
 
         private async Task<bool> ExistingSettingLogin(SettingsV3Model setting)
@@ -163,7 +169,8 @@ namespace MixItUp.WPF
 
         private async void NewStreamerLoginButton_Click(object sender, RoutedEventArgs e)
         {
-            if (await this.ShowLicenseAgreement())
+            //if (await this.ShowLicenseAgreement())
+            if (await Task.FromResult<bool>(true))
             {
                 ChannelSession.OnRestartRequested -= ChannelSession_OnRestartRequested;
 
@@ -184,7 +191,9 @@ namespace MixItUp.WPF
 
             this.Close();
 
-            ServiceManager.Get<IProcessService>().LaunchProgram(Application.ResourceAssembly.Location);
+            //var path = System.Reflection.Assembly.GetExecutingAssembly().Location;
+            var exePath = Environment.ProcessPath;
+            ServiceManager.Get<IProcessService>().LaunchProgram(Environment.ProcessPath);
         }
 
         private Task<bool> ShowLicenseAgreement()

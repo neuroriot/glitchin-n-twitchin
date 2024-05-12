@@ -136,7 +136,7 @@ Fuzzy</comment>
     <comment>Manual</comment>
   </data>
   <data name="AccessTheFolderWhereMixItUpIsInstalled" xml:space="preserve">
-    <value>Acesse a pasta onde o Mix It Up está instalado</value>
+    <value>Acesse a pasta onde o Neuroriot Bot está instalado</value>
     <comment>Manual</comment>
   </data>
   <data name="Account" xml:space="preserve">
@@ -160,7 +160,7 @@ Fuzzy</comment>
     <comment>Manual</comment>
   </data>
   <data name="AccountsDetails" xml:space="preserve">
-    <value>Contas de streamer são sua conta real a qual você está transmitindo. As contas bot são contas separadas e opcionais que você pode usar para enviar mensagens em seu canal. As contas bots devem ser criadas manualmente por você e você deve ter certeza de estar conectado a elas antes de tentar conectá-las no Mix It Up.</value>
+    <value>Contas de streamer são sua conta real a qual você está transmitindo. As contas bot são contas separadas e opcionais que você pode usar para enviar mensagens em seu canal. As contas bots devem ser criadas manualmente por você e você deve ter certeza de estar conectado a elas antes de tentar conectá-las no Neuroriot Bot.</value>
     <comment>Manual</comment>
   </data>
   <data name="AccountsWizardInstructions" xml:space="preserve">
@@ -499,7 +499,7 @@ Fuzzy</comment>
     <comment>Manual</comment>
   </data>
   <data name="ClosingPleaseWait" xml:space="preserve">
-    <value>Por favor, espere enquanto Mix It Up salva suas configurações e desliga...</value>
+    <value>Por favor, espere enquanto Neuroriot Bot salva suas configurações e desliga...</value>
     <comment>Manual</comment>
   </data>
   <data name="ColorScheme" xml:space="preserve">
@@ -813,7 +813,7 @@ Fuzzy</comment>
     <comment>Manual</comment>
   </data>
   <data name="EnableOverlay" xml:space="preserve">
-    <value>Por favor, habilite a sobreposição do Mix It Up na página Serviços!</value>
+    <value>Por favor, habilite a sobreposição do Neuroriot Bot na página Serviços!</value>
     <comment>Manual</comment>
   </data>
   <data name="EnableOvrStream" xml:space="preserve">
@@ -884,7 +884,7 @@ Fuzzy</comment>
     <comment>Manual</comment>
   </data>
   <data name="ExitConfirmation" xml:space="preserve">
-    <value>Tem certeza que deseja sair do Mix It Up?</value>
+    <value>Tem certeza que deseja sair do Neuroriot Bot?</value>
     <comment>Manual</comment>
   </data>
   <data name="ExportActions" xml:space="preserve">
@@ -1355,15 +1355,15 @@ Fuzzy</comment>
     <comment>Manual</comment>
   </data>
   <data name="MixItUpCommands" xml:space="preserve">
-    <value>Comandos Mix It Up</value>
+    <value>Comandos Neuroriot Bot</value>
     <comment>Manual</comment>
   </data>
   <data name="MixItUpDashboard" xml:space="preserve">
-    <value>Mix It Up - Painel de Controle</value>
+    <value>Neuroriot Bot - Painel de Controle</value>
     <comment>Manual</comment>
   </data>
   <data name="MixItUpOverlay" xml:space="preserve">
-    <value>Sobreposição Mix It Up</value>
+    <value>Sobreposição Neuroriot Bot</value>
     <comment>Manual</comment>
   </data>
   <data name="MixPlay" xml:space="preserve">
@@ -2402,7 +2402,7 @@ Fuzzy</comment>
     <value>Importação de dados do usuário</value>
   </data>
   <data name="UserDataStep1" xml:space="preserve">
-    <value>Isso permitirá que você importe os dados do usuário do seu canal de um arquivo de texto simples ou planilha. Para importar um arquivo de planilha, você deve ter algum tipo de Microsoft Excel instalado. Observe que isso substituirá os dados de usuário existentes no Mix It Up. Primeiro, especifique o arquivo do qual deseja importar os dados do Usuário:</value>
+    <value>Isso permitirá que você importe os dados do usuário do seu canal de um arquivo de texto simples ou planilha. Para importar um arquivo de planilha, você deve ter algum tipo de Microsoft Excel instalado. Observe que isso substituirá os dados de usuário existentes no Neuroriot Bot. Primeiro, especifique o arquivo do qual deseja importar os dados do Usuário:</value>
     <comment>Manual</comment>
   </data>
   <data name="UserDataStep2" xml:space="preserve">
@@ -3174,11 +3174,11 @@ Fuzzy</comment>
     <value>Não inscrito</value>
   </data>
   <data name="AutoLogInCurrentAccountTooltip" xml:space="preserve">
-    <value>A configuração de login automático permite que o Mix It Up faça login automaticamente na conta de usuário atualmente logada. NOTA: Se houver uma atualização do Mix It Up ou você for obrigado a re-autenticar qualquer uma de suas contas de serviços, você precisará fazer login manualmente quando isso ocorrer.</value>
+    <value>A configuração de login automático permite que o Neuroriot Bot faça login automaticamente na conta de usuário atualmente logada. NOTA: Se houver uma atualização do Neuroriot Bot ou você for obrigado a re-autenticar qualquer uma de suas contas de serviços, você precisará fazer login manualmente quando isso ocorrer.</value>
     <comment>Manual</comment>
   </data>
   <data name="OptOutofDataTrackingTooltip" xml:space="preserve">
-    <value>Esta opção permite que você opte por não rastrear seus dados através de nossos serviços pelo back-end. Rastreamos dados em torno do uso de aplicativos e erros para ajudar a melhorar sua experiência. Se você selecionar esta opção, vamos parar todo o rastreamento desses dados. Observe que isso não desabilitou nenhum dado incluído no upload e revisão dos comandos da loja Mix It Up.</value>
+    <value>Esta opção permite que você opte por não rastrear seus dados através de nossos serviços pelo back-end. Rastreamos dados em torno do uso de aplicativos e erros para ajudar a melhorar sua experiência. Se você selecionar esta opção, vamos parar todo o rastreamento desses dados. Observe que isso não desabilitou nenhum dado incluído no upload e revisão dos comandos da loja Neuroriot Bot.</value>
     <comment>Manual</comment>
   </data>
   <data name="UpdatePreviewProgramTooltip" xml:space="preserve">
@@ -3197,11 +3197,11 @@ Fuzzy</comment>
     <comment>Manual</comment>
   </data>
   <data name="UnlockAllCommandTypesTooltip" xml:space="preserve">
-    <value>O Mix It Up tem a funcionalidade de bloqueio de comando que garante que apenas 1 tipo de comando (Chat, Interativo, etc) possa ser executado ao mesmo tempo e garante que cada comando termine na ordem em que foi executado. Esta opção permitirá que você desabilite o bloqueio em todos os comandos. Esteja ciente de que isso pode causar alguns problemas imprevistos, por isso, por favor, use com cautela.</value>
+    <value>O Neuroriot Bot tem a funcionalidade de bloqueio de comando que garante que apenas 1 tipo de comando (Chat, Interativo, etc) possa ser executado ao mesmo tempo e garante que cada comando termine na ordem em que foi executado. Esta opção permitirá que você desabilite o bloqueio em todos os comandos. Esteja ciente de que isso pode causar alguns problemas imprevistos, por isso, por favor, use com cautela.</value>
     <comment>Manual</comment>
   </data>
   <data name="ClearAllUserDataWarning" xml:space="preserve">
-    <value>Isso limpará todos os dados para seus Usuários, o que inclui suas horas, moeda, rank e comandos de usuário personalizados e, em seguida, reiniciará o Mix It Up. Isso não pode ser feito! Tem certeza que deseja fazer isso?</value>
+    <value>Isso limpará todos os dados para seus Usuários, o que inclui suas horas, moeda, rank e comandos de usuário personalizados e, em seguida, reiniciará o Neuroriot Bot. Isso não pode ser feito! Tem certeza que deseja fazer isso?</value>
     <comment>Manual</comment>
   </data>
   <data name="ShowBitsCheered" xml:space="preserve">
@@ -3251,7 +3251,7 @@ Fuzzy</comment>
     <comment>Manual</comment>
   </data>
   <data name="DiagnosticLoggingToolip" xml:space="preserve">
-    <value>O Registro diagnóstico ajuda a diagnosticar problemas específicos, registrando informações adicionais do que está sendo feito enquanto o Mix It Up está em execução. Esses logs normalmente serão enormes em comparação com logs regulares, por isso isso só deve ser feito quando especificamente aconselhado por um desenvolvedor mix it up e deve ser desativado imediatamente após o problema ser resolvido.</value>
+    <value>O Registro diagnóstico ajuda a diagnosticar problemas específicos, registrando informações adicionais do que está sendo feito enquanto o Neuroriot Bot está em execução. Esses logs normalmente serão enormes em comparação com logs regulares, por isso isso só deve ser feito quando especificamente aconselhado por um desenvolvedor mix it up e deve ser desativado imediatamente após o problema ser resolvido.</value>
     <comment>Manual</comment>
   </data>
   <data name="ShowBetterTTVEmotes" xml:space="preserve">
@@ -3317,7 +3317,7 @@ Por exemplo, se essa opção estiver ativada e o valor for definido para 5, ent�
     <comment>Manual</comment>
   </data>
   <data name="ClearAllMixerUserDataWarning" xml:space="preserve">
-    <value>Isso limpará todos os dados para seus antigos Usuários de Mixer, que inclui suas horas, comandos de moeda, rank e usuários personalizados e, em seguida, reiniciará o Mix It Up. Esse processo levará algum tempo para ser concluído dependendo de quantos usuários você tinha e não pode ser feito! Tem certeza que deseja fazer isso?</value>
+    <value>Isso limpará todos os dados para seus antigos Usuários de Mixer, que inclui suas horas, comandos de moeda, rank e usuários personalizados e, em seguida, reiniciará o Neuroriot Bot. Esse processo levará algum tempo para ser concluído dependendo de quantos usuários você tinha e não pode ser feito! Tem certeza que deseja fazer isso?</value>
     <comment>Manual</comment>
   </data>
   <data name="ClearMixerUserData" xml:space="preserve">
@@ -4955,7 +4955,7 @@ Uma vez que o vulcão atinge o estágio 3, cada depósito subsequente tem a chan
     <comment>Manual</comment>
   </data>
   <data name="UnlockCommandHelpText" xml:space="preserve">
-    <value>O Mix It Up tem a funcionalidade de bloqueio de comando garantindo que
+    <value>O Neuroriot Bot tem a funcionalidade de bloqueio de comando garantindo que
 apenas 1 tipo de comando (Chat, Interativo, etc) possa ser executado ao mesmo tempo 
 e garante que cada comando termine na ordem em que foi executado.
 Esta opção permitirá que você desabilite o bloqueio neste comando. Esteja ciente
@@ -5443,7 +5443,7 @@ Fuzzy</comment>
     <value>Fixar</value>
   </data>
   <data name="RunNewUserWizardWarning" xml:space="preserve">
-    <value>O Mix It Up será reiniciado e o novo assistente do usuário será re-executado quando você fizer login. Isso permitirá que você re importe seus dados, o que pode duplicar e substituir seus dados de Comandos &amp; Usuários. Tem certeza que deseja fazer isso?</value>
+    <value>O Neuroriot Bot será reiniciado e o novo assistente do usuário será re-executado quando você fizer login. Isso permitirá que você re importe seus dados, o que pode duplicar e substituir seus dados de Comandos &amp; Usuários. Tem certeza que deseja fazer isso?</value>
   </data>
   <data name="Standard" xml:space="preserve">
     <value>Padrão</value>
@@ -5473,16 +5473,16 @@ Fuzzy</comment>
     <value>Aberto à rede local (deve ser executado como administrador):</value>
   </data>
   <data name="DeveloperAPIInfo" xml:space="preserve">
-    <value>A API do desenvolvedor permite interação avançada com o Mix It Up de outros aplicativos em execução em seu computador usando uma série de serviços de API REST. Para obter mais informações sobre isso, consulte a página do Wiki da API do desenvolvedor.</value>
+    <value>A API do desenvolvedor permite interação avançada com o Neuroriot Bot de outros aplicativos em execução em seu computador usando uma série de serviços de API REST. Para obter mais informações sobre isso, consulte a página do Wiki da API do desenvolvedor.</value>
   </data>
   <data name="DeveloperAPIWarning" xml:space="preserve">
-    <value>AVISO: Isso fará com que as APIs do desenvolvedor ouçam todos os endereços e podem abrir o Mix It Up para chamadas de fora da sua rede. Só use esta opção se você sabe o que está fazendo!</value>
+    <value>AVISO: Isso fará com que as APIs do desenvolvedor ouçam todos os endereços e podem abrir o Neuroriot Bot para chamadas de fora da sua rede. Só use esta opção se você sabe o que está fazendo!</value>
   </data>
   <data name="DiscordInfo1" xml:space="preserve">
-    <value>A conectividade do serviço Discord permite obter informações sobre sua conta Discord, enviar mensagens para canais e controlar o áudio a partir de canais de voz. Ao fazer login, uma página da autenticação será aberta pedindo que você faça login no Discord e aprove o Mix It Up para acessar suas informações.</value>
+    <value>A conectividade do serviço Discord permite obter informações sobre sua conta Discord, enviar mensagens para canais e controlar o áudio a partir de canais de voz. Ao fazer login, uma página da autenticação será aberta pedindo que você faça login no Discord e aprove o Neuroriot Bot para acessar suas informações.</value>
   </data>
   <data name="DiscordInfo2" xml:space="preserve">
-    <value>O aplicativo padrão Mix It Up Discord tem um ressundo de 30 segundos entre cada ação do Discord para evitar problemas de limitação de taxas para todos os usuários. Para contornar o resfriamento de 30 segundos, você pode criar seu próprio aplicativo de discórdia personalizado.</value>
+    <value>O aplicativo padrão Neuroriot Bot Discord tem um ressundo de 30 segundos entre cada ação do Discord para evitar problemas de limitação de taxas para todos os usuários. Para contornar o resfriamento de 30 segundos, você pode criar seu próprio aplicativo de discórdia personalizado.</value>
   </data>
   <data name="DiscordInvalidBotToken" xml:space="preserve">
     <value>Por favor, insira um Token de Bot personalizado válido.</value>
@@ -5516,10 +5516,10 @@ Fuzzy</comment>
     <value>Gatilho de evento de doação para grupo de doadores:</value>
   </data>
   <data name="OverlayConnectionFailed1" xml:space="preserve">
-    <value>O teste de conexão de sobreposição falhou, por favor, certifique-se de ter a página de Sobreposição Mix It Up visível e em execução em seu software de streaming.</value>
+    <value>O teste de conexão de sobreposição falhou, por favor, certifique-se de ter a página de Sobreposição Neuroriot Bot visível e em execução em seu software de streaming.</value>
   </data>
   <data name="OverlayConnectionFailed2" xml:space="preserve">
-    <value>Se você lançou seu software de streaming antes do Mix It Up, tente atualizar a fonte da página web em seu software de streaming.</value>
+    <value>Se você lançou seu software de streaming antes do Neuroriot Bot, tente atualizar a fonte da página web em seu software de streaming.</value>
   </data>
   <data name="OverlayConnectionSuccess" xml:space="preserve">
     <value>Teste de conexão de sobreposição bem sucedido!</value>
@@ -5596,7 +5596,7 @@ Fuzzy</comment>
     <comment>Manual</comment>
   </data>
   <data name="JustGivingInfo1" xml:space="preserve">
-    <value>A conectividade do serviço JustGiving permite que você realize ações quando uma doação é recebida. Ao fazer login, uma página da autenticação será aberta pedindo que você faça login no JustGiving e aprove o Mix It Up para acessar suas informações.</value>
+    <value>A conectividade do serviço JustGiving permite que você realize ações quando uma doação é recebida. Ao fazer login, uma página da autenticação será aberta pedindo que você faça login no JustGiving e aprove o Neuroriot Bot para acessar suas informações.</value>
   </data>
   <data name="LayerPosition" xml:space="preserve">
     <value>Posição da camada</value>
@@ -5627,19 +5627,19 @@ Fuzzy</comment>
     <value>Adicione uma fonte de navegador da Web em seu software de streaming com a seguinte URL:</value>
   </data>
   <data name="OverlayInfo2" xml:space="preserve">
-    <value>Para usar o Mix It Up Overlay, certifique-se de que o Mix It Up esteja em execução primeiro antes de iniciar seu software de streaming ou atualizar a fonte da página web em seu software de streaming depois de lançar o Mix It Up.</value>
+    <value>Para usar o Neuroriot Bot Overlay, certifique-se de que o Neuroriot Bot esteja em execução primeiro antes de iniciar seu software de streaming ou atualizar a fonte da página web em seu software de streaming depois de lançar o Neuroriot Bot.</value>
   </data>
   <data name="OverlayInfo3" xml:space="preserve">
     <value>O suporte a várias sobreposições pode ser encontrado em Configurações -&gt; sobreposição.</value>
   </data>
   <data name="OverlayInfo4" xml:space="preserve">
-    <value>Se você tiver a configuração de conectividade OBS Studio, XSplit ou Streamlabs OBS, podemos atualizar automaticamente a fonte do navegador da Web que contém a Sobreposição de Mistura quando o Mix It Up é iniciado. Basta digitar o nome da fonte abaixo:</value>
+    <value>Se você tiver a configuração de conectividade OBS Studio, XSplit ou Streamlabs OBS, podemos atualizar automaticamente a fonte do navegador da Web que contém a Sobreposição de Mistura quando o Neuroriot Bot é iniciado. Basta digitar o nome da fonte abaixo:</value>
   </data>
   <data name="OverlayInfo5" xml:space="preserve">
     <value>Basta digitar o nome da fonte do navegador da Web em seu software de streaming abaixo:</value>
   </data>
   <data name="OvrStreamInfo1" xml:space="preserve">
-    <value>OVRStream é um poderoso editor de gráficos de movimento para alertas e sobreposições. O Mix It Up permite que você acione suas visualizações e defina valores variáveis para elas no OvrStream.</value>
+    <value>OVRStream é um poderoso editor de gráficos de movimento para alertas e sobreposições. O Neuroriot Bot permite que você acione suas visualizações e defina valores variáveis para elas no OvrStream.</value>
   </data>
   <data name="OvrStreamInfo2" xml:space="preserve">
     <value>Para obter informações sobre o OvrStream, consulte o seguinte link:</value>
@@ -5652,7 +5652,7 @@ Fuzzy</comment>
     <comment>Manual</comment>
   </data>
   <data name="PatreonInfo1" xml:space="preserve">
-    <value>A conectividade de serviço patreon permite que você realize ações quando uma doação é recebida. Ao fazer login, uma página da autenticação será aberta pedindo que você faça login no Patreon e aprove o Mix It Up para acessar suas informações.</value>
+    <value>A conectividade de serviço patreon permite que você realize ações quando uma doação é recebida. Ao fazer login, uma página da autenticação será aberta pedindo que você faça login no Patreon e aprove o Neuroriot Bot para acessar suas informações.</value>
   </data>
   <data name="Percentage" xml:space="preserve">
     <value>Porcentagem</value>
@@ -5710,10 +5710,10 @@ Fuzzy</comment>
     <comment>Manual</comment>
   </data>
   <data name="StreamAvatarsInfo1" xml:space="preserve">
-    <value>A funcionalidade do Stream Avatars é tratada diretamente através do programa Stream Avatars. Antes de conectar Stream Avatars para Mix It Up, você deve garantir que a API do desenvolvedor esteja ativada na página Serviços.</value>
+    <value>A funcionalidade do Stream Avatars é tratada diretamente através do programa Stream Avatars. Antes de conectar Stream Avatars para Neuroriot Bot, você deve garantir que a API do desenvolvedor esteja ativada na página Serviços.</value>
   </data>
   <data name="StreamAvatarsInfo2" xml:space="preserve">
-    <value>Para obter informações sobre como vincular Stream Avatars com Mix It Up, consulte a seção wiki Stream Avatars.</value>
+    <value>Para obter informações sobre como vincular Stream Avatars com Neuroriot Bot, consulte a seção wiki Stream Avatars.</value>
   </data>
   <data name="StreamAvatarsWikiSection" xml:space="preserve">
     <value>Seção Wiki de Stream Avatars</value>
@@ -5723,10 +5723,10 @@ Fuzzy</comment>
     <comment>Manual</comment>
   </data>
   <data name="StreamDeckInfo1" xml:space="preserve">
-    <value>Este plug-in do Stream Deck permite que você execute comandos Mix It Up diretamente do seu dispositivo Stream Deck, bem como outras informações de status sobre sua live.</value>
+    <value>Este plug-in do Stream Deck permite que você execute comandos Neuroriot Bot diretamente do seu dispositivo Stream Deck, bem como outras informações de status sobre sua live.</value>
   </data>
   <data name="StreamDeckInfo2" xml:space="preserve">
-    <value>Para começar, certifique-se de que o software Stream Deck seja atualizado para pelo menos a versão 4.0 &amp; o serviço de API do desenvolvedor está habilitado no Mix It Up. Para instalar o plugin Mix It Up, clique no "Mais Ações..." botão no canto inferior direito, em seguida, procure por "Mix It Up" na janela.</value>
+    <value>Para começar, certifique-se de que o software Stream Deck seja atualizado para pelo menos a versão 4.0 &amp; o serviço de API do desenvolvedor está habilitado no Neuroriot Bot. Para instalar o plugin Neuroriot Bot, clique no "Mais Ações..." botão no canto inferior direito, em seguida, procure por "Neuroriot Bot" na janela.</value>
     <comment>Fuzzy</comment>
   </data>
   <data name="StreamElements" xml:space="preserve">
@@ -5734,7 +5734,7 @@ Fuzzy</comment>
     <comment>Manual</comment>
   </data>
   <data name="StreamElementsInfo1" xml:space="preserve">
-    <value>A conectividade de serviço do StreamElements permite que você realize ações quando uma doação é recebida. Ao fazer login, uma página da autenticação será aberta pedindo que você faça login no StreamElements e aprove o Mix It Up para acessar suas informações.</value>
+    <value>A conectividade de serviço do StreamElements permite que você realize ações quando uma doação é recebida. Ao fazer login, uma página da autenticação será aberta pedindo que você faça login no StreamElements e aprove o Neuroriot Bot para acessar suas informações.</value>
   </data>
   <data name="StreamingSoftwareSourceName" xml:space="preserve">
     <value>Nome de origem do software de streaming</value>
@@ -5743,10 +5743,10 @@ Fuzzy</comment>
     <value>Rainmaker</value>
   </data>
   <data name="RainmakerInfo1" xml:space="preserve">
-    <value>A conectividade do serviço Rainmaker permite que você realize ações quando uma doação é recebida. Ao fazer login, uma página da autenticação será aberta pedindo que você faça login no Rainmaker e aprove o Mix It Up para acessar suas informações.</value>
+    <value>A conectividade do serviço Rainmaker permite que você realize ações quando uma doação é recebida. Ao fazer login, uma página da autenticação será aberta pedindo que você faça login no Rainmaker e aprove o Neuroriot Bot para acessar suas informações.</value>
   </data>
   <data name="StreamlabsInfo1" xml:space="preserve">
-    <value>A conectividade de serviço do Streamlabs permite que você realize ações quando uma doação é recebida. Ao fazer login, uma página da autenticação será aberta pedindo que você faça login no Streamlabs e aprove o Mix It Up para acessar suas informações.</value>
+    <value>A conectividade de serviço do Streamlabs permite que você realize ações quando uma doação é recebida. Ao fazer login, uma página da autenticação será aberta pedindo que você faça login no Streamlabs e aprove o Neuroriot Bot para acessar suas informações.</value>
   </data>
   <data name="StreamlabsOBSConnectionFailed" xml:space="preserve">
     <value>O teste de conexão OBS do Streamlabs falhou, por favor, certifique-se de que o Streamlabs OBS está em execução.</value>
@@ -5791,14 +5791,14 @@ Fuzzy</comment>
     <comment>Manual</comment>
   </data>
   <data name="TiltifyInfo1" xml:space="preserve">
-    <value>A conectividade de serviço tiltify permite que você realize ações quando uma doação é recebida. Ao fazer login, uma página da autenticação será aberta pedindo que você faça login no Tiltify e aprove o Mix It Up para acessar suas informações. Depois de conectar o Tiltify, você precisa selecionar a campanha que deseja usar ao detectar doações.</value>
+    <value>A conectividade de serviço tiltify permite que você realize ações quando uma doação é recebida. Ao fazer login, uma página da autenticação será aberta pedindo que você faça login no Tiltify e aprove o Neuroriot Bot para acessar suas informações. Depois de conectar o Tiltify, você precisa selecionar a campanha que deseja usar ao detectar doações.</value>
   </data>
   <data name="TipeeeStream" xml:space="preserve">
     <value>TipeeeStream</value>
     <comment>Manual</comment>
   </data>
   <data name="TipeeeStreamInfo1" xml:space="preserve">
-    <value>A conectividade do serviço TipeeeStream permite que você execute ações quando uma doação é recebida. Ao fazer login, uma página da autenticação será aberta pedindo que você faça login no TipeeeStream e aprove o Mix It Up para acessar suas informações.</value>
+    <value>A conectividade do serviço TipeeeStream permite que você execute ações quando uma doação é recebida. Ao fazer login, uma página da autenticação será aberta pedindo que você faça login no TipeeeStream e aprove o Neuroriot Bot para acessar suas informações.</value>
   </data>
   <data name="TitleHTMLStyle" xml:space="preserve">
     <value>Estilo HTML do título</value>
@@ -5815,7 +5815,7 @@ Fuzzy</comment>
     <comment>Manual</comment>
   </data>
   <data name="TreatStreamInfo1" xml:space="preserve">
-    <value>A conectividade do serviço TreatStream permite que você execute ações quando um tratamento é recebido. Ao fazer login, uma página da autenticação será aberta pedindo que você faça login no TreatStream e aprove o Mix It Up para acessar suas informações.</value>
+    <value>A conectividade do serviço TreatStream permite que você execute ações quando um tratamento é recebido. Ao fazer login, uma página da autenticação será aberta pedindo que você faça login no TreatStream e aprove o Neuroriot Bot para acessar suas informações.</value>
   </data>
   <data name="TwitterInfo1" xml:space="preserve">
     <value>A conectividade do serviço do Twitter permite que você envie tweets em sua conta e consulte facilmente seus tweets pessoais para uso dentro de sua live.</value>
@@ -5830,7 +5830,7 @@ Fuzzy</comment>
     <value>Largura (Pixels)</value>
   </data>
   <data name="XSplitConnectionFailed" xml:space="preserve">
-    <value>O teste de conexão XSplit falhou, por favor, certifique-se de ter a extensão Mix It Up XSplit adicionada e aberta em XSplit.</value>
+    <value>O teste de conexão XSplit falhou, por favor, certifique-se de ter a extensão Neuroriot Bot XSplit adicionada e aberta em XSplit.</value>
   </data>
   <data name="XSplitConnectionSuccess" xml:space="preserve">
     <value>Teste de conexão XSplit bem sucedido!</value>
@@ -5842,7 +5842,7 @@ Fuzzy</comment>
     <value>O serviço XSplit permite que você interaja diretamente com sua instância de XSplit para realizar alterações em cenas e fontes.</value>
   </data>
   <data name="XSplitInfo2" xml:space="preserve">
-    <value>A extensão Mix It Up deve ser instalada a partir da Pasta XSplit e em execução em XSplit. Para obter instruções sobre como fazer isso, confira a página XSplit Service.</value>
+    <value>A extensão Neuroriot Bot deve ser instalada a partir da Pasta XSplit e em execução em XSplit. Para obter instruções sobre como fazer isso, confira a página XSplit Service.</value>
   </data>
   <data name="XSplitServicePage" xml:space="preserve">
     <value>Página de serviço XSplit</value>
@@ -5974,25 +5974,25 @@ Fuzzy</comment>
     <value>Detalhes de erro: </value>
   </data>
   <data name="FailedToConnectToTwitch" xml:space="preserve">
-    <value>Falha ao conectar-se aos serviços da Twitch. Se isso continuar, visite o Mix It Up Discord para obter ajuda.</value>
+    <value>Falha ao conectar-se aos serviços da Twitch. Se isso continuar, visite o Neuroriot Bot Discord para obter ajuda.</value>
   </data>
   <data name="FailedToFinalizeInitialization" xml:space="preserve">
-    <value>Não conseguiu finalizar a inicialização. Se isso continuar, visite o Mix It Up Discord para obter ajuda.</value>
+    <value>Não conseguiu finalizar a inicialização. Se isso continuar, visite o Neuroriot Bot Discord para obter ajuda.</value>
   </data>
   <data name="FailedToGetChannelInformation" xml:space="preserve">
-    <value>Não consegui obter informações do canal. Se isso continuar, visite o Mix It Up Discord para obter ajuda.</value>
+    <value>Não consegui obter informações do canal. Se isso continuar, visite o Neuroriot Bot Discord para obter ajuda.</value>
   </data>
   <data name="FailedToInitializeBotAccount" xml:space="preserve">
     <value>Falha em inicializar a conta do Bot</value>
   </data>
   <data name="FailedToInitializeExternalServices" xml:space="preserve">
-    <value>Falha ao inicializar serviços externos. Se isso continuar, visite o Mix It Up Discord para obter ajuda.</value>
+    <value>Falha ao inicializar serviços externos. Se isso continuar, visite o Neuroriot Bot Discord para obter ajuda.</value>
   </data>
   <data name="FailedToInitializeSettings" xml:space="preserve">
-    <value>Não consegui inicializar as configurações. Se isso continuar, visite o Discord da Mix It Up para obter ajuda.</value>
+    <value>Não consegui inicializar as configurações. Se isso continuar, visite o Discord da Neuroriot Bot para obter ajuda.</value>
   </data>
   <data name="FailedToInitializeStreamerBasedServices" xml:space="preserve">
-    <value>Falha ao inicializar serviços baseados em streamer. Se isso continuar, visite o Discord da Mix It Up para obter ajuda.</value>
+    <value>Falha ao inicializar serviços baseados em streamer. Se isso continuar, visite o Discord da Neuroriot Bot para obter ajuda.</value>
   </data>
   <data name="FollowBonusZeroOrMore" xml:space="preserve">
     <value>O Bônus de Seguir deve ser maior ou igual a 0.</value>
@@ -6233,13 +6233,13 @@ Fuzzy</comment>
     <value>e estão tentando se reconectar:</value>
   </data>
   <data name="SessionInitializationFailed" xml:space="preserve">
-    <value>Não foi iniciado a sessão. Se isso continuar, por favor, visite o Discord  da Mix It Up para obter ajuda.</value>
+    <value>Não foi iniciado a sessão. Se isso continuar, por favor, visite o Discord  da Neuroriot Bot para obter ajuda.</value>
   </data>
   <data name="SettingsChangedRestartPrompt" xml:space="preserve">
-    <value>Algumas das configurações alteradas requerem um recomeço para fazer efeito. Gostaria de reiniciar o Mix It Up agora?</value>
+    <value>Algumas das configurações alteradas requerem um recomeço para fazer efeito. Gostaria de reiniciar o Neuroriot Bot agora?</value>
   </data>
   <data name="SettingsLoadFailure" xml:space="preserve">
-    <value>Um ou mais arquivos de configurações não puderam ser carregados. Por favor, visite a Discord da Mix It Up para obter ajuda sobre este assunto.</value>
+    <value>Um ou mais arquivos de configurações não puderam ser carregados. Por favor, visite a Discord da Neuroriot Bot para obter ajuda sobre este assunto.</value>
   </data>
   <data name="Shadow" xml:space="preserve">
     <value>Sombra (Opcional)</value>
@@ -6296,7 +6296,7 @@ Fuzzy</comment>
     <value>Um nome de comando deve ser especificado para negociação.</value>
   </data>
   <data name="TwitchAccountExists" xml:space="preserve">
-    <value>Já existem configurações para a conta {0}. Faça login com uma conta diferente ou reintegue o Mix It Up para selecionar as configurações do drop-down.</value>
+    <value>Já existem configurações para a conta {0}. Faça login com uma conta diferente ou reintegue o Neuroriot Bot para selecionar as configurações do drop-down.</value>
     <comment>{0} is the username</comment>
   </data>
   <data name="TwitchAccountMismatch" xml:space="preserve">
@@ -6309,7 +6309,7 @@ Fuzzy</comment>
     <value>Cada posto deve ter um nome único e uma quantidade mínima.</value>
   </data>
   <data name="UpgradePrompt1" xml:space="preserve">
-    <value>Detectamos uma versão mais antiga de suas configurações que precisa ser atualizada para um formato mais recente. Dependendo do tamanho, isso pode levar algum tempo para ser realizado e é necessário usar o Mix It Up.</value>
+    <value>Detectamos uma versão mais antiga de suas configurações que precisa ser atualizada para um formato mais recente. Dependendo do tamanho, isso pode levar algum tempo para ser realizado e é necessário usar o Neuroriot Bot.</value>
   </data>
   <data name="UpgradePrompt2" xml:space="preserve">
     <value>Se você está pronto para fazer isso, por favor pressione Sim. Caso contrário, pressione Não e perto da aplicação para executar mais tarde.</value>
@@ -6386,7 +6386,7 @@ Fuzzy</comment>
     <value>Falha ao obter dados do canal</value>
   </data>
   <data name="StreamlabsOBSAdminMaybe" xml:space="preserve">
-    <value>Streamlabs OBS pode estar sendo executado como administrador e Mix It Up não é. Tente executar o Mix It Up como administrador antes de conectar.</value>
+    <value>Streamlabs OBS pode estar sendo executado como administrador e Neuroriot Bot não é. Tente executar o Neuroriot Bot como administrador antes de conectar.</value>
   </data>
   <data name="StreamlabsOBSFailed" xml:space="preserve">
     <value>Streamlabs OBS não pôde ser alcançado</value>
@@ -6565,17 +6565,17 @@ Fuzzy</comment>
   <data name="CreateChannelPointRewardFailure" xml:space="preserve">
     <value>Channel Point Reward não foi capaz de ser criado: {0}
 
-Se esse problema persistir, visite o Discord da Mix It Up para obter assistência.</value>
+Se esse problema persistir, visite o Discord da Neuroriot Bot para obter assistência.</value>
   </data>
   <data name="CreateChannelPointRewardSuccess" xml:space="preserve">
     <value>Ponto de Recompensa do Canal criado com sucesso! Agora você pode atualizar dinamicamente este Ponto de Recompensa do Canal usando a ação da Twitch dentro de um comando. Por favor, use o link na página principal do Ponto de Recompensa do Canal para visitar o editor no Twitch para personalizar sua recompensa.</value>
   </data>
   <data name="TwitchActionChannelPointRewardCouldNotBeUpdated" xml:space="preserve">
-    <value>ERRO: Não foi possível atualizar o Ponto de Recompensa do Canal, por favor tente novamente mais tarde. Se essa recompensa não foi criada através da Interface do Mundo, você precisará excluí-la e reincluí-la na página Pontos de Canal, pois elas devem ser criadas através do Mix It Up para permitir que o aplicativo possa atualizá-los.</value>
+    <value>ERRO: Não foi possível atualizar o Ponto de Recompensa do Canal, por favor tente novamente mais tarde. Se essa recompensa não foi criada através da Interface do Mundo, você precisará excluí-la e reincluí-la na página Pontos de Canal, pois elas devem ser criadas através do Neuroriot Bot para permitir que o aplicativo possa atualizá-los.</value>
   </data>
   <data name="TwitchActionChannelPointRewardMustBeCreatedInMixItUp" xml:space="preserve">
-    <value>O Ponto de Recompensa do Canal deve ser criado através do Mix It Up para permitir que o aplicativo possa atualizá-los.
-Isso pode ser feito clicando em Criar recompensa de ponto do canal na página Pontos do Canal em Mix It Up.</value>
+    <value>O Ponto de Recompensa do Canal deve ser criado através do Neuroriot Bot para permitir que o aplicativo possa atualizá-los.
+Isso pode ser feito clicando em Criar recompensa de ponto do canal na página Pontos do Canal em Neuroriot Bot.</value>
   </data>
   <data name="FollowEventModeration" xml:space="preserve">
     <value>Siga a moderação do evento</value>
@@ -6636,11 +6636,11 @@ Isso pode ser feito clicando em Criar recompensa de ponto do canal na página Po
     <value>Pasta de backups automáticos</value>
   </data>
   <data name="MixItUpInstallFolder" xml:space="preserve">
-    <value>Pasta de instalação Mix It Up</value>
+    <value>Pasta de instalação Neuroriot Bot</value>
   </data>
   <data name="AutomaticBackupFailedToCreate" xml:space="preserve">
     <value>Falhou em criar backup automático. Por favor, certifique-se de definir o
-caminho da pasta corretamente e que o caminho da pasta está acessível para Mix It Up.</value>
+caminho da pasta corretamente e que o caminho da pasta está acessível para Neuroriot Bot.</value>
   </data>
   <data name="ActionList" xml:space="preserve">
     <value>Lista de ações</value>
@@ -6773,13 +6773,13 @@ certifique-se de que essa opção seja desativada depois que qualquer teste que 
     <value>Ação Twitch: Palpites devem ter 2 resultados válidos</value>
   </data>
   <data name="TwitchPollFailedToCreate" xml:space="preserve">
-    <value>ERRO: Não consegui criar enquete, por favor tente novamente mais tarde. Se esse problema persistir, visite o servidor Discord da Mix It Up.</value>
+    <value>ERRO: Não consegui criar enquete, por favor tente novamente mais tarde. Se esse problema persistir, visite o servidor Discord da Neuroriot Bot.</value>
   </data>
   <data name="TwitchPollFailedToGetResults" xml:space="preserve">
-    <value>ERRO: Não conseguiu obter resultados de pesquisa de processo. Se esse problema persistir, visite o servidor Discord da Mix It Up.</value>
+    <value>ERRO: Não conseguiu obter resultados de pesquisa de processo. Se esse problema persistir, visite o servidor Discord da Neuroriot Bot.</value>
   </data>
   <data name="TwitchPredictionFailedToCreate" xml:space="preserve">
-    <value>ERRO: Não consegui criar palpites, por favor tente novamente mais tarde. Se esse problema persistir, visite o servidor Discord da Mix It Up.</value>
+    <value>ERRO: Não consegui criar palpites, por favor tente novamente mais tarde. Se esse problema persistir, visite o servidor Discord da Neuroriot Bot.</value>
   </data>
   <data name="Arguments" xml:space="preserve">
     <value>Argumentos</value>
@@ -7073,7 +7073,7 @@ O não cumprimento de um dos seguintes pode afetar a forma como os usuários ava
     <value>Hype Train Começou</value>
   </data>
   <data name="WebhooksServiceFailedConnection" xml:space="preserve">
-    <value>Falha ao se conectar ao serviço Webhooks da Mix It Up</value>
+    <value>Falha ao se conectar ao serviço Webhooks da Neuroriot Bot</value>
   </data>
   <data name="WebhookEvents" xml:space="preserve">
     <value>Eventos webhook</value>
@@ -7405,7 +7405,7 @@ O não cumprimento de um dos seguintes pode afetar a forma como os usuários ava
     <value>Assinante do YouTube</value>
   </data>
   <data name="AccountsChangesRequireRestart" xml:space="preserve">
-    <value>Todas as alterações nas contas de inscrição requerem um reinicialização completo do Mix It Up!</value>
+    <value>Todas as alterações nas contas de inscrição requerem um reinicialização completo do Neuroriot Bot!</value>
   </data>
   <data name="TwitchAccountMustBeConnectedToUseThisFeature" xml:space="preserve">
     <value>Uma conta da Twitch deve ser conectada para usar esse recurso</value>
@@ -7570,7 +7570,7 @@ O não cumprimento de um dos seguintes pode afetar a forma como os usuários ava
 Importações pendentes: {1}
 Importações com falha: {2}
 
-Os usuários que ainda não visitaram seu canal enquanto o Mix It Up estiver em execução têm sua importação de dados pendente e serão importados com sucesso quando visitarem pela primeira vez.
+Os usuários que ainda não visitaram seu canal enquanto o Neuroriot Bot estiver em execução têm sua importação de dados pendente e serão importados com sucesso quando visitarem pela primeira vez.
 
 As importações fracassadas podem ser devido a dados inválidos ou à falta de encontrar suas informações na plataforma. Por favor, entre em contato com o suporte para obter mais ajuda com isso, se necessário.</value>
     <comment>{0} is the number of successes, {1} is the number of pending, {2} is the number of failures</comment>
@@ -7882,7 +7882,7 @@ As importações fracassadas podem ser devido a dados inválidos ou à falta de 
     <value>Cotações Importação de Dados</value>
   </data>
   <data name="QuotesDataImportStep1" xml:space="preserve">
-    <value>Isso permitirá que você importe seus dados de cotações de um arquivo de texto simples ou planilha. Para importar um arquivo de planilha, você deve ter algum tipo de Microsoft Excel instalado. Observe que se já existir uma cotação com o mesmo ID no Mix It Up, o ID de cotação será atualizado para o número mais alto. Primeiro, especifique o arquivo do qual deseja importar os dados do Usuário:</value>
+    <value>Isso permitirá que você importe seus dados de cotações de um arquivo de texto simples ou planilha. Para importar um arquivo de planilha, você deve ter algum tipo de Microsoft Excel instalado. Observe que se já existir uma cotação com o mesmo ID no Neuroriot Bot, o ID de cotação será atualizado para o número mais alto. Primeiro, especifique o arquivo do qual deseja importar os dados do Usuário:</value>
   </data>
   <data name="QuotesDataImportStep2" xml:space="preserve">
     <value>Em seguida, você precisará especificar o número da coluna para cada valor em seu arquivo de dados ou deixá-lo em branco se esse valor não estiver presente.</value>
@@ -8123,10 +8123,10 @@ As cotações importadas com IDs que correspondem às cotações existentes ser�
     <value>Jogos disponíveis: </value>
   </data>
   <data name="PreMadeChatCommandMixItUp" xml:space="preserve">
-    <value>Este canal usa o aplicativo Mix It Up para melhorar sua Live. Confira http://mixitupapp.com para mais informações!</value>
+    <value>Este canal usa o aplicativo Neuroriot Bot para melhorar sua Live. Confira http://mixitupapp.com para mais informações!</value>
   </data>
   <data name="PreMadeChatCommandMixItUpCommands" xml:space="preserve">
-    <value>Todos os comandos de chat padrões do Mix It Up podem ser encontrados aqui: https://wiki.mixitupapp.com/commands/pre-made-chat-commands. Para comandos específicos desta live, pergunte ao seu streamer/moderador.</value>
+    <value>Todos os comandos de chat padrões do Neuroriot Bot podem ser encontrados aqui: https://wiki.mixitupapp.com/commands/pre-made-chat-commands. Para comandos específicos desta live, pergunte ao seu streamer/moderador.</value>
   </data>
   <data name="PreMadeChatCommandQuotesNotEnabled" xml:space="preserve">
     <value>As citações devem ser ativadas e pelo menos uma cotação deve ser adicionada para que este recurso funcione.</value>
@@ -8413,10 +8413,10 @@ As cotações importadas com IDs que correspondem às cotações existentes ser�
     <value>Você não está na fila para jogar</value>
   </data>
   <data name="SettingsBackupNotValid" xml:space="preserve">
-    <value>O arquivo de backup selecionado não parece conter configurações do Mix It Up.</value>
+    <value>O arquivo de backup selecionado não parece conter configurações do Neuroriot Bot.</value>
   </data>
   <data name="SettingsBackupTooNew" xml:space="preserve">
-    <value>O arquivo de backup é válido, mas é de uma versão mais recente do Mix It Up. Certifique-se de atualizar para a versão mais recente.
+    <value>O arquivo de backup é válido, mas é de uma versão mais recente do Neuroriot Bot. Certifique-se de atualizar para a versão mais recente.
 
 NOTA: Isso pode exigir que você opte pela compilação Pré-visualização da guia Geral em Configurações se isso for feito em uma compilação de visualização.</value>
   </data>
@@ -8567,7 +8567,7 @@ Tentaremos nos reconectar com o serviço quando possível. Se isso continuar, po
 {1} is the number of points</comment>
   </data>
   <data name="FailedToInitializeSession" xml:space="preserve">
-    <value>Não foi iniciado a sessão. Se isso continuar, visite o Discord da Mix It Up para obter ajuda.</value>
+    <value>Não foi iniciado a sessão. Se isso continuar, visite o Discord da Neuroriot Bot para obter ajuda.</value>
   </data>
   <data name="FileIsNotInCorrectFormat" xml:space="preserve">
     <value>O arquivo não está no formato correto</value>
@@ -8591,7 +8591,7 @@ Tentaremos nos reconectar com o serviço quando possível. Se isso continuar, po
     <value>Pelo menos 1 conta do Streamer deve ser assinada</value>
   </data>
   <data name="SettingsAlreadyExistForAccount" xml:space="preserve">
-    <value>Já existem configurações com a mesma conta para {0}. Faça login com uma conta diferente ou reintegue o Mix It Up para selecionar as configurações do drop-down.</value>
+    <value>Já existem configurações com a mesma conta para {0}. Faça login com uma conta diferente ou reintegue o Neuroriot Bot para selecionar as configurações do drop-down.</value>
     <comment>{0} is the name of the streaming platform</comment>
   </data>
   <data name="SettingsNoFileHasBeenLoaded" xml:space="preserve">
@@ -8646,10 +8646,10 @@ Tentaremos nos reconectar com o serviço quando possível. Se isso continuar, po
     <value>Os seguintes comandos podem ser criados automaticamente para que você comece usando esse recurso. Gostaria que adicionamos automaticamente os seguintes comandos para você?</value>
   </data>
   <data name="MixItUpPopOut" xml:space="preserve">
-    <value>Mix It Up - Pop Out</value>
+    <value>Neuroriot Bot - Pop Out</value>
   </data>
   <data name="MixItUpNewUserWizard" xml:space="preserve">
-    <value>Mix It Up - Assist. de Novo Usuário</value>
+    <value>Neuroriot Bot - Assist. de Novo Usuário</value>
     <comment>Fuzzy</comment>
   </data>
   <data name="UserEditor" xml:space="preserve">
@@ -8659,7 +8659,7 @@ Tentaremos nos reconectar com o serviço quando possível. Se isso continuar, po
     <value>&lt; Voltar</value>
   </data>
   <data name="WizardCommands1" xml:space="preserve">
-    <value>O Mix It Up usa uma estrutura de Comando &amp; Ação para tudo em todo o aplicativo. Pense nisso semelhante a uma receita que você seguiria para fazer comida.</value>
+    <value>O Neuroriot Bot usa uma estrutura de Comando &amp; Ação para tudo em todo o aplicativo. Pense nisso semelhante a uma receita que você seguiria para fazer comida.</value>
   </data>
   <data name="WizardCommands2" xml:space="preserve">
     <value>Digamos que você queria fazer macarrão; você seguiria os passos na receita um após o outro até que você esteja feito. Você também seguiria cada passo na ordem em que eles são especificados. Por exemplo, você precisa aquecer a água antes de poder adicionar a massa.</value>
@@ -8671,7 +8671,7 @@ Tentaremos nos reconectar com o serviço quando possível. Se isso continuar, po
     <value>Neste exemplo, nosso comando shout out envia uma mensagem para conversar, toca um som, espera 10 segundos e, em seguida, mostra uma imagem. Cada um deles corresponde a um tipo de ação diferente (Chat, Som, Espera e Sobreposição).</value>
   </data>
   <data name="WizardFinal1" xml:space="preserve">
-    <value>Mix It Up é um aplicativo somente para desktop, de modo que suas configurações e dados só existem no seu computador. Portanto, codificamos os usuários a configurar backups automáticos para suas configurações para garantir que você sempre tenha algo para voltar no caso de quaisquer problemas:</value>
+    <value>Neuroriot Bot é um aplicativo somente para desktop, de modo que suas configurações e dados só existem no seu computador. Portanto, codificamos os usuários a configurar backups automáticos para suas configurações para garantir que você sempre tenha algo para voltar no caso de quaisquer problemas:</value>
   </data>
   <data name="WizardFinal2" xml:space="preserve">
     <value>Não sabe como um recurso funciona ou quer mais informações? Basta clicar no ícone Ajuda na barra superior da janela principal para saber mais!</value>
@@ -8680,10 +8680,10 @@ Tentaremos nos reconectar com o serviço quando possível. Se isso continuar, po
     <value>Não se esqueça dos seguintes recursos disponíveis para perguntas e suporte:</value>
   </data>
   <data name="WizardFinal4" xml:space="preserve">
-    <value>Obrigado por usar o Mix It Up e esperamos que ele atenda a todas as suas necessidades!</value>
+    <value>Obrigado por usar o Neuroriot Bot e esperamos que ele atenda a todas as suas necessidades!</value>
   </data>
   <data name="WizardIntro1" xml:space="preserve">
-    <value>Este assistente ajudará a começar com o Mix It Up, registrando-o em suas contas de plataforma de streaming, ajudá-lo a importar seus dados existentes de alguns bots e levá-lo através de algumas das cordas de como as coisas funcionam.</value>
+    <value>Este assistente ajudará a começar com o Neuroriot Bot, registrando-o em suas contas de plataforma de streaming, ajudá-lo a importar seus dados existentes de alguns bots e levá-lo através de algumas das cordas de como as coisas funcionam.</value>
   </data>
   <data name="WizardIntro2" xml:space="preserve">
     <value>Antes de começarmos, queremos que você saiba sobre alguns grandes recursos que você pode usar para ajudá-lo com problemas ou dar-lhe ideias de coisas para criar. Clique em qualquer um dos botões abaixo para ir para esse recurso:</value>
@@ -8704,10 +8704,10 @@ Tentaremos nos reconectar com o serviço quando possível. Se isso continuar, po
     <value>Próxima &gt;</value>
   </data>
   <data name="MixItUpLogin" xml:space="preserve">
-    <value>Mix It Up - Login</value>
+    <value>Neuroriot Bot - Login</value>
   </data>
   <data name="ANewUpdateIsAvailableForMixItUp" xml:space="preserve">
-    <value>Uma nova atualização está disponível para Mix It Up!</value>
+    <value>Uma nova atualização está disponível para Neuroriot Bot!</value>
   </data>
   <data name="CurrentVersion" xml:space="preserve">
     <value>Versão atual</value>
@@ -8716,7 +8716,7 @@ Tentaremos nos reconectar com o serviço quando possível. Se isso continuar, po
     <value>Se a atualização não for concluída com sucesso e você for solicitado a atualizar novamente, reinicie o computador primeiro e tente novamente.</value>
   </data>
   <data name="MixItUpUpdateAvailable" xml:space="preserve">
-    <value>Mix It Up - Atualização Disponível</value>
+    <value>Neuroriot Bot - Atualização Disponível</value>
   </data>
   <data name="NewVersion" xml:space="preserve">
     <value>Nova versão</value>
@@ -8750,11 +8750,11 @@ Tentaremos nos reconectar com o serviço quando possível. Se isso continuar, po
     <comment>{0} is the name of the user</comment>
   </data>
   <data name="UsersSuccessfullyFoundUser" xml:space="preserve">
-    <value>O usuário {0} foi encontra com sucesso e adicionado ao Mix It Up</value>
+    <value>O usuário {0} foi encontra com sucesso e adicionado ao Neuroriot Bot</value>
     <comment>{0} is the name of the user</comment>
   </data>
   <data name="AddUserDescription" xml:space="preserve">
-    <value>Selecione a plataforma de streaming e o nome do usuário para encontrar lá. Se o usuário for encontrado com sucesso, seus dados de usuário serão adicionados ao Mix It Up para você poder usar.</value>
+    <value>Selecione a plataforma de streaming e o nome do usuário para encontrar lá. Se o usuário for encontrado com sucesso, seus dados de usuário serão adicionados ao Neuroriot Bot para você poder usar.</value>
   </data>
   <data name="ChatUserEntranceCommand" xml:space="preserve">
     <value>Comando de Entrada de Usuário no Chat</value>
@@ -8807,10 +8807,10 @@ via Twitch, é uma situação "que pode variar".</value>
     <value>Arquivo de Imagem|*.bmp;*.gif;*.jpg;*.jpeg;*.png;|Todos arquivos (*.*)|*.*</value>
   </data>
   <data name="MixItUpBackupFileFormatFilter" xml:space="preserve">
-    <value>Backup Mix It Up|*.miubackup|Todos arquivos (*.*)|*.*</value>
+    <value>Backup Neuroriot Bot|*.miubackup|Todos arquivos (*.*)|*.*</value>
   </data>
   <data name="MixItUpCommandFileFormatFilter" xml:space="preserve">
-    <value>Comandos Mix It Up|*.miucommand|Todos arquivos (*.*)|*.*</value>
+    <value>Comandos Neuroriot Bot|*.miucommand|Todos arquivos (*.*)|*.*</value>
   </data>
   <data name="SoundFileFormatFilter" xml:space="preserve">
     <value>Arquivos de Áudio|*.mp3;*.wav|Todos arquivos (*.*)|*.*</value>
@@ -8837,13 +8837,13 @@ via Twitch, é uma situação "que pode variar".</value>
     <value>Por favor, insira um ID de participante Extra Life válido.</value>
   </data>
   <data name="BackupGenerationFailed" xml:space="preserve">
-    <value>Falha ao gerar o arquivo de backup. Se isso continuar, visite o Discord de suporte do Mix It Up para obter mais assistência.</value>
+    <value>Falha ao gerar o arquivo de backup. Se isso continuar, visite o Discord de suporte do Neuroriot Bot para obter mais assistência.</value>
   </data>
   <data name="Transparent" xml:space="preserve">
     <value>Transparente</value>
   </data>
   <data name="MixItUpServices" xml:space="preserve">
-    <value>Serviços Mix It Up</value>
+    <value>Serviços Neuroriot Bot</value>
   </data>
   <data name="DisableAnimatedEmotes" xml:space="preserve">
     <value>Desabilitar emotes animados</value>
@@ -8896,7 +8896,7 @@ via Twitch, é uma situação "que pode variar".</value>
     <value>Doação Canal Glimesh</value>
   </data>
   <data name="MixItUpIsAlreadyRunning" xml:space="preserve">
-    <value>Mix It Up já está em execução! A menos que você pretendia fazer isso, feche todas as instâncias existentes do Mix It Up antes de tentar executar uma nova instância. Você ainda deseja continuar executando esta instância do Mix It Up?</value>
+    <value>Neuroriot Bot já está em execução! A menos que você pretendia fazer isso, feche todas as instâncias existentes do Neuroriot Bot antes de tentar executar uma nova instância. Você ainda deseja continuar executando esta instância do Neuroriot Bot?</value>
     <comment>Fuzzy</comment>
   </data>
   <data name="EnableStreamlabsDesktop" xml:space="preserve">
@@ -8913,7 +8913,7 @@ via Twitch, é uma situação "que pode variar".</value>
     <value>The Streamlabs Desktop service allows you to directly interact with your instance of Streamlabs Desktop to perform changes to scenes and sources.</value>
   </data>
   <data name="StreamlabsDesktopAdminMaybe" xml:space="preserve">
-    <value>Streamlabs Desktop might be running as administrator and Mix It Up is not. Try running Mix It Up as an Administrator before connecting.</value>
+    <value>Streamlabs Desktop might be running as administrator and Neuroriot Bot is not. Try running Neuroriot Bot as an Administrator before connecting.</value>
   </data>
   <data name="StreamlabsDesktopFailed" xml:space="preserve">
     <value>Streamlabs Desktop could not be reached</value>
@@ -9268,10 +9268,10 @@ namespace CustomNamespace
     <value>LoupeDeck</value>
   </data>
   <data name="LoupeDeckInfo1" xml:space="preserve">
-    <value>This LoupeDeck plug-in allows you to run Mix It Up commands directly from your LoupeDeck device, as well as other status information about your stream.</value>
+    <value>This LoupeDeck plug-in allows you to run Neuroriot Bot commands directly from your LoupeDeck device, as well as other status information about your stream.</value>
   </data>
   <data name="LoupeDeckInfo2" xml:space="preserve">
-    <value>To get started, ensure the LoupeDeck software is updated to the latest version &amp; the Developer API service is enabled in Mix It Up. To install the Mix It Up plugin, click on the Marketplace icon at the top right of your LoupeDeck software, then search for "Mix It Up".</value>
+    <value>To get started, ensure the LoupeDeck software is updated to the latest version &amp; the Developer API service is enabled in Neuroriot Bot. To install the Neuroriot Bot plugin, click on the Marketplace icon at the top right of your LoupeDeck software, then search for "Neuroriot Bot".</value>
   </data>
   <data name="ShellExecute" xml:space="preserve">
     <value>Shell Execute</value>
@@ -9289,7 +9289,7 @@ namespace CustomNamespace
     <value>Twitch custom tags must be 25 characters or less and only contain letters and numbers</value>
   </data>
   <data name="StreamlabDesktopAdminMaybe" xml:space="preserve">
-    <value>Streamlabs Desktop might be running as administrator and Mix It Up is not. Try running Mix It Up as an Administrator before connecting.</value>
+    <value>Streamlabs Desktop might be running as administrator and Neuroriot Bot is not. Try running Neuroriot Bot as an Administrator before connecting.</value>
   </data>
   <data name="ShadowColor" xml:space="preserve">
     <value>Shadow Color</value>

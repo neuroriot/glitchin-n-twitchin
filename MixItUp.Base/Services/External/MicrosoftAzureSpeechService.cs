@@ -44,7 +44,7 @@ namespace MixItUp.Base.Services.External
             {
                 client.AddHeader("Ocp-Apim-Subscription-Key", ServiceManager.Get<SecretsService>().GetSecret("AzureSpeechServiceSecret"));
                 client.AddHeader("Content-Type", "application/ssml+xml");
-                client.AddHeader("User-Agent", "Mix It Up Desktop");
+                client.AddHeader("User-Agent", "Neuroriot Bot Desktop");
                 client.AddHeader("X-Microsoft-OutputFormat", "audio-16khz-128kbitrate-mono-mp3");
                 HttpResponseMessage response = await client.PostAsync("cognitiveservices/v1", AdvancedHttpClient.CreateContentFromString($"<speak version='1.0' xml:lang='en-US'><voice xml:lang='en-US' xml:gender='Female' name='{voice}'>{text}</voice></speak>"));
 

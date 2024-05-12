@@ -2644,7 +2644,7 @@
     <None Include="Lib\_weakrefset.py" />
     <None Include="Lib\__future__.py" />
     <None Include="Lib\__phello__.foo.py" />
-    <None Include="Mix It Up.link">
+    <None Include="Neuroriot Bot.link">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="packages.config">

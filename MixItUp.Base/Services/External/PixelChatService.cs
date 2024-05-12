@@ -294,7 +294,7 @@ namespace MixItUp.Base.Services.External
         {
             AdvancedHttpClient httpClient = new AdvancedHttpClient(PixelChatService.BaseAddress);
             httpClient.DefaultRequestHeaders.Add("x-api-key", this.token.accessToken);
-            httpClient.DefaultRequestHeaders.Add("x-application", "Mix It Up");
+            httpClient.DefaultRequestHeaders.Add("x-application", "Neuroriot Bot");
             return Task.FromResult(httpClient);
         }
     }

@@ -47,11 +47,16 @@ namespace MixItUp.Base
 
         public static async Task Initialize()
         {
+            // remember to also enable/disable in \MixItUp.WPF\Controls\MainControls\ServicesControl.xaml.cs
+            // don't disable here unless absolutely necessary!
+
             ServiceManager.Add(new SecretsService());
 
             ServiceManager.Add(new CommandService());
             ServiceManager.Add(new SettingsService());
+
             ServiceManager.Add(new MixItUpService());
+
             ServiceManager.Add(new UserService());
             ServiceManager.Add(new ChatService());
             ServiceManager.Add(new EventService());
@@ -65,7 +70,9 @@ namespace MixItUp.Base
             ServiceManager.Add(new OverlayV3Service());
 
             ServiceManager.Add(new StreamlabsDesktopService());
+
             ServiceManager.Add(new XSplitService());
+
             ServiceManager.Add(new PolyPopService());
 
             ServiceManager.Add(new AlejoPronounsService());
@@ -78,7 +85,9 @@ namespace MixItUp.Base
             ServiceManager.Add(new PatreonService());
             ServiceManager.Add(new DiscordService());
             ServiceManager.Add(new PixelChatService());
+
             ServiceManager.Add(new VTubeStudioService());
+
             ServiceManager.Add(new CrowdControlService());
             ServiceManager.Add(new SAMMIService());
             ServiceManager.Add(new InfiniteAlbumService());
@@ -87,9 +96,12 @@ namespace MixItUp.Base
             ServiceManager.Add(new PulsoidService());
             ServiceManager.Add(new ResponsiveVoiceService());
             ServiceManager.Add(new MicrosoftAzureSpeechService());
+
             ServiceManager.Add(new VTSPogService());
+
             ServiceManager.Add(new MtionStudioService());
 
+            /*
             try
             {
                 Type voicemodServiceType = Type.GetType("MixItUp.Base.Services.External.VoicemodService");
@@ -99,6 +111,8 @@ namespace MixItUp.Base
                 if (ttsMonsterServiceType != null) { ServiceManager.Add((ITTSMonsterService)Activator.CreateInstance(ttsMonsterServiceType)); }
             }
             catch (Exception ex) { Logger.Log(ex); }
+            */
+
 
             ServiceManager.Add(new TwitchSessionService());
             ServiceManager.Add(new TwitchChatService());
@@ -344,7 +358,9 @@ namespace MixItUp.Base
                 if (ChannelSession.Settings.VTSPogEnabled) { externalServiceToConnect[ServiceManager.Get<VTSPogService>()] = null; }
                 if (ChannelSession.Settings.EnableOverlay) { externalServiceToConnect[ServiceManager.Get<OverlayV3Service>()] = null; }
                 if (ChannelSession.Settings.MtionStudioEnabled) { externalServiceToConnect[ServiceManager.Get<MtionStudioService>()] = null; }
-                if (ChannelSession.Settings.EnableDeveloperAPI) { externalServiceToConnect[ServiceManager.Get<IDeveloperAPIService>()] = null; }
+
+                //if (ChannelSession.Settings.EnableDeveloperAPI) { externalServiceToConnect[ServiceManager.Get<IDeveloperAPIService>()] = null; }
+                if (ChannelSession.Settings.EnableDeveloperAPI) { ChannelSession.Settings.EnableDeveloperAPI = false; }
 
                 if (externalServiceToConnect.Count > 0)
                 {

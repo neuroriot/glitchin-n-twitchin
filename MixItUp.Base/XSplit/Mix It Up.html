@@ -9,7 +9,7 @@
 </head>
 <body>
   <div id='eventsDiv'>
-    Mix It Up Events:<BR><BR>
+    Neuroriot Bot Events:<BR><BR>
   </div>
 
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -106,13 +106,13 @@
     var disconnected = true;
 
     function connectionOpened() {
-      eventsDiv.innerHTML += 'Connected to Mix It Up!<BR>';
+      eventsDiv.innerHTML += 'Connected to Neuroriot Bot!<BR>';
       disconnected = false;
     }
 
     function connectionClosed() {
       if (!disconnected) {
-        eventsDiv.innerHTML += 'Disconnected from Mix It Up!<BR>';
+        eventsDiv.innerHTML += 'Disconnected from Neuroriot Bot!<BR>';
         disconnected = true;
       }
     }

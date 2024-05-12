@@ -46,7 +46,9 @@ namespace MixItUp.WPF
                 ServiceManager.Add<IInputService>(new WindowsInputService());
                 ServiceManager.Add<IImageService>(new WindowsImageService());
                 ServiceManager.Add<IAudioService>(new WindowsAudioService());
-                ServiceManager.Add<IDeveloperAPIService>(new WindowsDeveloperAPIService());
+
+                //ServiceManager.Add<IDeveloperAPIService>(new WindowsDeveloperAPIService())
+
                 ServiceManager.Add<ITelemetryService>(new WindowsTelemetryService());
                 ServiceManager.Add<IMusicPlayerService>(new WindowsMusicPlayerService());
                 ServiceManager.Add<IProcessService>(new WindowsProcessService());
@@ -128,7 +130,7 @@ namespace MixItUp.WPF
 
             Application.Current.Resources.MergedDictionaries.Add(newMDTResourceDictionary);
 
-            // Change Mix It Up Light/Dark Theme
+            // Change Neuroriot Bot Light/Dark Theme
             var existingMIUResourceDictionary = Application.Current.Resources.MergedDictionaries.Where(rd => rd.Source != null)
                 .SingleOrDefault(rd => Regex.Match(rd.Source.OriginalString, @"(MixItUpBackgroundColor\.)").Success);
             Application.Current.Resources.MergedDictionaries.Remove(existingMIUResourceDictionary);
@@ -182,7 +184,16 @@ namespace MixItUp.WPF
                 Logger.SetLogLevel(LogLevel.Error);
             }
 
-            this.SwitchTheme(ChannelSession.AppSettings.ColorScheme, ChannelSession.AppSettings.BackgroundColor, ChannelSession.AppSettings.FullThemeName);
+            if (ChannelSession.AppSettings == null)
+            {
+                //ChannelSession.Initialize().Wait();
+                Task.Delay(3500).Wait();
+                if (ChannelSession.AppSettings == null)
+                    Task.Delay(5000).Wait();
+            }
+
+            if (ChannelSession.AppSettings != null)
+                this.SwitchTheme(ChannelSession.AppSettings.ColorScheme, ChannelSession.AppSettings.BackgroundColor, ChannelSession.AppSettings.FullThemeName);
 
             base.OnStartup(e);
         }

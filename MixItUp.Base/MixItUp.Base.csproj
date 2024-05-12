@@ -1,19 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
   </PropertyGroup>
-
   <ItemGroup>
     <None Remove="XSplit\Mix It Up.html" />
   </ItemGroup>
-
   <ItemGroup>
     <Compile Include="..\..\Mix It Up Web\MixItUpSecrets.cs" Link="MixItUpSecrets.cs" />
-    <Compile Include="..\..\Mix It Up Web\Services\External\TTSMonsterService.cs" Link="Services\External\TTSMonsterService.cs" />
-    <Compile Include="..\..\Mix It Up Web\Services\External\VoicemodService.cs" Link="Services\External\VoicemodService.cs" />
   </ItemGroup>
-
   <ItemGroup>
     <Content Include="Deprecated\OverlayPageOld.html">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
@@ -22,31 +17,20 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-
   <ItemGroup>
     <PackageReference Include="ExcelDataReader" Version="3.6.0" />
     <PackageReference Include="ExcelDataReader.DataSet" Version="3.6.0" />
     <PackageReference Include="Jace" Version="1.0.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="8.0.4" />
     <PackageReference Include="StreamingClientLibrary.Trovo" Version="1.0.0.24" />
     <PackageReference Include="StreamingClientLibrary.Twitch" Version="1.0.0.78" />
     <PackageReference Include="StreamingClientLibrary.YouTube" Version="1.0.0.21" />
-    <PackageReference Include="System.IO.Ports" Version="6.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.IO.Ports" Version="8.0.0" />
   </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="PresentationFramework">
-      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.2\PresentationFramework.dll</HintPath>
-    </Reference>
-    <Reference Include="System.ComponentModel.DataAnnotations">
-      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.6.1\System.ComponentModel.DataAnnotations.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\MixItUp.SignalR.Client\MixItUp.SignalR.Client.csproj" />
   </ItemGroup>
-
   <ItemGroup>
     <Compile Update="OverlayResources.Designer.cs">
       <DesignTime>True</DesignTime>
@@ -59,7 +43,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
   </ItemGroup>
-
   <ItemGroup>
     <None Update="LICENSE.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -68,7 +51,6 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-
   <ItemGroup>
     <EmbeddedResource Update="OverlayResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
@@ -78,78 +60,59 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-
     <EmbeddedResource Update="Resources.de.resx">
       <DependentUpon>Resources.resx</DependentUpon>
     </EmbeddedResource>
-
     <EmbeddedResource Update="Resources.de-DE.resx">
       <DependentUpon>Resources.resx</DependentUpon>
     </EmbeddedResource>
-
     <EmbeddedResource Update="Resources.fr.resx">
       <DependentUpon>Resources.resx</DependentUpon>
     </EmbeddedResource>
-
     <EmbeddedResource Update="Resources.nl.resx">
       <DependentUpon>Resources.resx</DependentUpon>
     </EmbeddedResource>
-
     <EmbeddedResource Update="Resources.nl-NL.resx">
       <DependentUpon>Resources.resx</DependentUpon>
     </EmbeddedResource>
-
     <EmbeddedResource Update="Resources.es.resx">
       <DependentUpon>Resources.resx</DependentUpon>
     </EmbeddedResource>
-
     <EmbeddedResource Update="Resources.es-ES.resx">
       <DependentUpon>Resources.resx</DependentUpon>
     </EmbeddedResource>
-
     <EmbeddedResource Update="Resources.ja.resx">
       <DependentUpon>Resources.resx</DependentUpon>
     </EmbeddedResource>
-
     <EmbeddedResource Update="Resources.ja-JP.resx">
       <DependentUpon>Resources.resx</DependentUpon>
     </EmbeddedResource>
-
     <EmbeddedResource Update="Resources.fr-FR.resx">
       <DependentUpon>Resources.resx</DependentUpon>
     </EmbeddedResource>
-
     <EmbeddedResource Update="Resources.pt.resx">
       <DependentUpon>Resources.resx</DependentUpon>
     </EmbeddedResource>
-
     <EmbeddedResource Update="Resources.pt-BR.resx">
       <DependentUpon>Resources.resx</DependentUpon>
     </EmbeddedResource>
-
     <EmbeddedResource Update="Resources.ru.resx">
       <DependentUpon>Resources.resx</DependentUpon>
     </EmbeddedResource>
-
     <EmbeddedResource Update="Resources.ru-RU.resx">
       <DependentUpon>Resources.resx</DependentUpon>
     </EmbeddedResource>
-
     <EmbeddedResource Update="Resources.uk.resx">
       <DependentUpon>Resources.resx</DependentUpon>
     </EmbeddedResource>
-    
     <EmbeddedResource Update="Resources.uk-UA.resx">
       <DependentUpon>Resources.resx</DependentUpon>
     </EmbeddedResource>
-
     <EmbeddedResource Update="Resources.zh-TW.resx">
       <DependentUpon>Resources.resx</DependentUpon>
     </EmbeddedResource>
-
     <EmbeddedResource Update="Resources.qps-ploc.resx">
       <DependentUpon>Resources.resx</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
-  
 </Project>

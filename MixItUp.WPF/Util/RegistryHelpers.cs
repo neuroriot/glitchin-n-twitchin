@@ -34,7 +34,7 @@ namespace MixItUp.WPF.Util
                     {
                         string applicationLocation = typeof(App).Assembly.Location;
 
-                        key.SetValue("", "Mix It Up");
+                        key.SetValue("", "Neuroriot Bot");
 
                         using (var currentVersion = key.CreateSubKey("CurVer"))
                         {
@@ -73,7 +73,7 @@ namespace MixItUp.WPF.Util
                     {
                         string applicationLocation = typeof(App).Assembly.Location;
 
-                        key.SetValue("", "URL:Mix It Up");
+                        key.SetValue("", "URL:Neuroriot Bot");
                         key.SetValue("URL Protocol", "");
 
                         using (var defaultIcon = key.CreateSubKey("DefaultIcon"))
@@ -126,9 +126,9 @@ namespace MixItUp.WPF.Util
                     Version v = asm.GetName().Version;
                     string uninstallerPath = Path.Combine(installDir, "MixItUp.Uninstaller.exe");
 
-                    key.SetValue("DisplayName", "Mix It Up");
+                    key.SetValue("DisplayName", "Neuroriot Bot");
                     key.SetValue("ApplicationVersion", v.ToString());
-                    key.SetValue("Publisher", "Mix It Up");
+                    key.SetValue("Publisher", "Neuroriot Bot");
                     key.SetValue("DisplayIcon", exe);
                     key.SetValue("DisplayVersion", v.ToString(4));
                     key.SetValue("URLInfoAbout", "https://mixitupapp.com");
