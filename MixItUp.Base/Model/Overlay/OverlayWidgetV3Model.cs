@@ -50,37 +50,44 @@ namespace MixItUp.Base.Model.Overlay.Widgets
         [Obsolete]
         public OverlayWidgetV3Model() { }
 
-        public async Task Enable()
+        public async Task Initialize()
         {
-            this.IsEnabled = true;
             if (!this.IsInitialized)
             {
                 this.IsInitialized = true;
+                await this.Item.WidgetInitialize();
+            }
+        }
 
-                await this.Item.WidgetEnable();
+        public async Task Enable()
+        {
+            await this.Initialize();
 
-                if (this.RefreshTime > 0)
-                {
-                    this.Item.LoadedInWidget += Item_LoadedInWidget;
-                }
+            if (!this.IsEnabled)
+            {
+                this.IsEnabled = true;
+#pragma warning disable CS0612 // Type or member is obsolete
+                await this.EnableInternal();
+#pragma warning restore CS0612 // Type or member is obsolete
             }
         }
 
         public async Task Disable()
         {
-            this.IsEnabled = false;
-
-            await this.Item.WidgetDisable();
-
-            this.Item.LoadedInWidget -= Item_LoadedInWidget;
-
-            if (this.refreshCancellationTokenSource != null)
+            if (this.IsEnabled)
             {
-                this.refreshCancellationTokenSource.Cancel();
-            }
-            this.refreshCancellationTokenSource = null;
+                this.IsEnabled = false;
 
-            this.IsInitialized = false;
+                await this.Item.WidgetDisable();
+
+                this.Item.LoadedInWidget -= Item_LoadedInWidget;
+
+                if (this.refreshCancellationTokenSource != null)
+                {
+                    this.refreshCancellationTokenSource.Cancel();
+                }
+                this.refreshCancellationTokenSource = null;
+            }
         }
 
         public async Task WidgetFullReset()
@@ -91,6 +98,17 @@ namespace MixItUp.Base.Model.Overlay.Widgets
         public async Task SendInitial()
         {
             await this.Item.WidgetSendInitial();
+        }
+
+        [Obsolete]
+        internal async Task EnableInternal()
+        {
+            await this.Item.WidgetEnable();
+
+            if (this.RefreshTime > 0)
+            {
+                this.Item.LoadedInWidget += Item_LoadedInWidget;
+            }
         }
 
         private void Item_LoadedInWidget(object sender, EventArgs e)

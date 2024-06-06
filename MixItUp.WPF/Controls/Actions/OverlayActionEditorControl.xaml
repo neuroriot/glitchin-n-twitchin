@@ -61,11 +61,11 @@
                         <ContentControl x:Name="InnerContent" Margin="10" />
                     </TabItem>
 
-                    <TabItem Header="{x:Static resx:Resources.Position}" HorizontalContentAlignment="Stretch">
+                    <TabItem Header="{x:Static resx:Resources.Position}" HorizontalContentAlignment="Stretch" IsEnabled="{Binding SupportsStandardActionPositioning}">
                         <OverlayControls:OverlayPositionV3Control x:Name="Position" DataContext="{Binding Position}" Margin="10" />
                     </TabItem>
 
-                    <TabItem Header="{x:Static resx:Resources.Animation}">
+                    <TabItem Header="{x:Static resx:Resources.Animation}" IsEnabled="{Binding SupportsStandardActionAnimations}">
                         <Grid HorizontalAlignment="Center" Margin="10">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="Auto" />
@@ -73,7 +73,7 @@
                                 <ColumnDefinition Width="Auto" />
                             </Grid.ColumnDefinitions>
 
-                            <Grid Grid.Column="0" DataContext="{Binding EntranceAnimation}" >
+                            <Grid Grid.Column="0" DataContext="{Binding EntranceAnimation}">
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="Auto" />
                                     <RowDefinition Height="10" />
@@ -84,7 +84,7 @@
                                 <OverlayControls:OverlayAnimationV3Control Grid.Row="2" />
                             </Grid>
 
-                            <Grid Grid.Column="2" DataContext="{Binding ExitAnimation}" >
+                            <Grid Grid.Column="2" DataContext="{Binding ExitAnimation}">
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="Auto" />
                                     <RowDefinition Height="10" />
@@ -147,8 +147,8 @@
 
             <ComboBox Grid.Column="0" ItemsSource="{Binding Widgets}" SelectedItem="{Binding SelectedWidget}" DisplayMemberPath="Name" MaterialDesign:HintAssist.Hint="{x:Static resx:Resources.OverlayWidgets}" Style="{StaticResource MaterialDesignFloatingHintComboBox}" />
 
-            <TextBlock Grid.Column="2" VerticalAlignment="Center" Text="{Binding Source={x:Static resx:Resources.Visible}, StringFormat={x:Static resx:Resources.ColumnHeaderFormat}}" />
-            <ToggleButton Grid.Column="4" IsChecked="{Binding ShowHideWidgetValue}" />
+            <TextBlock Grid.Column="2" VerticalAlignment="Center" Text="{Binding Source={x:Static resx:Resources.Enable}, StringFormat={x:Static resx:Resources.ColumnHeaderFormat}}" />
+            <ToggleButton Grid.Column="4" IsChecked="{Binding EnableDisableWidgetValue}" />
         </Grid>
 
         <Grid Grid.Row="3" Visibility="{Binding ShowDamageStreamBoss, Converter={StaticResource BooleanToVisibilityConverter}}">

@@ -48,6 +48,9 @@ namespace MixItUp.Base.Model.Overlay
         Leaderboard,
         [OverlayWidget]
         Wheel,
+        EmoteEffect,
+        [OverlayWidget]
+        PersistentEmoteEffect,
     }
 
     public enum OverlayItemV3DisplayOptionsType
@@ -143,10 +146,6 @@ namespace MixItUp.Base.Model.Overlay
 
         [Obsolete]
         [DataMember]
-        public bool IsLivePreview { get; set; }
-
-        [Obsolete]
-        [DataMember]
         public string OldCustomHTML { get; set; }
 
         [JsonIgnore]
@@ -177,6 +176,9 @@ namespace MixItUp.Base.Model.Overlay
         public virtual bool IsTestable { get { return false; } }
         [JsonIgnore]
         public virtual bool IsResettable { get { return false; } }
+
+        [JsonIgnore]
+        public bool IsLivePreview { get; set; }
 
         [JsonIgnore]
         public virtual int LatestVersion { get { return 0; } }
@@ -240,6 +242,11 @@ namespace MixItUp.Base.Model.Overlay
         }
 
         public virtual Task ProcessGenerationProperties(Dictionary<string, object> properties, CommandParametersModel parameters) { return Task.CompletedTask; }
+
+        public async Task WidgetInitialize()
+        {
+            await this.WidgetInitializeInternal();
+        }
 
         public async Task WidgetEnable()
         {
@@ -331,6 +338,8 @@ namespace MixItUp.Base.Model.Overlay
             }
             return Task.CompletedTask;
         }
+
+        protected virtual Task WidgetInitializeInternal() { return Task.CompletedTask; }
 
         protected virtual Task WidgetEnableInternal() { return Task.CompletedTask; }
 
